@@ -1,0 +1,322 @@
+[
+    {
+        "id": "pnqas_2022_q1",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2022,
+        "paper": "Semester 1 Examinations 2021/22",
+        "question_number": 1,
+        "question_text": "The future Electron Ion Collider (EIC) will collide electrons head-on with protons, with momentum magnitudes of $20~GeV/c$ and $250~GeV/c,$ respectively. Derive an expression for the centre-of-mass energy, $\\sqrt{s}$ of these collisions and calculate a value for $\\sqrt{s}$ in GeV. Justify any approximations made in the calculation. Estimate the minimum length scale that the EIC can probe. [10]",
+        "source_pdf": "PandNQAS_2022.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2022_q2",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2022,
+        "paper": "Semester 1 Examinations 2021/22",
+        "question_number": 2,
+        "question_text": "Which of the following reactions are allowed and which are forbidden by conservation laws in the Standard Model of Particle Physics? For those that are allowed, state the dominant process for the reaction. For those that are forbidden, state all violated conservation laws. All reactions are permitted by energy conservation.\n(a) $\\tau^{-}\\rightarrow\\overline{p}\\nu_{\\tau}$\n(b) $e^{+}e^{-}\\rightarrow B^{+}B^{-}$\n(c) $pp\\rightarrow K^{+}\\Lambda~p$\n(d) $B^{-}\\rightarrow D^{0}\\mu^{-}\\nu_{\\mu}$\nThe quark contents of the hadrons above are: $p=uud,$ $\\overline{p}=\\overline{u}\\overline{u}\\overline{d},$ $\\Lambda=uds$, $K^{+}=u\\overline{s}$ $D^{0}=c\\overline{u}$, $B^{+}=u\\overline{b},$ $B^{-}=b\\overline{u}$ [10]",
+        "source_pdf": "PandNQAS_2022.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2022_q3",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2022,
+        "paper": "Semester 1 Examinations 2021/22",
+        "question_number": 3,
+        "question_text": "The isospin states, quark contents, and masses for the particles used in this question are listed at the bottom of this page. The $D^{*+}$ is a meson with spin 1. It can decay into a $D^{0}\\pi^{+}$ or $D^{+}\\pi^{0}$ final state.\n(a) Draw a Feynman diagram for each of these decays. [4]\n(b) Estimate the branching ratios for the two possible decays of the $D^{*+}$. Justify your answer. Clebsch-Gordan coefficient tables are provided at the end of the exam paper. [8]\n(c) In the rest frame of the $D^{*+}$ what is the energy of the $\\pi^{+}$ in a $D^{*+}\\rightarrow D^{0}\\pi^{+}$ decay? [10]\n(d) If the $D^{*+}$ has a speed of 0.6c in the laboratory frame, and the $\\pi^{+}$ is emitted along the direction of the $D^{*+}$ momentum, what is the energy and momentum of the $\\pi^{+}$ in the laboratory frame? [8]\nData: $D^{*+}$ (I=1/2, I3=1/2, $c\\overline{d}$, 2.01 GeV/c²), $D^{0}$ (I=1/2, I3=-1/2, $c\\overline{u}$, 1.86 GeV/c²), $D^{+}$ (I=1/2, I3=1/2, $c\\overline{d}$, 1.87 GeV/c²), $\\pi^{+}$ (I=1, I3=1, $u\\overline{d}$, 0.140 GeV/c²), $\\pi^{0}$ (I=1, I3=0, $u\\overline{u}$ or $d\\overline{d}$, 0.135 GeV/c²).",
+        "source_pdf": "PandNQAS_2022.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2022_q4",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2022,
+        "paper": "Semester 1 Examinations 2021/22",
+        "question_number": 4,
+        "question_text": "The $\\Lambda$ is the lightest strange baryon.\n(a) Draw a Feynman diagram for the decay of the $\\Lambda$ into $p\\pi^{-}$ Explain which force is responsible for the decay and why. Suggest one other decay mode for the $\\Lambda$ and draw the relevant Feynman diagram. [6]\n(b) The $\\Lambda$ may be produced via the strong interaction in proton proton collisions. In this case the lowest-energy reaction which can produce a $\\Lambda$ is $p~p\\rightarrow p\\Lambda K^{+}$\ni. Explain why this is the lightest final state containing a $\\Lambda$ which can be produced this way. [3]\nii. If a proton beam is fired at a stationary hydrogen target, derive an expression for and hence calculate the minimum proton energy required. [9]\niii. What is the energy of the $\\Lambda$ in the laboratory frame in this case? [3]\n(c) The $\\Lambda$ and $\\Lambda(1405)$ have mean lifetimes of $2.6\\times10^{-10}$ s and $10^{-23}$ s, respectively.\ni. Estimate the mean distance that a $\\Lambda$ with an energy of 11 GeV would travel. [5]\nii. The $\\Lambda(1405)$ decays into $\\Sigma\\pi$ Explain the difference in lifetimes between $\\Lambda$ and $\\Lambda(1405)$. [4]\nData: $\\Lambda$ (uds, 1116 MeV/c²), p (uud, 938 MeV/c²), $K^{+}$ (u$\\overline{s}$, 494 MeV/c²), $\\pi^{-}$ (d$\\overline{u}$, 140 MeV/c²), $\\Lambda(1405)$ (uds, 1405 MeV/c²), $\\Sigma$ (uus, uds or dds, 1190 MeV/c²).",
+        "source_pdf": "PandNQAS_2022.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2022_q5",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2022,
+        "paper": "Semester 1 Examinations 2021/22",
+        "question_number": 5,
+        "question_text": "Draw a labelled diagram of a cubic unit cell with lattice parameter a. Sketch the (110) and (101) planes and derive their d-spacings. In a powder diffraction experiment with a cubic material using X-rays of wavelength 0.1 nm, the (110) peak is observed at a detector angle of $30^{\\circ}$. Find the cubic lattice parameter, a. How many peaks would be observed from the above planes if the crystal were tetragonal (with $a=b\\ne c$)? [10]",
+        "source_pdf": "PandNQAS_2022.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2022_q6",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2022,
+        "paper": "Semester 1 Examinations 2021/22",
+        "question_number": 6,
+        "question_text": "Explain why the size of a sample affects the value of the thermal conductivity in diamond at low temperatures. Define \"low temperatures\" in your answer. [10]",
+        "source_pdf": "PandNQAS_2022.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2022_q7",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2022,
+        "paper": "Semester 1 Examinations 2021/22",
+        "question_number": 7,
+        "question_text": "(a) Write down the conservation laws for energy and crystal momentum that apply to phonons and give a brief physical justification for them. [6]\n(b) Give an example of a physical property that is affected by Umklapp scattering, describing qualitatively how it is affected. [6]\n(c) Consider a simple cubic lattice with lattice spacing $a=3.00\\AA.$ A phonon of wavevector $|q|=0.867\\AA^{-1}$ is travelling in the [110] direction. It combines with another phonon of the same magnitude of wavevector travelling in the [110] direction. Calculate the magnitude and direction of q in the first Brillouin zone for the resultant phonon, and draw a sketch in reciprocal space illustrating this. [10]\n(d) In an Umklapp phonon-scattering process, what happens to the real momentum, as opposed to the crystal momentum? [4]\n(e) Do electrons in a crystal also exhibit Umklapp scattering? What emergent phenomena would result? [4]",
+        "source_pdf": "PandNQAS_2022.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2022_q8",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2022,
+        "paper": "Semester 1 Examinations 2021/22",
+        "question_number": 8,
+        "question_text": "Graphene is a two-dimensional hexagonal crystal with two basis vectors of length $a=0.246$ nm separated by an angle of $60^{\\circ}$. In this basis, the unit cell consists of carbon atoms at $(1/3,1/3)$ and $(2/3,2/3)$.\n(a) Sketch a labelled diagram of a graphene crystal showing 8 unit cells including the planes with Miller indices (1, 1) and (2, 1). [5]\n(b) As shown in the diagram below, a graphene sheet may be rolled up into a carbon nanotube (CNT). The CNT may then be doped with tellurium (Te), which is in group VI of the periodic table. The Te atoms of atomic mass $m=127.6~u$, form a one-dimensional chain along the axis inside the CNT, as shown, with atomic spacing $a=0.28$ nm. Van der Waals forces between the CNT and the Te atoms constrain them to move only along the axis of the CNT.\ni. Explain briefly what type of bonding would you expect between the Te atoms, and why. [4]\nii. What physical justification is there to describe the Te chain with a \"masses connected by springs\" model? [6]\niii. Calculate the speed of sound down the Te chain, if we ignore any interaction with the CNT and assume a spring constant $K=48.8~N/m.$ [5]\niv. How would swapping Te for sulphur $(m=32.1~u)$ affect the maximum frequency of vibration of the chain? Justify your answer. [4]\nv. The Te chain is extracted from the CNT such that it may now also vibrate in the xy-plane. Sketch a diagram showing the dispersion relations of the three lowest modes. Justify your choices where appropriate. [6]",
+        "source_pdf": "PandNQAS_2022.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2023_q1",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2023,
+        "paper": "Semester 1 Examinations 2022/23",
+        "question_number": 1,
+        "question_text": "In the Semi-Empirical Mass Formula, the mass of an atomic nucleus can be written as a function of the binding energy and nucleon masses\n$$M(Z,A)=Zm_{p}+(A-Z)m_{n}-a_{1}A+a_{2}A^{2/3}+a_{3}\\frac{Z^{2}}{A^{1/3}}+a_{4}\\frac{(Z-A/2)^{2}}{A}\\pm\\frac{\\delta}{A^{1/2}}$$\nwhere all symbols have their conventional meanings. Define what is meant by the binding energy of a nucleus and describe the physical motivation for each term in this expression. [10]",
+        "source_pdf": "PandNQAS_2023.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2023_q2",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2023,
+        "paper": "Semester 1 Examinations 2022/23",
+        "question_number": 2,
+        "question_text": "Which of the following reactions are allowed and which are forbidden by conservation laws in the Standard Model of Particle Physics? For those that are allowed, state (with justification) the dominant process for the reaction. For those that are forbidden, state all violated conservation laws. All reactions are permitted by energy conservation.\n(a) $\\Lambda_{c}\\rightarrow pK^{-}\\pi^{+}$\n(b) $\\rho^{+}\\rightarrow\\pi^{+}\\pi^{0}$\n(c) $p\\overline{p}\\rightarrow K^{0}\\Lambda$\n(d) $D^{+}\\rightarrow K^{0}\\mu^{+}\\overline{\\nu_{e}}$\nThe quark content of the hadrons above is: p = uud, $\\overline{p}$ = $\\overline{u}\\overline{u}\\overline{d}$, $\\Lambda$ = uds, $\\Lambda_{c}$ = udc, $K^{0}$ = $d\\overline{s}$, $K^{-}$ = $s\\overline{u}$, $\\pi^{0}$ = $u\\overline{u}$ or $d\\overline{d}$, $\\pi^{+}$ = $u\\overline{d}$, $\\rho^{+}$ = $u\\overline{d}$, $D^{+}$ = $c\\overline{d}$. [10]",
+        "source_pdf": "PandNQAS_2023.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2023_q3",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2023,
+        "paper": "Semester 1 Examinations 2022/23",
+        "question_number": 3,
+        "question_text": "The quark contents and masses for the hadrons used in this question are listed at the bottom of this page.\n(a) Explain why strange hadrons are typically produced in pairs in hadronic collisions and have longer lifetimes than non-strange hadrons of similar masses. Write down the lowest energy reaction that can produce a $K^{+}$ meson in proton proton collisions and explain your reasoning. [4]\n(b) If a proton beam is fired at a stationary hydrogen target, derive an expression for and hence calculate the minimum proton energy required to produce a $K^{+}$ meson in this way. [6]\n(c) The $K^{+}$ meson decays to a $\\pi^{+}$ meson and a $\\pi^{0}$ meson. In the rest frame of the $K^{+}$ meson, what is the energy of the $\\pi^{+}$ meson from this decay? [10]\n(d) Subsequently, the $\\pi^{+}$ meson decays to $\\mu^{+}\\nu_{\\mu},$ while the $\\pi^{0}$ meson can decay into the final states $\\gamma\\gamma$, $\\gamma e^{+}e^{-}$, $e^{+}e^{-}e^{+}e^{-}$.\ni. Draw the Feynman diagrams for these $\\pi^{+}$ and $\\pi^{0}$ decays. [4]\nii. Assuming these decays are the only decay modes of the $\\pi^{0}$, what are their respective branching ratios? You can neglect effects from phase space or kinematic factors. [6]\nData: p (uud, 938 MeV/c²), $K^{+}$ (u$\\overline{s}$, 494 MeV/c²), $\\pi^{+}$ (u$\\overline{d}$, 140 MeV/c²), $\\pi^{0}$ (u$\\overline{u}$ or d$\\overline{d}$, 135 MeV/c²).",
+        "source_pdf": "PandNQAS_2023.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2023_q4",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2023,
+        "paper": "Semester 1 Examinations 2022/23",
+        "question_number": 4,
+        "question_text": "The particle masses, and the quark contents and masses for the hadrons used in this question are listed at the bottom of this page.\n(a) Electron and positron beams are collided head-on at a centre-of-mass energy of 10.58 GeV. Draw a Feynman diagram for the process $e^{+}e^{-}\\rightarrow f\\overline{f},$ where f is a quark or lepton. Estimate the relative probability of the process $e^{+}e^{-}\\rightarrow hadrons$ with respect to $e^{+}e^{-}\\rightarrow\\mu^{+}\\mu^{-}$ explaining your reasoning. [7]\n(b) B mesons can be created through the process $e^{+}e^{-}\\rightarrow\\Upsilon(4S)\\rightarrow B^{+}B^{-}$, where the resonance $\\Upsilon(4S)$ has a mass of $10.58~GeV/c^{2}$. If the electron energy is 8 GeV, show that a positron energy of about 3.5 GeV is required to produce a centre-of-mass energy equivalent to the mass of the $\\Upsilon(4S)$ resonance. [7]\n(c) Find the magnitude of the B meson momentum in the centre-of-mass frame of the $\\Upsilon(4S)$. [5]\n(d) Find the minimum and maximum possible magnitudes of the B meson momenta in the laboratory frame, resulting from the decays of the $\\Upsilon(4S)$. [6]\n(e) The $B^{-}$ meson has a mean lifetime of 1.64 ps. Estimate the mean distance that $B^{-}$ mesons with an energy of 10 GeV would travel before decaying. [5]\nData: u (2 MeV/c²), d (5 MeV/c²), c (1.3 GeV/c²), s (100 MeV/c²), t (173 GeV/c²), b (4.2 GeV/c²), $B^{+}$ (u$\\overline{b}$, 5.28 GeV/c²), $B^{-}$ (b$\\overline{u}$, 5.28 GeV/c²), $\\Upsilon(4S)$ (b$\\overline{b}$, 10.58 GeV/c²), $\\mu$ (106 MeV/c²).",
+        "source_pdf": "PandNQAS_2023.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2023_q5",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2023,
+        "paper": "Semester 1 Examinations 2022/23",
+        "question_number": 5,
+        "question_text": "Gallium arsenide (GaAs) crystallises into a face-centred cubic (FCC) crystal with a two-atom basis. The basis consists of a gallium atom at position (0,0,0) and an arsenic atom at position $(1/4, 1/4, 1/4)$ in the cubic unit cell. Draw a slice of the conventional unit cell of FCC GaAs through the following lattice planes (100), (110), (111) and $(1\\overline{1}0)$, labelling the atomic positions. [10]",
+        "source_pdf": "PandNQAS_2023.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2023_q6",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2023,
+        "paper": "Semester 1 Examinations 2022/23",
+        "question_number": 6,
+        "question_text": "A system of particles of diameter $2~\\mu m$ are in a close-packed 3-dimensional arrangement. (For this question you may regard the internal structure of these particles as irrelevant.)\n(a) Calculate the Bragg angle for reflections from the close-packed planes when using X-rays of wavelength $1.5~\\AA$. [5]\n(b) If we wanted to make a cube of a single crystal of this material that could hold 100 kJ of heat, what would its dimensions be? Explain your assumptions. (You may assume that the temperature is well above the particle's Debye temperature) [5]",
+        "source_pdf": "PandNQAS_2023.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2023_q7",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2023,
+        "paper": "Semester 1 Examinations 2022/23",
+        "question_number": 7,
+        "question_text": "(a) Consider a 1-D chain of atoms of mass M, separated by a distance a. Model the interactions between atoms as springs of spring constant K. For longitudinal displacements of the atoms find the angular frequency as a function of momentum, that is, the dispersion relation, $\\omega(k)$. [11]\n(b) State the key assumptions and characteristics of the Debye model and provide an equation for the phonon dispersion relation used in it. [5]\n(c) Calculate the appropriate Debye model parameter(s) for the monatomic chain in part (a). [4]\n(d) Graphite is one of the allotropes of carbon, with a molar mass of 12.011 g. The structure comprises hexagonal planes, stacked on top of each other. The figure below shows the dispersion relation for phonons propagating along the c axis, perpendicular to the hexagonal planes. For graphite, $c = 6.70~\\AA$. A phonon is travelling in the c-direction at the Brillouin zone boundary of graphite. What is the percentage error in the Debye model's prediction of the phonon's frequency? How does this error influence the usefulness of the model? Give reasons for your answer. [10]",
+        "source_pdf": "PandNQAS_2023.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2023_q8",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2023,
+        "paper": "Semester 1 Examinations 2022/23",
+        "question_number": 8,
+        "question_text": "(a) Write down the energy and momentum conservation laws that apply to phonon-scattering processes. [4]\n(b) Using the conservation laws from part (a), describe the difference between an Umklapp phonon-scattering process and a normal phonon-scattering process. In your answer, include sketches of the two types of scattering processes in two dimensions. [10]\n(c) Explain and justify the momentum conservation law given above. [6]\n(d) Consider a simple cubic lattice with lattice spacing $a=4.00\\AA$ A phonon of wavevector $|q|=0.7\\AA^{-1}$ is travelling in the [110] direction. It combines with another phonon of the same magnitude of wavevector travelling in the [011] direction. Calculate the magnitude and direction of q in the first Brillouin zone for the resultant phonon. [6]\n(e) What happens to the real phonon momentum in a Umklapp process? [4]",
+        "source_pdf": "PandNQAS_2023.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2024_q1",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2024,
+        "paper": "Summer Examination 2024",
+        "question_number": 1,
+        "question_text": "Explain what is meant by $\\beta$ decay. Write down reaction formulae for the two types of beta decay and the related process of electron capture, and state how the A and Z values of the nucleus change in each case. The nuclide ${}_{27}^{57}Co$ is an odd-even unstable nucleus. Show that it cannot undergo $\\beta^{+}$ decay but it can decay by electron capture. The atomic masses are 56.936292 u for ${}_{27}^{57}Co$ and 56.935394 u for ${}_{26}^{57}Fe$. [10]",
+        "source_pdf": "PandNQAS_2024.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2024_q2",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2024,
+        "paper": "Summer Examination 2024",
+        "question_number": 2,
+        "question_text": "Which of the following reactions are allowed and which are forbidden by conservation laws in the Standard Model of Particle Physics? For those that are allowed, state (with justification) the dominant process for the reaction. For those that are forbidden, state all violated conservation laws. All reactions are permitted by energy conservation.\n(a) $\\pi^{+}\\rightarrow e^{+}\\gamma$\n(b) $\\Sigma^{0}\\rightarrow\\Lambda^{0}\\gamma$\n(c) $p~n\\rightarrow K^{+}\\pi^{0}$\n(d) $D^{0}\\rightarrow K^{+}\\pi^{-}$\nThe quark content of the hadrons above is: $p=uud,$ $n=udd$, $\\Lambda^{0}=uds$ , $\\Sigma^{0}=uds$, $K^{+}=u\\overline{s}$ , $\\pi^{0}=u\\overline{u}$ , $\\pi^{+}=u\\overline{d},$ $\\pi^{-}=d\\overline{u}$, $D^{0}=c\\overline{u}$ $D^{+}=c\\overline{d}.$ [10]",
+        "source_pdf": "PandNQAS_2024.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2024_q3",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2024,
+        "paper": "Summer Examination 2024",
+        "question_number": 3,
+        "question_text": "The $\\tau$ is a lepton of mass $1777~MeV/c^{2}$.\n(a) The tau lepton was first observed in the reaction $e^{+}e^{-}\\rightarrow e^{\\pm}\\mu^{\\mp}+missing~energy$. Describe how the production of a heavy lepton could explain such events and draw a Feynman diagram for the reaction. [5]\n(b) The following reactions were also observed: $e^{+}e^{-}\\rightarrow e^{+}e^{-}+missing~energy$ and $e^{+}e^{-}\\rightarrow\\mu^{+}\\mu^{-}+missing~energy$. Explain how the numbers of these different types of events would be related. [4]\n(c) A $\\tau^{-}$ has a mean lifetime of $2.90\\times10^{-13}$ s and momentum of $10~GeV/c$. Estimate the mean distance that it would travel before decaying. [3]\n(d) The $\\tau$ lepton can decay into hadrons. Explain why it is the only lepton that can do so. Draw the possible Feynman diagram(s) for such decays. Find the branching ratio of the hadron mode, and that of the lepton modes. [7]\n(e) In its rest frame, a $\\tau^{-}$ decays to purely leptons, with the charged lepton being a muon. Treat this as a 2-body problem with the muon recoiling against the rest of the system. The mass of the muon is $106~MeV/c^{2}$. Calculate the energy of the muon from this decay. [6]\n(f) In the same decay as in point (e), the $\\tau^{-}$ a speed of 0.7c in the laboratory frame. The muon is emitted along the direction of the $\\tau^{-}$ momentum. Calculate the energy and momentum of the muon in the laboratory frame. [5]",
+        "source_pdf": "PandNQAS_2024.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2024_q4",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2024,
+        "paper": "Summer Examination 2024",
+        "question_number": 4,
+        "question_text": "The $\\rho$ is a meson of mass $775~MeV/c^{2}$.\n(a) Calculate the minimum proton energy to produce a $\\rho^{0}$ meson in a proton-proton collision where the two beams have equal kinetic energy. Then calculate the minimum proton beam energy required to produce a $\\rho^{0}$ meson in the collision between a proton beam and a stationary proton. Comment on the difference between the two cases. [8]\n(b) The $\\rho^{0}$ and $\\pi^{0}$ mesons have the same quark content, $(u\\overline{u}-d\\overline{d})/\\sqrt{2}$ The $\\pi^{0}$ mass is $135~MeV/c^{2}$. The $\\rho^{0}$ has a lifetime of $\\sim 10^{-24}$ s while the $\\pi^{0}$ has a lifetimes of $\\sim10^{-16}$ s. Explain the difference in lifetime and draw Feynman diagrams for a possible decay of each meson. [5]\n(c) The $\\rho^{-}$ meson decays to a $\\pi^{-}$ meson and a $\\pi^{0}$ meson. In the rest frame of the $\\rho^{-}$ meson, calculate the energy of the $\\pi^{-}$ meson from this decay. The mass of the $\\pi^{-}$ is $139~MeV/c^{2}$. [6]\n(d) If the $\\rho^{-}$ a speed of 0.8c in the laboratory frame, and the $\\pi^{-}$ is emitted along the direction of the $\\rho^{-}$, calculate the energy and momentum of the $\\pi^{-}$ in the laboratory frame. [5]\n(e) Subsequently, the $\\pi^{-}$ meson decays. Draw all the lowest-order Feynman diagrams for this decay. [3]\n(f) the $\\pi^{-}$ meson has a mean lifetime of $2.60\\times10^{-8}$ s. Estimate the mean distance that the $\\pi^{-}$ meson with an energy of 10 GeV would travel before decaying. [3]",
+        "source_pdf": "PandNQAS_2024.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2024_q5",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2024,
+        "paper": "Summer Examination 2024",
+        "question_number": 5,
+        "question_text": "Shown below is the phonon dispersion for a diatomic chain in which the atomic masses are very different. Would the Debye or the Einstein model give a better fit to the heat capacity contributed by the optical phonon branch? The acoustic branch? Please explain. [10]",
+        "source_pdf": "PandNQAS_2024.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2024_q6",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2024,
+        "paper": "Summer Examination 2024",
+        "question_number": 6,
+        "question_text": "A broad-band X-ray beam scatters from a square crystal as drawn below. The crystal is perfectly aligned with the beam. At what angle is the (210) reflection? Set $\\theta=0$ to be perfect retroreflection, and $\\theta>0$ to mark counter-clockwise rotation from perfect retroreflection. Note that the reflected beam in the illustration is just an illustration; it is not the (210) reflection. [10]",
+        "source_pdf": "PandNQAS_2024.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2024_q7",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2024,
+        "paper": "Summer Examination 2024",
+        "question_number": 7,
+        "question_text": "(a) Why is the Dulong-Petit heat capacity per molecule of solid $CO_{2}$ $5k_{B}$? [10]\n(b) The bending mode of the $CO_{2}$ molecule, illustrated below, has frequency $\\hbar\\omega=0.083$ eV. There are two equivalent modes: if we take the axis of the $CO_{2}$ molecule to be the z axis, the carbon atom can vibrate either along the x or the y axis. How much do these modes contribute to the heat capacity of solid $CO_{2}$ at 190 K? Please express your answer as a multiple of $k_{B}$. [10]\n(c) In the $T\\rightarrow0$ limit, the $T^{3}$ component of the heat capacity of copper is $(0.049~mJ/mol~K^{4})\\times T^{3}.$ Copper has an fcc lattice with lattice constant $a=$ 3.6 $\\AA$. What is the Debye speed of sound? [10]",
+        "source_pdf": "PandNQAS_2024.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2024_q8",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2024,
+        "paper": "Summer Examination 2024",
+        "question_number": 8,
+        "question_text": "The plots below show the thermal conductivities against temperature for a sample of LiF, and for a sample of diamond. For both samples, the cross-section is approximately 1 mm squared.\n(a) Why do the thermal conductivities of both of these compounds have peaks? [8]\n(b) Why does the thermal conductivity of diamond peak at a higher temperature than that of LiF? [7]\n(c) At temperatures far below that of the peak in thermal conductivity, the thermal conductivity has a power law form: $\\kappa\\propto T^{\\alpha}$ What is the value of $\\alpha$? Please explain. [8]\n(d) At temperatures far above the Debye temperature, the thermal conductivity also has a power law form. What is the value of $\\alpha$? Please explain. [7]",
+        "source_pdf": "PandNQAS_2024.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2025_q1",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2025,
+        "paper": "Summer Examinations 2025",
+        "question_number": 1,
+        "question_text": "In the Semi-Empirical Mass Formula, the mass of an atomic nucleus can be written as a function of the binding energy and nucleon masses\n$$M(Z,A)=Zm_{p}+(A-Z)m_{n}-a_{1}A+a_{2}A^{2/3}+a_{3}\\frac{Z^{2}}{A^{1/3}}+a_{4}\\frac{(Z-A/2)^{2}}{A}\\pm\\frac{\\delta}{A^{1/2}}$$\nwhere all symbols have their conventional meanings. Define what is meant by the binding energy of a nucleus and describe the physical motivation for each term in this expression. [10]",
+        "source_pdf": "PandNQAS_2025.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2025_q2",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2025,
+        "paper": "Summer Examinations 2025",
+        "question_number": 2,
+        "question_text": "Which of the following reactions are allowed and which are forbidden by conservation laws in the Standard Model of Particle Physics? For those that are allowed, state (with justification) the dominant process for the reaction. For those that are forbidden, state all violated conservation laws. All reactions are permitted by energy conservation.\n(a) $K^{-}\\rightarrow\\pi^{-}\\pi^{0}$\n(b) $\\mu^{-}\\rightarrow e^{-}\\overline{\\nu}_{e}$\n(c) $p\\overline{p}\\rightarrow K^{+}\\Lambda^{0}p$\n(d) $J/\\psi\\rightarrow\\pi^{+}\\pi^{-}\\pi^{0}$\nThe quark contents of the hadrons above are: $J/\\psi=c\\overline{c}$, $K^{-}=s\\overline{u}$, $\\pi^{+}=u\\overline{d}$, $K^{+}=u\\overline{s}$, $p=uud$, $\\overline{p}=\\overline{u}\\overline{u}\\overline{d}$, $\\Lambda^{0}=uds$, $\\pi^{-}=d\\overline{u}$, $\\pi^{0}=u\\overline{u}$ or $d\\overline{d}$. [10]",
+        "source_pdf": "PandNQAS_2025.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2025_q3",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2025,
+        "paper": "Summer Examinations 2025",
+        "question_number": 3,
+        "question_text": "The quark contents and masses of particles used in this question are listed at the bottom of this page. The $D^{0}$ meson is the lightest charmed meson. It decays with a mean lifetime of 0.41 ps, and one of its possible decay modes is $D^{0}\\rightarrow K^{-}\\pi^{+}$.\n(a) An experiment seeks to study $D^{0}$ production by colliding a proton beam with a stationary hydrogen target. Find the minimum energy of a proton in the beam required to produce a $D^{0}$ meson in this way. [8]\n(b) Draw the lowest-order Feynman diagram for the decay $D^{0}\\rightarrow K^{-}\\pi^{+}$. [4]\n(c) In the rest frame of the $D^{0}$ meson, find the energy of the $K^{-}$ meson emerging from the decay $D^{0}\\rightarrow K^{-}\\pi^{+}$. [6]\n(d) For a $D^{0}$ meson with a momentum of 18 GeV/c, what is the mean distance we would expect it to travel before decaying? [4]\n(e) The $D^{0}$ is often produced in the decay $D^{*+}\\rightarrow D^{0}\\pi^{+}$ The $D^{*+}$ has a decay width of 96 keV.\ni. Estimate the mean lifetime of the $D^{*+}$. [3]\nii. Explain the difference in mean lifetimes between the $D^{*+}$ and the $D^{0}.$ Explain how it can be checked experimentally if the $D^{0}$ is produced via the $D^{*+}$ decay. [5]\nData: $D^{0}$ ($c\\overline{u}$, 1865 MeV/c²), $D^{*+}$ ($c\\overline{d}$, 2010 MeV/c²), $K^{-}$ ($s\\overline{u}$, 494 MeV/c²), $\\pi^{+}$ ($u\\overline{d}$, 140 MeV/c²).",
+        "source_pdf": "PandNQAS_2025.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2025_q4",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2025,
+        "paper": "Summer Examinations 2025",
+        "question_number": 4,
+        "question_text": "The $\\Delta^{+}$ particle has a quark composition $(uud)$ and a mass of $1232~MeV/c^{2}$.\n(a) We wish to produce a $\\Delta^{+}$ particle by colliding a proton beam with a stationary proton.\ni. Which interaction type is most likely to be responsible for the reaction? Explain your reasoning. [3]\nii. Find the minimum energy of a proton in the beam for $\\Delta^{+}$ production to occur. What is the energy of the $\\Delta^{+}$ in the laboratory frame in this case? [12]\n(b) i. The $\\Delta^{+}$ decays to a proton and a $\\pi^{0}$. Draw a Feynman diagram for this decay. [4]\nii. In the rest frame of the $\\Delta^{+}$ particle, find the energy of the $\\pi^{0}$ meson emerging from the decay $\\Delta^{+}\\rightarrow p\\pi^{0}$. [6]\n(c) There are 3 other $\\Delta$ baryons, $\\Delta^{++}$, $\\Delta^{0}$ and $\\Delta^{-}$ with similar masses. All have spin $3/2$ and the quarks which compose them have zero relative orbital angular momentum. Explain why this observation required the introduction of the colour quantum number in the quark model with 3 colour charges. [5]\nData: p (uud, 938 MeV/c²), $\\pi^{0}$ ($u\\overline{u}$ or $d\\overline{d}$, 135 MeV/c²), $\\Delta^{+}$ (uud, 1232 MeV/c²), $\\Delta^{-}$ (ddd, 1232 MeV/c²), $\\Delta^{0}$ (udd, 1232 MeV/c²), $\\Delta^{++}$ (uuu, 1232 MeV/c²).",
+        "source_pdf": "PandNQAS_2025.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2025_q5",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2025,
+        "paper": "Summer Examinations 2025",
+        "question_number": 5,
+        "question_text": "State the assumptions of the Dulong-Petit model for heat capacity in solids. Describe how these assumptions are altered in the Einstein and Debye models for the heat capacity in solids. Comment briefly on the validity of the Einstein and Debye models. [10]",
+        "source_pdf": "PandNQAS_2025.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2025_q6",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2025,
+        "paper": "Summer Examinations 2025",
+        "question_number": 6,
+        "question_text": "Why does the size of a sample affect the value of the thermal conductivity in a crystalline insulator at low temperatures? Define \"low temperatures\" in your answer. [10]",
+        "source_pdf": "PandNQAS_2025.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2025_q7",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2025,
+        "paper": "Summer Examinations 2025",
+        "question_number": 7,
+        "question_text": "(a) Why are X-rays useful to understand the positions of atoms in crystals? [2]\n(b) A X-ray of wavelength $\\lambda=1.54\\AA$ is fired at a gallium arsenide (GaAs) crystal. The lattice parameter of the GaAs is 5.65 $\\AA$. At what angle of $2\\theta$ does the (100) reflection appear at the detector? [4]\n(c) GaAs crystallises into a face-centred cubic (FCC) crystal with a two-atom basis. The basis consists of a gallium atom at position (0,0,0) and an arsenic atom at position $(1/4, 1/4, 1/4)$ in the cubic unit cell. Draw a slice of the conventional unit cell of FCC GaAs through the following lattice planes (100), (110), (111) and $(1\\overline{1}0)$, labelling the atomic positions. [10]\n(d) The above shows the vibrational band structure of gallium arsenide, with modes A,B,C and D labelled. Assign the four modes as transverse acoustic (TA), transverse optical (TO), longitudinal acoustic (LA) and longitudinal optical (LO). [6]\n(e) Calculate an estimate of the speed of sound down the [010] direction of the GaAs crystal. [8]",
+        "source_pdf": "PandNQAS_2025.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "pnqas_2025_q8",
+        "module": "LI Particles & Nuclei and a Quantum Approach to Solids",
+        "year": 2025,
+        "paper": "Summer Examinations 2025",
+        "question_number": 8,
+        "question_text": "(a) The bonds between a 1-dimensional chain of atoms, a apart, each with mass m, can be modelled using a spring constant K. Find the dipersion relation of vibrations down the chain, i.e. how the frequency of vibration, $\\omega$, is related to the wavevector, q. [10]\n(b) An LC filter network may be modelled as an infinite set of inductors each with the same inductance, L. Between each inductor, at distance, d, apart, sits a capacitor connected to earth, each with capacitance, C, as shown in the diagram below. After applying Kirchoff's voltage law across the $n^{th}$ inductor we obtain,\n$$L\\frac{dI_{n}}{dt}=V_{n-1}-V_{n}=\\frac{Q_{n-1}}{C}-\\frac{Q_{n}}{C}$$\nwhere $V_{n}$ and $Q_{n}$ are voltage and charge respectively across the $n^{th}$ capacitor. By assuming that,\n$$\\frac{dQ_{n}}{dt}=I_{n}-I_{n+1}$$\nwhere the current through the $n^{th}$ inductor is $I_{n}$, show that,\n$$L\\frac{d^{2}I_{n}}{dt^{2}}=\\frac{1}{C}(I_{n-1}+I_{n+1}-2I_{n})$$ [3]\n(c) Assuming the current through the network is a wave of the form, $I_{n}=Ae^{(j(qx_{n}-\\omega t))}$, where $j=\\sqrt{-1},$ write down the dispersion relation of the network and fully label a graph of $\\omega$ versus q in the network. [8]\n(d) Hence conclude the maximum transmittable frequency and the velocity of a low frequency wave through the network? [4]\n(e) What is the relationship between the current through adjacent inductors for a wavevector at the Brillouin zone boundary? What does this represent? [5]",
+        "source_pdf": "PandNQAS_2025.pdf",
+        "needs_review": false
+    }
+]

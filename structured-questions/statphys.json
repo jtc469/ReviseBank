@@ -1,0 +1,372 @@
+[
+    {
+        "id": "statphys_2019_q1",
+        "module": "LI Statistical Physics & Entropy",
+        "year": 2019,
+        "paper": "SUMMER EXAMINATIONS 2019",
+        "question_number": 1,
+        "question_text": "An elastic rod of length $L$ is subject to a tensile force $f$. For such a rod, $dU=TdS+fdL$. Obtain an expression for $dF$ where $F$ is the Helmholtz free energy. Hence, derive the Maxwell relation\n\\[\n\\left(\\frac{\\partial S}{\\partial L}\\right)_{T}=-\\left(\\frac{\\partial f}{\\partial T}\\right)_{L}\n\\] [10]",
+        "source_pdf": "StatPhys_2019.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2019_q2",
+        "module": "LI Statistical Physics & Entropy",
+        "year": 2019,
+        "paper": "SUMMER EXAMINATIONS 2019",
+        "question_number": 2,
+        "question_text": "Two systems with heat capacity $C$ are initially at temperatures $T_{1}$ and $T_{2}$. The two systems are connected to a Carnot heat engine which does work by drawing heat from the higher temperature system and releasing heat to the system at the lower temperature. The two systems eventually reach the same final temperature $T_{f}$. Show that the final temperature is $T_{f}=\\sqrt{T_{1}T_{2}}$ and that the total amount of work produced is $W=C(T_{1}+T_{2}-2T_{f})$. [10]",
+        "source_pdf": "StatPhys_2019.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2019_q3",
+        "module": "LI Statistical Physics & Entropy",
+        "year": 2019,
+        "paper": "SUMMER EXAMINATIONS 2019",
+        "question_number": 3,
+        "question_text": "A system has only two energy levels: 0 and $\\epsilon$. A particle in this system has just two states corresponding to the two energy levels. Write down the single-particle partition function, $Z$. From $Z$, find expressions for the internal energy $U$ and heat capacity of the single particle. If the system contains $N$ particles, as temperature approaches infinity, how are the $N$ particles distributed between the two energy levels based on the expression for $U$? [10]",
+        "source_pdf": "StatPhys_2019.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2019_q4",
+        "module": "LI Statistical Physics & Entropy",
+        "year": 2019,
+        "paper": "SUMMER EXAMINATIONS 2019",
+        "question_number": 4,
+        "question_text": "A system with constant volume and particle number is in thermal equilibrium with a large reservoir at temperature $T$. Using the condition that equilibrium corresponds to maximum entropy for the universe, show that the Helmholtz free energy, $F$, is minimised at thermal equilibrium. [10]",
+        "source_pdf": "StatPhys_2019.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2019_q5",
+        "module": "LI Statistical Physics & Entropy",
+        "year": 2019,
+        "paper": "SUMMER EXAMINATIONS 2019",
+        "question_number": 5,
+        "question_text": "Treating entropy of a system as a function of internal energy $U$, volume $V$ and particle number $N$, we have:\n\\[\ndS=\\left(\\frac{\\partial S}{\\partial U}\\right)_{N,V}dU+\\left(\\frac{\\partial S}{\\partial V}\\right)_{N,U}dV+\\left(\\frac{\\partial S}{\\partial N}\\right)_{U,V}dN.\n\\]\nUsing the above expression, determine whether the number of microstates accessible to the system is increased or decreased under the following conditions. Give your reasons.\n(i) The system has lost a small amount of heat without any change of volume and particle number.\n(ii) A small number of particles have escaped from the system at constant volume, taking a small amount of energy with them. [10]",
+        "source_pdf": "StatPhys_2019.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2019_q6",
+        "module": "LI Statistical Physics & Entropy",
+        "year": 2019,
+        "paper": "SUMMER EXAMINATIONS 2019",
+        "question_number": 6,
+        "question_text": "Clausius's theorem for a cyclic process in which a system exchanging heat with external reservoirs may be written as: $\\oint\\frac{dQ}{T}\\le0$ where $dQ$ is the infinitesimal amount heat absorbed by the system when it is in contact with a reservoir at temperature $T$. By considering a cyclic process in which the system makes a series of thermal contacts with various reservoirs, derive $\\oint\\frac{dQ}{T}\\le0$. [10]",
+        "source_pdf": "StatPhys_2019.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2019_q7",
+        "module": "LI Statistical Physics & Entropy",
+        "year": 2019,
+        "paper": "SUMMER EXAMINATIONS 2019",
+        "question_number": 7,
+        "question_text": "(a) The energy of a particle is given by $\\epsilon=\\alpha x^{2}$, where $x$ stands for displacement or velocity and $\\alpha$ is a positive constant. The particle is in a system at an equilibrium temperature $T$. Find the mean energy of the particle, and hence make a statement of the equipartition theorem. [6]\n(b) In the Einstein model of solids, atoms are treated as independent oscillators. The energy of the oscillator is $\\epsilon_{n}=(n+\\frac{1}{2})\\hbar \\omega$. Derive expressions for the partition function and internal energy for a piece of solid consisting of $N$ atoms at temperature $T$. Show that the energy of the solid at the high temperature limit is consistent with the equipartition theorem. [8]\n(c) For the Einstein solid described in (b) above, each atom has a magnetic moment $\\mu$. When placed in a magnetic field $B$, the magnetic moment can be oriented either parallel or anti-parallel to the $B$ field giving rise to an extra contribution to the internal energy by $\\pm\\mu B$ per atom. Find an expression for the partition function of the solid and hence the energy of the solid in the presence of the $B$ field. [10]\n(d) Describe qualitatively with sketches, how the Einstein solid in (c) can be cooled via the application of a magnetic field. [6]",
+        "source_pdf": "StatPhys_2019.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2019_q8",
+        "module": "LI Statistical Physics & Entropy",
+        "year": 2019,
+        "paper": "SUMMER EXAMINATIONS 2019",
+        "question_number": 8,
+        "question_text": "(a) Sketch p-V and T-S diagrams for a Carnot cycle. During the adiabatic expansion step of the cycle, the gas expands from volume $V_{1}$ to $V_{2}$. Show that the efficiency of the heat engine operating on the Carnot cycle may be written as $\\eta=1-\\frac{1}{r^{\\gamma-1}}$ where $r=V_{2}/V_{1}$ and $\\gamma=C_{p}/C_{v}$. [Hint: You may assume that $pV^{\\gamma}$ is constant for an ideal gas during a reversible adiabatic expansion.] [12]\n(b) An ideal gas expands adiabatically from $(p_{1},V_{1})$ to $(p_{2},V_{2})$. It is then compressed isobarically to $(p_{2},V_{1})$. Finally, the pressure increases to $p_{1}$ at constant volume $V_{1}$. Draw a p-V diagram to represent the cycle described. What is the amount of work done by the gas during the adiabatic expansion? What is the amount of work done to the gas during the isobaric compression? What is the amount of heat absorbed over the whole cycle? Show that the efficiency of the cycle is $\\eta=1-\\gamma\\frac{(\\frac{V_{2}}{V_{1}}-1)}{(\\frac{P_{1}}{P_{2}}-1)}$ where $\\gamma=\\frac{C_{p}}{C_{v}}$. [18]",
+        "source_pdf": "StatPhys_2019.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2019_q9",
+        "module": "LI Statistical Physics & Entropy",
+        "year": 2019,
+        "paper": "SUMMER EXAMINATIONS 2019",
+        "question_number": 9,
+        "question_text": "(a) A system consists of $n$ particles, each of which can be in a state of energy $\\epsilon_{1}$ or $\\epsilon_{2}$. $n=n_{1}+n_{2}$ where $n_{1}$ and $n_{2}$ are the number of particles with energy $\\epsilon_{1}$ and $\\epsilon_{2}$, respectively. The system is in contact with a heat bath at temperature $T$. Consider the following process: a particle drops from $\\epsilon_{2}$ to $\\epsilon_{1}$ with the energy $(\\epsilon_{2}-\\epsilon_{1})$ released to the bath. For $n_{1} \\gg 1$, $n_{2} \\gg 1$, obtain an expression for the entropy change of i) the system (Hint: find $\\Omega$ first) ii) the heat bath. [12]\n(b) From (a) above, derive the Boltzmann relation for the ratio $n_{2}/n_{1}$. [8]\n(c) A system consisting of $N$ ($N \\gg 1$) non-interacting particles in a magnetic field $B$ is in thermal equilibrium with a heat bath at temperature $T$. Each particle has a magnetic moment which can be aligned either parallel or anti-parallel to the $B$ field. The magnetisation of the system is $M=N\\mu \\tanh(\\frac{\\mu B}{kT})$ and the magnetic energy is $-MB$. Show that the differential form of the first law applied to such a system is $dU=TdS-MdB$. [10]",
+        "source_pdf": "StatPhys_2019.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2022_q1",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2022,
+        "paper": "SEMESTER 1 EXAMINATIONS 2021/22",
+        "question_number": 1,
+        "question_text": "Calculate the change in entropy of 1 kg of water when it is heated from $20^{\\circ}C$ to $100^{\\circ}C$ and completely vaporized. Indicate whether the change in entropy implies any irreversibility in the process. [At a pressure of 1 atm the specific latent heat of vaporization of water is $L=2.3\\times10^{6}$ J kg$^{-1}$ and the specific heat capacity of water is $c_{P}=4.2$ kJ K$^{-1}$ kg$^{-1}$.] [10]",
+        "source_pdf": "StatPhys_2022.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2022_q2",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2022,
+        "paper": "SEMESTER 1 EXAMINATIONS 2021/22",
+        "question_number": 2,
+        "question_text": "Ten distinguishable, non-interacting atoms undergo random thermal motion inside a box of volume $V$. For a sub-volume $V/5$ inside the box (as illustrated in the diagram), find the probability that:\n(a) all ten atoms are inside the sub-volume;\n(b) exactly two atoms are inside the sub-volume. [10]",
+        "source_pdf": "StatPhys_2022.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2022_q3",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2022,
+        "paper": "SEMESTER 1 EXAMINATIONS 2021/22",
+        "question_number": 3,
+        "question_text": "An atom has discrete energy levels among which are a non-degenerate ground state and a doubly-degenerate first excited state that is 1 eV above the ground state. Calculate the ratio of probabilities of finding the atom in the first two energy levels if it is in thermal equilibrium with a reservoir at $10^{4}K$. [10]",
+        "source_pdf": "StatPhys_2022.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2022_q4",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2022,
+        "paper": "SEMESTER 1 EXAMINATIONS 2021/22",
+        "question_number": 4,
+        "question_text": "By introducing the free energy $F$, show that for a gas\n\\[\n\\left(\\frac{\\partial T}{\\partial P}\\right)_{V}=\\left(\\frac{\\partial V}{\\partial S}\\right)_{T}\n\\] [10]",
+        "source_pdf": "StatPhys_2022.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2022_q5",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2022,
+        "paper": "SEMESTER 1 EXAMINATIONS 2021/22",
+        "question_number": 5,
+        "question_text": "(a) The reversible work done on a purely one-dimensional system can be written $dW=\\Gamma dL$ where $L$ is the extension of the system and $\\Gamma$ is the tension exerted on the system. Write down the fundamental thermodynamic relation for such a system and deduce the corresponding relation for the differential of the Helmholtz free energy $F$. Hence show that the entropy of the system is $S=-\\left(\\frac{\\partial F}{\\partial T}\\right)_{L}$. [10]\n(b) An example of one-dimensional system is the ideal polymer chain. The tension of the chain at temperature $T$ is given by the equation of state $\\Gamma=\\alpha TL$ where $\\alpha$ is a positive constant. Show that the free energy of the polymer chain is given by $F=F_{0}+\\frac{1}{2}\\alpha TL^{2}$, where $F_{0}$ is the free energy when $L=0$. Hence, derive an expression for the entropy $S$ of the polymer chain as a function of the extension $L$. Sketch a graph to show how $S$ varies with $L$ and explain its physical significance. [10]\n(c) Suppose that the polymer chain is stretched reversibly by a small amount $\\delta L$ from extension $L$ to extension $L+\\delta L$ at constant temperature $T$. Find the heat absorbed $\\delta Q$ and the work $\\delta W$ done on the polymer. What is the increase in internal energy $\\delta U$ of the polymer? Explain the physical significance of your result. [10]",
+        "source_pdf": "StatPhys_2022.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2022_q6",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2022,
+        "paper": "SEMESTER 1 EXAMINATIONS 2021/22",
+        "question_number": 6,
+        "question_text": "(a) State how $\\left(\\frac{\\partial S}{\\partial U}\\right)_{V}$ is related to the temperature of a thermodynamic system. [2]\nA system consists of three distinguishable atoms, each of which has three non-degenerate energy levels, 0, $\\epsilon$ and $2\\epsilon$.\n(b) How many microstates does the system possess? [3]\n(c) Make a table showing the statistical weight and the entropy corresponding to each energy level. [9]\n(d) Make a rough sketch of entropy versus energy for this system. [5]\n(e) Sketch the temperature of the above system as a function of the energy. [5]\n(f) The three atoms are now free to move inside a box and form an ideal gas at temperature $T$. Show formally that the fraction of the energy of the gas due to the internal state of the atoms cannot be larger than $3\\epsilon$. [6]",
+        "source_pdf": "StatPhys_2022.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2022_q7",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2022,
+        "paper": "SEMESTER 1 EXAMINATIONS 2021/22",
+        "question_number": 7,
+        "question_text": "(a) A sample of heat capacity $C$ at temperature $T_{1}$ is brought into contact with a cold reservoir at temperature $T_{0}<T_{1}$ until it reaches thermal equilibrium. Derive expressions for the changes in entropy of the sample and the reservoir. [6]\n(b) We repeat the experiment in part (a), but, instead of plain thermal contact, a reversible engine operates between the sample and the cold reservoir.\ni. Find the temperature of the sample after a long time.\nii. Over one cycle the engine extracts the heat $\\delta Q$ from the sample at temperature $T$ and produces the work $\\delta W$. Derive expressions for $\\delta Q$ and $\\delta W$ as a function of $T$, specifying the assumptions you make. Derive expressions for the total work extracted from the machine, and the entropy changes of the sample and the cold reservoir. [3, 11]\n(c) Assume the same engine now executes a cycle composed of two isotherms and two isochores. Without derivation, explain how the total work extracted from the machine and the entropy changes of the sample and cold reservoir compare to those found in parts (a) and (b). [10]",
+        "source_pdf": "StatPhys_2022.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2023_q1",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2023,
+        "paper": "SEMESTER 1 EXAMINATIONS 2022/23",
+        "question_number": 1,
+        "question_text": "A copper block of mass 1 kg is cooled from $100^{\\circ}C$ to $20^{\\circ}C$ following two different methods. The specific heat of copper is 380 J kg$^{-1}$K$^{-1}$. Calculate the entropy changes of the block and the surroundings when:\n(a) the cooling is reversible,\n(b) the block is dropped in a large amount of cold water. [10]",
+        "source_pdf": "StatPhys_2023.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2023_q2",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2023,
+        "paper": "SEMESTER 1 EXAMINATIONS 2022/23",
+        "question_number": 2,
+        "question_text": "A single mole of ideal gas with constant molar specific heat $c_{V}$ undergoes a transformation from its initial state $(T_{1},V_{1})$ to a final state $(T_{2},V_{2})$. Find an expression for the change in entropy of the gas. [10]",
+        "source_pdf": "StatPhys_2023.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2023_q3",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2023,
+        "paper": "SEMESTER 1 EXAMINATIONS 2022/23",
+        "question_number": 3,
+        "question_text": "A system consists of two distinguishable particles, each of which is equally likely to be found in any of three possible states, with magnetic moments along the z-direction of $-\\mu$, 0 or $+\\mu$. If we define a macrostate for this system by specifying the total magnetic moment along the z-direction, list the accessible microstates and find the entropy for each possible macrostate. [10]",
+        "source_pdf": "StatPhys_2023.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2023_q4",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2023,
+        "paper": "SEMESTER 1 EXAMINATIONS 2022/23",
+        "question_number": 4,
+        "question_text": "An atom has discrete energy levels among which are a non-degenerate ground state and a triply-degenerate first excited state that is 1 GHz above the ground state. Calculate the temperature at which the probabilities of being in the lowest two energy levels are equal. [10]",
+        "source_pdf": "StatPhys_2023.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2023_q5",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2023,
+        "paper": "SEMESTER 1 EXAMINATIONS 2022/23",
+        "question_number": 5,
+        "question_text": "A non-ideal gas initially in thermal equilibrium has equation of state $P(V-b)=nRT$, where $b$ is a constant and the other symbols have their usual meaning. It undergoes an expansion inside an insulated vessel, through a shutter that does not provide any work, going from initial volume $V_{1}$ to final volume $V_{2}>V_{1}$.\n(a) What is the energy change during the expansion? [4]\n(b) Write down the total differential $dS$ when considering the entropy $S$ as a function of $T$ and $V$. Using a Maxwell relation derived from the Helmholtz free energy, show that for this gas $dS=\\frac{C_{V}}{T}dT+\\frac{P}{T}dV$ where $C_{V}$ is the heat capacity at constant volume. Using the fundamental thermodynamic relation, show that the energy depends only on the temperature. [12]\n(c) Using the previous parts, calculate the entropy change of the gas during the expansion, after the system has reached thermal equilibrium. [9]\n(d) Compare the previous result to that obtained for an ideal gas under the same experimental conditions and comment on what could cause any difference(s). [5]",
+        "source_pdf": "StatPhys_2023.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2023_q6",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2023,
+        "paper": "SEMESTER 1 EXAMINATIONS 2022/23",
+        "question_number": 6,
+        "question_text": "(a) Derive the fundamental thermodynamics relation for a gas and explain why it is valid for all infinitesimal changes. [4]\n(b) We now consider a system that can receive work $W^{*}$ in addition to the work done by the pressure from the surroundings. Show that for any infinitesimal change at constant pressure and temperature, the increase in the Gibbs free energy is $dG=dW_{rev}^{*}$, where $dW_{rev}^{*}$ is the reversible work. Hence show that the entropy of the system is $S=-\\left(\\frac{\\partial G}{\\partial T}\\right)_{P,dW_{rev}^{*}=0}$. [6]\n(c) A soap film whose surface tension $\\gamma$ is a function of temperature only is held at constant pressure and temperature. Here $dW_{rev}^{*}=\\gamma dA$. If the total surface area of the film increases by $\\Delta A$ reversibly, show, using a Maxwell relation or otherwise, that the increase in entropy $\\Delta S$ of the soap film is $\\Delta S=-\\frac{d\\gamma}{dT}\\Delta A$. (You may assume that $\\frac{d\\gamma}{dT}$ is approximately constant over the transformation.) [10]\n(d) For the soap film in part (c), find expressions for the heat absorbed from the surroundings and the increase in Gibbs free energy, internal energy and enthalpy of the film. (You may assume that the change in volume of the film is negligible.) [10]",
+        "source_pdf": "StatPhys_2023.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2023_q7",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2023,
+        "paper": "SEMESTER 1 EXAMINATIONS 2022/23",
+        "question_number": 7,
+        "question_text": "Rubber consists of long chain polymers. A simple 1-dimensional model of a rubber band is that of a chain of $N$ links each of fixed length $a$, where $N \\gg 1$. Suppose the chain hangs vertically under gravity, attached to the ceiling at the top end and to a mass $m$ at the bottom end. The links all lie along the vertical direction, but may double back on themselves at the expense of the corresponding energy required to raise the mass. The links themselves have negligible mass.\n(a) Give an expression for the energy difference between the two orientations of a single link. [4]\n(b) Assuming that the chain is maintained at temperature $T$, find the probabilities for one link to be in the upright and 'double backed' orientations. Deduce the length $L$ of the chain as a function of $T$, and show that at high temperature, the tension on the chain can be written $\\Gamma=\\alpha TL$. Find an expression for the constant $\\alpha$. [Hint: a judicious choice of the energy zero makes this problem similar to the spin 1/2 paramagnet.] [10]\n(c) We further assume that the links have other degrees of freedom, such as vibrations of constituent atoms, leading to the chain internal energy $U=CT$, where the constant $C$ is the heat capacity. Recall that the elementary work done on the chain is $dW=\\Gamma_{ext}dL$, where $\\Gamma_{ext}$ is the applied tension. Find the work done on the chain when it is reversibly stretched from $L_{1}$ to $L_{2}$ at constant temperature. What is the heat $Q$ received by the chain in the process? Give a physical explanation for the sign of $Q$. [8]\n(d) Find an expression for the final temperature when the chain, initially at temperature $T_{1}$ and length $L_{1}$, is stretched to length $L_{2}$ isentropically. [8]",
+        "source_pdf": "StatPhys_2023.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2024_q1",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2024,
+        "paper": "SUMMER EXAMINATION 2024",
+        "question_number": 1,
+        "question_text": "Calculate the change in entropy of 1 kg of water when it is cooled from $20^{\\circ}C$ down to $0^{\\circ}C$ and completely frozen at $0^{\\circ}C$, under a pressure of 1 atm. [At 1 atm the specific latent heat of fusion of water is $L=330$ kJ kg$^{-1}$ and the specific heat capacity of water is $c_{P}=4.2$ kJ K$^{-1}$ kg$^{-1}$.] [10]",
+        "source_pdf": "StatPhys_2024.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2024_q2",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2024,
+        "paper": "SUMMER EXAMINATION 2024",
+        "question_number": 2,
+        "question_text": "One mole of an ideal gas with an initial volume of $V$ expands into a final volume of $2V$. Calculate the entropy change of the gas and of the surroundings if the expansion is either (a) isothermal and reversible, or (b) adiabatic and reversible. [10]",
+        "source_pdf": "StatPhys_2024.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2024_q3",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2024,
+        "paper": "SUMMER EXAMINATION 2024",
+        "question_number": 3,
+        "question_text": "A system consists of three distinguishable particles, each of which can be in either state $a$ or state $b$. We define macrostate $n$ for this system by specifying that there are $n$ particles in state $a$. For each possible macrostate, list the possible microstates and find the entropy of the macrostate. Give an expression for the number of microstates. [10]",
+        "source_pdf": "StatPhys_2024.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2024_q4",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2024,
+        "paper": "SUMMER EXAMINATION 2024",
+        "question_number": 4,
+        "question_text": "A system has a ground state with degeneracy $g_{1}$ and an excited state with degeneracy $g_{2}$ that is 0.1 eV above the ground state. At temperature $T=4030$ K, the atom has an equal chance of being in the ground state or in the excited state. Calculate the ratio $g_{1}/g_{2}$. [10]",
+        "source_pdf": "StatPhys_2024.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2024_q5",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2024,
+        "paper": "SUMMER EXAMINATION 2024",
+        "question_number": 5,
+        "question_text": "(a) State the differential forms of the first and second laws of thermodynamics for a gas at rest. From the above laws, deduce with careful explanations and reasoning the fundamental thermodynamic relation $dU=TdS-PdV$. [8]\n(b) Using the Helmholtz free energy, $F(T,V)$, derive explicitly the Maxwell relation $\\left(\\frac{\\partial P}{\\partial T}\\right)_{V}=\\left(\\frac{\\partial S}{\\partial V}\\right)_{T}$. [8]\n(c) By considering the entropy, $S$, as a function of $T$ and $V$, show that $dS=\\frac{C_{V}}{T}dT+\\left(\\frac{\\partial P}{\\partial T}\\right)_{V}dV$. [8]\n(d) Consider $n$ moles of a gas with the equation of state $(P+\\frac{an^{2}}{V^{2}})(V-nb)=nRT$, where $a$ and $b$ are constants, and with a total heat capacity $C_{V}$ that is a constant independent of $T$. Derive an expression for the entropy $S(T,V)$. You can assume a single known value of the entropy, $S_{0}=S(T_{0},V_{0})$. [6]",
+        "source_pdf": "StatPhys_2024.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2024_q6",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2024,
+        "paper": "SUMMER EXAMINATION 2024",
+        "question_number": 6,
+        "question_text": "A magnetic sample consists of $N$ spin $1/2$ atoms, each having a magnetic moment $\\mu$. In an applied magnetic field $B$, each atom may orient itself parallel or antiparallel to the field, with the energies $-\\mu B$ and $\\mu B$, respectively. The sample is maintained at temperature $T$.\n(a) Find the probabilities for a single atom to be in the two possible orientations. [4]\n(b) Calculate the mean magnetic moment $M$ of the sample. Show that for $M \\ll \\mu N$ the magnetic moment scales with $1/T$. [8]\nWe now consider the case where each atomic magnetic moment also interacts with the mean magnetisation of the sample. As a result, the possible energies for each atom become $\\mp(\\mu B+\\frac{kT_{C}M}{\\mu N})$ where $T_{C}$ is a temperature characteristic of the sample.\n(c) Similarly to part (b), derive an equation for the magnetisation $M$ of the sample. In the limit $M \\ll \\mu N$ and for a non-zero $B$-field, derive an expression for $M$ as a function of $T$. [10]\n(d) Sketch the temperature dependence of $M$ in zero field ($B = 0$), where you may no longer assume that $M \\ll \\mu N$. Hint: the equation in part (c) may not be analytically solvable, but you can find a geometric interpretation of the solution as the intersection of two curves. [8]",
+        "source_pdf": "StatPhys_2024.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2024_q7",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2024,
+        "paper": "SUMMER EXAMINATION 2024",
+        "question_number": 7,
+        "question_text": "A paramagnet is made of $N$ identical distinguishable atoms of magnetic moment $\\mu$, which can orientate either up (↑) or down (↓). A macrostate is specified by the total magnetic moment $M=(n_{\\uparrow}-n_{\\downarrow})\\mu$ where $n_{\\uparrow}$ and $n_{\\downarrow}=N-n_{\\uparrow}$ are the numbers of moments pointing up and down, respectively. The system is thermally isolated.\n(a) Write down the statistical weight of a macrostate characterised by a given value of $n_{\\uparrow}$. [4]\n(b) The magnetisation ratio $f$ is defined such that the total magnetic moment is $M=fN\\mu$. Using part (a), and assuming that $n_{\\uparrow} \\gg 1$ and $n_{\\downarrow} \\gg 1$ show that the Boltzmann entropy $S$ of a large paramagnet is $S=-Nk[\\frac{1+f}{2}\\ln(\\frac{1+f}{2})+\\frac{1-f}{2}\\ln(\\frac{1-f}{2})]$. Calculate the entropy in the limits of $f \\rightarrow \\pm 1$ and, assuming the above expression for $S$ is valid for all values of $n_{\\uparrow}$ and $n_{\\downarrow}$, interpret the results. Hint: $\\lim_{x \\to 0} x \\ln x = 0$. [12]\n(c) The paramagnet is placed in an external upward-orientated magnetic field $B$, so that its internal energy $U$ is given by the magnetic energy $-MB$. Using the definition of the statistical temperature (considering $B$ as an external constraint), find a relation between the temperature $T$, $f$ and $B$. Using this relation, derive an expression for the ratio $n_{\\downarrow}/n_{\\uparrow}$, and comment on its form. [7]\n(d) The reversible magnetic work is $dW^{rev}=-M dB$. Using the fundamental thermodynamic relation and a Legendre transform, show that $TdS+BdM=0$, and retrieve the expression for the temperature used in part (c). [7]",
+        "source_pdf": "StatPhys_2024.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2025_q1",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2025,
+        "paper": "SUMMER EXAMINATIONS 2025",
+        "question_number": 1,
+        "question_text": "An atom has discrete energy levels among which are a non-degenerate ground state and a triply-degenerate first excited state that is $40 \\mu eV$ above the ground state. Calculate the temperature at which the probability of being in the first excited state is twice that of being in the ground state. [10]",
+        "source_pdf": "StatPhys_2025.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2025_q2",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2025,
+        "paper": "SUMMER EXAMINATIONS 2025",
+        "question_number": 2,
+        "question_text": "A single mole of ideal gas with constant molar specific heat $C_{P}$ undergoes a transformation from its initial state $(T_{1},P_{1})$ to a final state $(T_{2},P_{2})$. Find an expression for the change in entropy of the gas. [10]",
+        "source_pdf": "StatPhys_2025.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2025_q3",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2025,
+        "paper": "SUMMER EXAMINATIONS 2025",
+        "question_number": 3,
+        "question_text": "A system contains $N$ spin-half particles. Each particle has the same probability to be found with either spin-up or spin-down with respect to a given direction. What is the total number of accessible microstates for this system? Give the probability of finding the system with exactly $n$ particles in the spin-up configuration, and the entropy of the macro-state where all the $N$ particles are in the spin-up direction. [10]",
+        "source_pdf": "StatPhys_2025.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2025_q4",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2025,
+        "paper": "SUMMER EXAMINATIONS 2025",
+        "question_number": 4,
+        "question_text": "A liquid substance inside a cylinder maintained at atmospheric pressure is vaporised at its normal boiling temperature $T_{b}$ by absorbing its latent heat $L$ from its surroundings at temperature $T_{0}$. Find the change of entropy of (a) the substance, (b) the surroundings, and (c) the universe. What is the condition for this transformation to be reversible? [10]",
+        "source_pdf": "StatPhys_2025.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2025_q5",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2025,
+        "paper": "SUMMER EXAMINATIONS 2025",
+        "question_number": 5,
+        "question_text": "A thermally-isolated container is split into two halves by a shutter. One half contains a gas and the other is evacuated. The shutter is removed without doing any work, so the gas is allowed to expand to fill both halves.\n(a) Write down the first law of thermodynamics and explain what it gives for this transformation. [2]\n(b) If the gas is an ideal gas, what is the change in temperature? [2]\n(c) Using the triple-product rule (see formula sheet), show that\n\\[\n\\left(\\frac{\\partial T}{\\partial V}\\right)_{U}=-\\frac{1}{C_{V}}\\left(\\frac{\\partial U}{\\partial V}\\right)_{T}\n\\] [6]\n(d) Derive a Maxwell relation from the differential of the Helmholtz free energy $F$. Use this relation, the fundamental thermodynamic relation and part (c) to show that\n\\[\n\\left(\\frac{\\partial T}{\\partial V}\\right)_{U}=-\\frac{1}{C_{V}}\\left[T\\left(\\frac{\\partial P}{\\partial T}\\right)_{V}-P\\right]\n\\] [12]\n(e) Find a simple expression for $\\left(\\frac{\\partial T}{\\partial V}\\right)_{U}$ for a gas obeying the equation of state $(P+\\frac{an^{2}}{V^{2}})(V-nb)=nRT$, where $a$ and $b$ are positive constants. Give a microscopic interpretation of the result. [8]",
+        "source_pdf": "StatPhys_2025.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2025_q6",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2025,
+        "paper": "SUMMER EXAMINATIONS 2025",
+        "question_number": 6,
+        "question_text": "A system with a fixed number $N$ of particles is isolated and in thermal equilibrium with total energy $E$. Each of the particles has two possible non-degenerate energy levels of energy 0 and $\\epsilon$. We denote $n$ the number of particle with energy $\\epsilon$, and we consider the case where $1 \\ll n \\ll N$.\n(a) Write down the statistical weight of a macrostate characterised by a given value of $n$. [4]\n(b) Derive an expression for the entropy of the system, first as a function of $n$, second as a function of $E$. [8]\n(c) Show that the temperature of the system is related to the energy $E$ by the expression\n\\[\n\\frac{1}{T}=\\frac{k}{\\epsilon}\\left[\\ln\\left(N-\\frac{E}{\\epsilon}\\right)-\\ln \\frac{E}{\\epsilon}\\right]\n\\] [6]\nWe now consider the case where the energy of the excited state depends on the volume $V$ of the system as $\\epsilon=\\alpha V^{-1/3}$ where $\\alpha$ is a positive constant.\n(d) From the fundamental thermodynamic relation for a system of variable volume (or the first and second laws), obtain the equation for the change in entropy $dS$. Deduce an expression for the pressure $P$ of the system and show that $P$ is given in terms of the energy $E$ by $P=\\frac{1}{3}\\frac{E}{V}$. [12]",
+        "source_pdf": "StatPhys_2025.pdf",
+        "needs_review": false
+    },
+    {
+        "id": "statphys_2025_q7",
+        "module": "LI STATISTICAL PHYSICS & ENTROPY",
+        "year": 2025,
+        "paper": "SUMMER EXAMINATIONS 2025",
+        "question_number": 7,
+        "question_text": "Figure below shows a \"molecular zipper\" formed by two rows of molecules. Each row has a large number of monomers, each represented by a circle. A monomer from one row is weakly linked to a monomer in the other row. The zipper can unzip from one end by breaking the bond between pairs of monomers. A bond can be broken only if the bond directly above is already broken. It requires energy $\\epsilon>0$ to break each bond. Thus, for every extra bond that is broken, the zipper can be regarded as moving up on the energy ladder by $\\epsilon$: $E=0, E=\\epsilon, E=2\\epsilon$ etc.\n(a) Treating the zipper as infinitely long, write down the partition function at temperature $T$ and the probability $p(n)$ for that zipper to have $n$ broken bonds. [5]\n(b) Show that the mean energy of the zipper is $\\overline{E}=\\frac{\\epsilon}{\\exp(\\frac{\\epsilon}{kT})-1}$, and derive an expression for the heat capacity $C$ of the zipper. (Hint: you may find this sum useful: $\\sum_{n=0}^{\\infty}ne^{-nx}=\\frac{e^{-x}}{(1-e^{-x})^{2}}$). Sketch the graph of $C(T)$, indicating the limits and boundaries. Give the limit of $\\overline{E}$ at infinite temperature. [9]\n(c) From part (b) and the definition of the entropy, deduce the limits of the entropy $S$ first at infinite temperature, then at infinite energy. Hint: you do not have to fully derive $S(T)$ and $S(E)$. [8]\n(d) We consider a collection of zippers that have the same finite size of $m$ monomer pairs (but they still unzip from a single end). Without explicit derivation, sketch the entropy $S$ as a function of the energy per zipper, indicating the characteristic values on the energy axis. [8]",
+        "source_pdf": "StatPhys_2025.pdf",
+        "needs_review": false
+    }
+]
