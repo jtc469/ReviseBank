@@ -7,7 +7,8 @@
         "question_number": 1,
         "question_text": "Starting from Maxwell's equations, derive the differential wave-like equation for the magnetic field vector H in a medium with conductivity $\\sigma$, permittivity $\\epsilon$ and permeability $\\mu$. (Assume the vector identity $\\underline{\\nabla}\\wedge(\\underline{\\nabla}\\wedge\\underline{F})=\\underline{\\nabla}(\\underline{\\nabla}\\cdot\\underline{F})-\\nabla^{2}\\underline{F}$). [10]",
         "source_pdf": "EM2_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Conductors & Skin Depth"
     },
     {
         "id": "em2_2019_q2",
@@ -17,7 +18,8 @@
         "question_number": 2,
         "question_text": "Explain the method of images in electrostatics, and why it works. A point-like charge -Q is placed at a distance a from each of two semi-infinite perpendicular conductive plates at zero potential. Using the images method, determine an expression for the electrostatic potential in the region between the plates. [10]",
         "source_pdf": "EM2_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2019_q3",
@@ -27,7 +29,8 @@
         "question_number": 3,
         "question_text": "Explain what is meant by diamagnetic, paramagnetic and ferromagnetic materials. Liquid oxygen is a paramagnetic material. The magnetic moment of 1 g of liquid oxygen in a field of 1.8 T is $4.4\\times10^{-3}J~T^{-1}$. Given that the density of liquid oxygen is 850 kg m³, calculate its magnetic susceptibility. [10]",
         "source_pdf": "EM2_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2019_q4",
@@ -37,7 +40,8 @@
         "question_number": 4,
         "question_text": "The electric field of an electromagnetic wave is $\\underline{E}=\\underline{e_{x}}E_{0}cos[\\omega(\\sqrt{\\epsilon\\mu}z-t)]+\\underline{e_{y}}E_{0}sin[\\omega(\\sqrt{\\epsilon\\mu}z-t)]$, where $E_{0}$ is a constant. Find an expression for the corresponding magnetic field vector $\\underline{B}$. Find an expression for the Poynting vector S. [10]",
         "source_pdf": "EM2_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Electromagnetic Waves"
     },
     {
         "id": "em2_2019_q5",
@@ -47,7 +51,8 @@
         "question_number": 5,
         "question_text": "A sphere of dielectric material of radius R has a radial polarization proportional to the distance from the centre of the sphere: $\\underline{P}=\\alpha\\underline{r}$. Find the surface density of bound charges. Find the volume density of bound charges (hint: work in Cartesian coordinates). Show by direct integration that the total bound charge is zero. [10]",
         "source_pdf": "EM2_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2019_q6",
@@ -57,7 +62,8 @@
         "question_number": 6,
         "question_text": "Briefly explain what is meant by linear, circular and elliptical polarization for an electromagnetic wave. For each case, give example expressions for the E field. Linearly polarised light passes normally through a thin sheet of mica. The electric field vector is at 45 degrees to the fast and slow axes, which have refractive indices 1.66 and 1.665, respectively. Given that the thickness of the mica sheet is 0.03 mm, calculate the wavelength of the light for which the emerging wave will be circularly polarised. [10]",
         "source_pdf": "EM2_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2019_q7",
@@ -67,7 +73,8 @@
         "question_number": 7,
         "question_text": "(a) A linearly polarized electromagnetic wave travels in the x direction in a medium of electrical conductivity $\\sigma$, electrical permittivity $\\epsilon$ and magnetic permeability $\\mu$. Using Maxwell's equations, show that the propagation wave number k is equal to $$k=\\omega\\sqrt{\\mu\\left(\\epsilon-\\frac{i\\sigma}{\\omega}\\right)}$$ [12]\n(b) Explain what is meant by the skin depth in a conductor. Using the result from part (a), or otherwise, derive the formula for the skin depth of a good conductor. State any assumptions you make. Calculate the maximum frequency of the electromagnetic wave that can be used to communicate with a submarine submerged in sea water at a depth of 100 m. Assume that the conductivity of sea water is 5.0 S $m^{-1}$ [10]\n(c) Explain briefly what a waveguide is and how it works, including an explanation of the indices n, m of the electromagnetic modes $TE$_{nm}$$. A metal waveguide of rectangular cross-section has internal dimensions $(x\\times y)$ of $2.5~cm \\times 1.25~cm$. Calculate the cut-off frequencies for the $TE$_{01}$$ and $TE$_{10}$$ modes of this waveguide. [8]",
         "source_pdf": "EM2_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2019_q8",
@@ -77,7 +84,8 @@
         "question_number": 8,
         "question_text": "(a) Describe the motion and find an expression for the velocity of a free electron, initially moving with constant speed along the z direction, when subjected to: i. a uniform electric field directed along the z direction; ii. a uniform magnetic field directed along the z direction; iii. a uniform magnetic field directed along the x direction. [6]\n(b) Briefly explain the principle of operation of a mass spectrometer. Derive the expression for the position at which a charged particle strikes the detector of a mass spectrometer, when using: i. an accelerating voltage; ii. a velocity selector. [8]\n(c) A $^{58}Ni^{+}$ ion of mass $9.62\\times10^{-26}$ kg is accelerated through a potential difference of 3 kV and deflected in a magnetic field of 0.12 T. Calculate the radius of curvature of the orbit of the ion. Find the difference between the radii of curvature of $^{58}Ni^{+}$ and $^{60}Ni^{+}$ ions, assuming that the ratio of their masses is $58/60$ respectively. [8]\n(d) Explain how a charged particle of mass m can be trapped in a magnetic mirror configuration. In such a configuration, the magnetic field intensity at the centre of the magnetic mirror is $B_{0}$ and at the points of reflection, $z=\\pm z_{p}$, is $B_{p}$. Derive an expression for the minimum pitch angle, $\\alpha_{0}$ for which a charged particle is trapped in the magnetic mirror. If the pitch angle at the centre of a magnetic mirror is 30 degrees and the magnetic field is 1.5 T at this point, calculate the value of the magnetic field at the reflection point required to trap the particle. [8]",
         "source_pdf": "EM2_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2019_q9",
@@ -87,7 +95,8 @@
         "question_number": 9,
         "question_text": "(a) Show that the parallel component of the field vector E and the perpendicular component of the field vector D are continuous at the interface of two dielectric insulators if there are no free surface currents or charges. [8]\n(b) Two parallel conducting plates are separated by a distance d and maintained at a potential difference $\\Delta U$. A dielectric slab, of dielectric constant $\\epsilon$ and of uniform thickness d, is inserted snugly between the plates but does not completely fill the volume between the plates. Ignore edge effects. i. Find expressions for the field vectors E and D in the dielectric, and in the free space regions between the plates. ii. Derive expressions, inside and outside the region of dielectric interface, for the charge density on the conducting plates. iii. Derive an expression for the polarization charge density on the surface of the dielectric slab. [6] [6] [4]\n(c) The electric polarization of a piece of sulphur is $10^{-5}C~m^{-2}$. The density of sulphur is $2~g~cm^{-3}$ the atomic mass is 32, and the atomic number is 16. Estimate the length of the electric dipole in the sulphur atom. Compare the result to the size of the atomic nucleus. [6]",
         "source_pdf": "EM2_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2022_q1",
@@ -97,7 +106,8 @@
         "question_number": 1,
         "question_text": "Write down the mathematical expressions for the divergence theorem and the curl (Stokes') theorem. Explain the meanings of the symbols. Using the divergence theorem, derive the differential form of the Gauss' law from its integral form. [10]",
         "source_pdf": "EM2_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2022_q2",
@@ -107,7 +117,8 @@
         "question_number": 2,
         "question_text": "Starting from Maxwell's equations, demonstrate that electric and magnetic fields in free space, in the absence of charges or currents, obey the classical wave equations $$\\nabla^{2}\\vec{E}=\\epsilon_{0}\\mu_{0}\\frac{\\partial^{2}\\vec{E}}{\\partial t^{2}}$$ $$\\nabla^{2}\\vec{B}=\\epsilon_{0}\\mu_{0}\\frac{\\partial^{2}\\vec{B}}{\\partial t^{2}}$$. [10]",
         "source_pdf": "EM2_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2022_q3",
@@ -117,7 +128,8 @@
         "question_number": 3,
         "question_text": "Consider a monochromatic unpolarised plane electromagnetic wave incident on an air-glass interface. Define the term \"plane of incidence\". Using a sketch, explain how it is possible to obtain a linearly polarised wave using reflection and refraction. Which property of the Fresnel coefficients is responsible for this effect? Under what condition would this effect be observed? [10]",
         "source_pdf": "EM2_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2022_q4",
@@ -127,7 +139,8 @@
         "question_number": 4,
         "question_text": "Give the definition of magnetisation, including the SI unit of magnetisation. Write down the relation between the $\\vec{B}$ and $\\vec{H}$ fields and magnetisation. Using this relation and the laws of magnetostatics, sketch the lines of the $\\vec{B}$ and $\\vec{H}$ fields produced by a nearly uniformly magnetised iron rod. [10]",
         "source_pdf": "EM2_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2022_q5",
@@ -137,7 +150,8 @@
         "question_number": 5,
         "question_text": "A point-like electric dipole with a dipole moment p is located at a distance L from an infinite conducting plane. Consider two cases: (1) the dipole moment is parallel to the plane; (2) the dipole moment is perpendicular to the plane.\n(a) What is the electrostatic image of the dipole in each case? [6]\n(b) Find an expression for the force acting on the dipole in case (1), in terms of p and L. [10]\n(c) Find an expression for the force acting on the dipole in case (2), in terms of p and L. [10]\n(d) In each case, is the dipole attracted or repelled by the plane? Justify your answers. [4]",
         "source_pdf": "EM2_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2022_q6",
@@ -147,7 +161,8 @@
         "question_number": 6,
         "question_text": "Consider a spherical capacitor with inner and outer radii $R_{1}$ and $R_{2}$, respectively, such that $R_{2}/R_{1}=1.25$. The capacitor is filled with a dielectric material, with relative permittivity depending on the distance to the centre of symmetry of the capacitor, $$\\epsilon(r)=\\alpha\\left(\\frac{R_{1}}{r}\\right)^{2}$$ where $R_{1}<r<R_{2}$. The potential difference between the inner and outer conductors is $V_{0}$.\n(a) Show that the magnitude of the electric field between the conductors is $E=4V_{0}/R_{1}$ and does not depend on r. [8]\n(b) Find the magnitude of the electric displacement field, $D=D(r)$, in terms of the constants $\\alpha$, $R_{1}$ and $V_{0}$. [8]\n(c) Find the magnitude of polarisation, $P=P(r)$, in terms of the constants $\\alpha$, $R_{1}$ and $V_{0}$. [6]\n(d) Find the volume density of induced polarisation charge, $\\rho_{p}=\\rho_{p}(r)$, in terms of the constants $\\alpha$, $R_{1}$ and $V_{0}$. [8]",
         "source_pdf": "EM2_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2022_q7",
@@ -157,7 +172,8 @@
         "question_number": 7,
         "question_text": "(a) Explain the distinction between good and bad electrical conductors in the electromagnetic wave theory. Define a good conductor in terms of conductivity and frequency. Comment on the attenuation of electromagnetic waves in good and bad conductors. [10]\n(b) In a good conductor, electromagnetic wave propagation is governed by the equation $$\\nabla^{2}\\vec{E}-\\sigma\\mu_{0}\\frac{\\partial\\vec{E}}{\\partial t}=0$$ where the symbols have their usual meanings.\ni. Obtain an expression for the wave number in the conductor for a linearly polarised electromagnetic wave. Hence show that the wave impedance is given by $$Z=\\sqrt{\\frac{\\omega\\mu_{0}}{\\sigma}}e^{i\\pi/4}.$$ [12]\nii. A wave propagating in vacuum is incident normally on the surface of a thick copper slab. Calculate the impedance Z for an incident wavelength $\\lambda=0.1$ mm. The conductivity of copper is $6\\times10^{7}Sm^{-1}$. [4]\niii. Given that the wave impedance for free space is $Z_{0}=377~\\Omega$, and that the reflection coefficient is $R=(Z-Z_{0})/(Z+Z_{0})$, determine the reflection coefficient and comment on your result. [4]",
         "source_pdf": "EM2_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2023_q1",
@@ -167,7 +183,8 @@
         "question_number": 1,
         "question_text": "Consider the Bohr model of the atom, involving an electron (with a charge -e) moving with a speed v in a circular path of radius r. Derive an expression for the magnetic dipole moment associated with the orbital rotation of the electron in terms of e, v and r. Find the corresponding gyromagnetic ratio. [10]",
         "source_pdf": "EM2_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2023_q2",
@@ -177,7 +194,8 @@
         "question_number": 2,
         "question_text": "A steel rod forms the core of an electromagnet. The magnetic fields inside the rod are $B=1.8~T$ and $H=900~A/m$ Calculate the relative permeability, the magnetisation and magnetic field energy density in the rod under these conditions. [10]",
         "source_pdf": "EM2_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2023_q3",
@@ -187,7 +205,8 @@
         "question_number": 3,
         "question_text": "Consider a linearly polarised plane electromagnetic wave propagating in vacuum along the z axis: $$E(z,t)=($\\vec{e}_{x}+\\vec{e}_{y}$)\\cdot $E_{0}e^{i(\\omega t-kz)}$.$$ Write down an expression for the magnetic field $B(z,t)$, and an expression for the instantaneous energy flux at any fixed point in the plane $z=0$ Calculate the time-averaged energy flux for $E_{0}=50~V/m$. [10]",
         "source_pdf": "EM2_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2023_q4",
@@ -197,7 +216,8 @@
         "question_number": 4,
         "question_text": "Explain the terms \"s-polarised wave\" and \"p-polarised wave\". Consider an unpolarised plane wave incident on an air-ice surface (the refractive index of ice is $n=1.31)$. Using a sketch, explain how an s-polarised wave can be obtained by means of reflection and refraction. At which angle of incidence does this occur? [10]",
         "source_pdf": "EM2_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2023_q5",
@@ -207,7 +227,8 @@
         "question_number": 5,
         "question_text": "(a) Formulate the properties of an electrostatic field in ideal conductors, and in the vicinity of conductor surfaces. Write down the Laplace equation of electrostatics. Formulate the uniqueness theorem for the electrostatic potential. Explain the method of image charges used to calculate electrostatic fields in the presence of conductors. [8]\n(b) Two semi-infinite conducting planes meet at an angle of $60^{\\circ}$. The planes in the figure are perpendicular to the page. A test point charge q is located in the plane bisecting the dihedral angle, at a distance x from the line where the two planes intersect. Demonstrate that the system of image charges involves five point charges in this case. Find the positions and magnitudes of the image charges. [8]\n(c) Compute the force acting on the test charge. Is the test charge attracted to the line of intersection or repelled from it? [9]\n(d) Compute the potential energy of the test charge. [5]",
         "source_pdf": "EM2_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2023_q6",
@@ -217,7 +238,8 @@
         "question_number": 6,
         "question_text": "(a) State the definition of electric susceptibility. Describe the mechanisms giving rise to the non-zero electric susceptibility of dielectrics. In the static limit, explain why the electric susceptibility of water $(\\chi_{E}=80)$ is much higher than that of nitrogen $(\\chi_{E}\\approx10^{-3})$ at room temperature and pressure. [8]\n(b) State the definition of the electric displacement field $\\vec{D}$ Using the laws of electrodynamics, obtain the boundary conditions for the $\\vec{E}$ and $\\vec{D}$ fields at a boundary of two dielectric media, in the absence of free surface charges and currents. [6]\n(c) Consider a right cylinder made of a dielectric material, with a uniform \"frozen\" polarisation $\\vec{P}$ perpendicular to its base, shown in the diagram. The length of the cylinder is 2L and the radius of its base is R, such that $R\\ll L$ Find the direction and the magnitude of the electric field $\\vec{E}$ at the following points.\ni. Point A: at the centre of the cylinder. [3]\nii. Point B: above the centre of the base, just outside the cylinder, at a distance from the surface $d\\ll R$ [4]\niii. Point C: in the plane of symmetry parallel to the bases, just outside the cylinder, at a distance from the surface $d\\ll R$ [3]\niv. Far from the cylinder on the vertical axis of symmetry, at a distance $d\\gg L$ from the centre of the cylinder. [6]",
         "source_pdf": "EM2_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2023_q7",
@@ -227,7 +249,8 @@
         "question_number": 7,
         "question_text": "(a) Using the continuity equation, justify the inclusion of the displacement current term, $\\epsilon_{0}\\mu_{0}\\partial\\vec{E}/\\partial t$, in the Ampere law for steady currents to obtain the Ampere-Maxwell law in free space. [9]\n(b) Write down the Ampere-Maxwell law in dielectric and magnetic media. [3]\n(c) Starting from Maxwell's equations, derive the differential equation for the $\\vec{E}$ field propagating in a conducting medium with relative permittivity $\\epsilon$, relative permeability $\\mu$, and conductivity $\\sigma$, in the absence of free charges. Provide the definition of good and bad conductors with reference to the differential equation. [9]\n(d) A copper wire carries a current $I=I_{0}sin(\\omega t)$ uniformly distributed over the cross section of the wire of radius $R=1$ mm. Given that $I_{0}=1~A$ the frequency of the current is f = 1 kHz, and the conductivity of copper is $\\sigma=5.7\\times10^{7}S/m$ calculate the ratio between the amplitudes of the conduction and displacement currents in the wire. Comment on your result. [9]",
         "source_pdf": "EM2_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2024_q1",
@@ -237,7 +260,8 @@
         "question_number": 1,
         "question_text": "Write down the differential form of the continuity equation that relates the charge density $\\rho$ and the current density $\\vec{j}$. Using this equation and the divergence theorem, show that the rate of change of total charge in a volume equals the current flow into the surface surrounding the volume. [10]",
         "source_pdf": "EM2_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2024_q2",
@@ -247,7 +271,8 @@
         "question_number": 2,
         "question_text": "Ions of silver, $^{107}Ag^{+}$, are accelerated through a potential difference of 10 kV and deflected in a uniform magnetic field of 0.2 T. Compute the minimal possible radius of curvature of the trajectory of ions in the magnetic field. [10]",
         "source_pdf": "EM2_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2024_q3",
@@ -257,7 +282,8 @@
         "question_number": 3,
         "question_text": "A solid sphere of radius R has radial polarisation dependent on the distance from the centre of the sphere: $\\vec{P}=\\alpha r^{2}\\vec{\\hat{r}}$ where $\\vec{r}$ is the unit radial vector. Find the surface density and the volume density of bound polarisation charges. Show by direct integration that the total bound charge is zero. [10]",
         "source_pdf": "EM2_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2024_q4",
@@ -267,7 +293,8 @@
         "question_number": 4,
         "question_text": "Consider a plane monochromatic electromagnetic wave in free space: $$\\vec{E}(\\vec{r},t)=\\vec{E}_{0}e^{i(\\omega t-\\vec{k}\\vec{r})}.$$ Show that for the above electric field, $$\\nabla\\cdot\\vec{E}=-i\\vec{k}\\cdot\\vec{E}.$$ $$\\partial\\vec{E}/\\partial t=i\\omega\\vec{E}.$$ Using Maxwell's equations and the above relations, which hold also for the magnetic field $\\vec{B},$ demonstrate that the vectors $\\vec{E}$ and $\\vec{B}$ in a plane monochromatic wave are orthogonal to the wave vector $\\vec{k}$ at any moment in time. [10]",
         "source_pdf": "EM2_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2024_q5",
@@ -277,7 +304,8 @@
         "question_number": 5,
         "question_text": "(a) Formulate the properties of electrostatic field in ideal conductors, and in the vicinity of conductor surfaces. Write down the Laplace equation of electrostatics. Formulate the uniqueness theorem for the electrostatic potential. Explain the method of image charges used to calculate electrostatic fields in the presence of conductors. [8]\n(b) A spherical balloon with a mass of 4 grams is inflated with air to a radius of 20 cm. Air densities outside and inside the balloon are $1.29~kg/m^{3}$ and $1.32~kg/m^{3}$, respectively. An electric charge $q>0$ is distributed uniformly over the surface of the balloon. Calculate the minimal value of q required for the balloon to stick to a ceiling. Assume the ceiling to be an infinite conducting plane. [10]\n(c) An infinitely large insulating slab of thickness d, with a relative permittivity $\\epsilon=2$, occupies the region $|x|<d/2$. The slab is electrically charged with a uniform charge density $\\rho>0$ Find the direction and magnitude of the electric field at each point of space inside and outside the slab, $\\vec{E}=\\vec{E}(x)$. Draw a graph of the x-component of the electric field, $E_{x}(x)$. [12]",
         "source_pdf": "EM2_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2024_q6",
@@ -287,7 +315,8 @@
         "question_number": 6,
         "question_text": "(a) Consider an electron in an atom orbiting the nucleus on a circle of constant radius r with an angular velocity $\\omega$. A uniform time-dependent magnetic field $\\vec{B}(t)$ is gradually applied, normal to the plane of the orbit. The magnitude of the field changes from zero to B. Show that the electromotive force around the orbit changes the angular velocity of the electron by $$\\Delta\\omega=\\frac{eB}{2$m_{e}$}$$ [10]\n(b) Show that the induced orbital magnetic moment of the electron changes in the above conditions by $$\\Delta\\mu=\\frac{e^{2}r^{2}}{4$m_{e}$}B.$$ [5]\n(c) State the definitions of the magnetisation vector, magnetic susceptibility and relative permeability. Explain briefly the terms \"diamagnetic\", \"paramagnetic\" and \"ferromagnetic\". [7]\n(d) Estimate the magnetic susceptibility of a diamagnetic monoatomic solid with Z electrons per atom, and with an atomic density of $5\\times10^{28}m^{-3}.$ Assume the mean radius of the electron orbit to be $5\\times10^{-11}$ m. [8]",
         "source_pdf": "EM2_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2024_q7",
@@ -297,7 +326,8 @@
         "question_number": 7,
         "question_text": "(a) Explain the distinction between good and bad electrical conductors in the electromagnetic wave theory. Define a good conductor in terms of conductivity and frequency. Comment on the attenuation of electromagnetic waves in good and bad conductors. [10]\n(b) Propagation of electromagnetic waves in a good conductor is described by the equation $$\\nabla^{2}\\vec{E}-\\sigma\\mu_{0}\\frac{\\partial\\vec{E}}{\\partial t}=0$$ where the symbols have their usual meanings.\ni. Show that the wave number in a good conductor for a linearly polarised monochromatic plane electromagnetic wave is given by $$k=\\sqrt{\\mu_{0}\\sigma\\omega}e^{-i\\pi/4}.$$ [7]\nii. Using the above result and Maxwell's equation (M3), and assuming $\\epsilon=\\mu=1,$ obtain an expression for the wave impedance in a good conductor. [7]\niii. A wave propagating in vacuum is incident normally on the surface of a thick copper slab. Calculate wave impedance Z in copper for an incident wavelength $\\lambda=0.1$ mm. The conductivity of copper is $6\\times10^{7}Sm^{-1}$ [3]\niv. Given that the wave impedance for free space is $Z_{0}=377~\\Omega$ and that the reflection coefficient is $R=(Z-Z_{0})/(Z+Z_{0})$ determine the reflection coefficient and comment on your result. [3]",
         "source_pdf": "EM2_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2025_q1",
@@ -307,7 +337,8 @@
         "question_number": 1,
         "question_text": "Write down the expressions for the electric field of a point charge and magnetic field generated by an elementary current in the vector form. Write down Gauss's law for the electric field and Ampere's law for the static magnetic field, in both integral and differential forms. [10]",
         "source_pdf": "EM2_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2025_q2",
@@ -317,7 +348,8 @@
         "question_number": 2,
         "question_text": "Write down an expression for the electric dipole moment for an arbitrary distribution of electric charge. Write down the definition of an electric dipole. Estimate the electrostatic force between two water molecules located 10 nm apart, whose dipole moments are aligned with the line connecting the two molecules. The dipole moment of a water molecule is $6.2\\times10^{-30}C\\cdot m$. [10]",
         "source_pdf": "EM2_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2025_q3",
@@ -327,7 +359,8 @@
         "question_number": 3,
         "question_text": "Consider an oscillating electric field $\\vec{E}(t)=\\vec{E}_{0}sin(\\omega t)$ in a sample of niobium. Write down expressions for the conduction current and displacement current densities. At which electric field frequency $\\omega$ are the amplitudes of oscillation of the two current densities equal? The conductivity of niobium at room temperature is $7.7\\times10^{6}(\\Omega\\cdot m)^{-1}$. [10]",
         "source_pdf": "EM2_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2025_q4",
@@ -337,7 +370,8 @@
         "question_number": 4,
         "question_text": "A monochromatic plane wave propagates in vacuum along the z axis. At a fixed point in space, the two components of the electric field oscillate as follows: $E_{x}(t)=E_{x0}e^{i\\omega t}$ $E_{y}(t)=E_{y0}e^{i\\omega t}$. Give the definitions of linearly and circularly polarised waves in terms of the properties of the complex amplitudes $E_{x0}$ and $E_{y0}$. Write down expressions for the energy flux as a function of time, $N(t)$ in each case. [10]",
         "source_pdf": "EM2_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2025_q5",
@@ -347,7 +381,8 @@
         "question_number": 5,
         "question_text": "(a) Give the definition of the electric displacement field $\\vec{D}$ Using the laws of electrodynamics, obtain the boundary conditions for the $\\vec{E}$ and $\\vec{D}$ fields at a boundary of two dielectric media, in the absence of free surface charges and currents. [6]\n(b) A plate of dielectric material with a relative permittivity $\\epsilon$ is placed in a uniform external electric field $\\vec{E}_{0}$ The angle between the field lines in vacuum and the surface of the plate is $\\alpha$, as shown in the sketch below.\ni. Find the magnitude of the electric field, E, in the dielectric material in terms of $E_{0}$, $\\epsilon$ and $\\alpha$. Sketch the function $E=E(\\alpha)$ for fixed values of $E_{0}$ and $\\epsilon$ in the range $0\\le\\alpha\\le\\pi/2$. At which values of $\\alpha$ is E minimal and maximal? [9]\nii. Find the density of polarisation charge at the surface of the plate. Sketch its dependence on the angle $\\alpha$ for fixed values of $E_{0}$ and $\\epsilon$ in the range $0\\le\\alpha\\le\\pi/2$. [9]\niii. Compute the energy density of the electric field in the plate for $|\\vec{E}_{0}|=10~kV/m$, $\\epsilon=3$ and $\\alpha=45^{\\circ}$. [6]",
         "source_pdf": "EM2_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2025_q6",
@@ -357,7 +392,8 @@
         "question_number": 6,
         "question_text": "(a) Give the definitions of the magnetisation vector, magnetic susceptibility and relative permeability. Explain briefly the terms diamagnetic material and paramagnetic material. [6]\n(b) Describe qualitatively the classical microscopic mechanisms responsible for diamagnetism and paramagnetism. [6]\n(c) Consider a ring torus made of magnetic material with a relative permeability $\\mu$. The torus is wound uniformly with N coils of wire. Each coil carries a current I. Calculate the fields $B(r)$ and $H(r)$ at a distance r from the centre of symmetry, inside and outside the torus. [8]\n(d) A gap of width $h\\ll r$ is cut in the torus as shown in the sketch below. Using the boundary conditions and neglecting edge effects, find the magnetic field $B(r)$ in the gap. Sketch the dependence $B=B(\\mu)$ for a fixed radial position in the gap, in the range $\\mu\\ge1$ [10]",
         "source_pdf": "EM2_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     },
     {
         "id": "em2_2025_q7",
@@ -367,6 +403,7 @@
         "question_number": 7,
         "question_text": "(a) Using the continuity equation, justify the inclusion of the term $\\epsilon_{0}\\mu_{0}\\partial\\vec{E}/\\partial t$ in Ampere's law for steady currents to obtain the Ampere-Maxwell law in free space. [10]\n(b) Starting from Maxwell's equations, derive the differential equation for the $\\vec{E}$ field in an electromagnetic wave propagating in a conducting medium with conductivity $\\sigma$. Assume the following properties of the medium: $\\epsilon=\\mu=1$, and no free charges. [7]\n(c) Derive the expression for the wave number, k, for an electromagnetic wave propagating in the above conditions. Provide the definitions of good and bad conductors with reference to the expression for k. [7]\n(d) With reference to the expression for k, explain why electromagnetic waves cannot propagate in a perfect conductor $(\\sigma\\rightarrow\\infty)$. [6]",
         "source_pdf": "EM2_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Waveguides"
     }
 ]

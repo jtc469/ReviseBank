@@ -7,7 +7,8 @@
         "question_number": 1,
         "question_text": "(a) Consider the following function at point $a=(1,2,3)$, [cite: 26]\n$$f(x,y,z)=x^{3}y^{2}z.$$ [cite: 28]\n(i) Determine a formula for the directional derivative for f at a along the direction of a unit vector u. [cite: 29]\n(ii) Calculate the direction and rate of steepest ascent for f at a. [cite: 30]\n(iii) Calculate the direction and rate of steepest descent for f at a. [8] [cite: 31, 42]\n(b) Find and classify all the critical points of the following function: [cite: 32]\n$$f(x,y)=(y-2)x^{2}-y^{2}.$$ [8] [cite: 33, 43]\n(c) In the partial differential equation, [cite: 34]\n$$x\\frac{\\partial f}{\\partial x}+y\\frac{\\partial f}{\\partial y}=0,$$ [cite: 35]\nchange the variables from (x, y) to $(u,v)$ where [cite: 36]\n$$u=tan^{-1}(y/x)$$ and $$v=ln\\sqrt{x^{2}+y^{2}},$$ [cite: 38]\nand $(x,y)\\ne(0,0)$ [9] [cite: 37, 44]",
         "source_pdf": "MultivariableVecAnalysis_2MVA3.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Line & Surface Integrals"
     },
     {
         "id": "mva_2023_q2",
@@ -17,7 +18,8 @@
         "question_number": 2,
         "question_text": "(a) Find the equation of the plane which passes through the point (-2, 1,7) and is perpendicular to vector $\\vec{a}=(1,-8,5)$. [4] [cite: 47, 48]\n(b) Consider a circle of radius $R=1$ centered at the origin in the (x,y)-plane. [cite: 49]\nA particle moves along the circle at a constant speed. [cite: 50]\nProve, showing all steps, that the particle's velocity is always orthogonal to its acceleration. [7] [cite: 51, 58]\n(c) Consider $\\vec{r}=(x,y,z)$ where $(x,y,z)\\ne(0,0,0)$. [cite: 52]\nCalculate, showing all steps, $$div(\\frac{\\vec{r}}{r})$$ where $r=|\\vec{r}|$ [8] [cite: 52, 53, 59]\n(d) Consider the vector field $\\vec{F}(x,y,z)=(x(z-y),y(x-z),z(y-x))$. [cite: 54]\nFind the outward flux of $\\vec{F}$ through a unit sphere centered at the point $P=(1,-1,2)$. [6] [cite: 54, 60]",
         "source_pdf": "MultivariableVecAnalysis_2MVA3.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Vector Fields"
     },
     {
         "id": "mva_2023_q3",
@@ -27,7 +29,8 @@
         "question_number": 3,
         "question_text": "(a) Consider the double integral [cite: 63]\n$$I=\\iint_{D}\\frac{1}{(x^{2}+y^{2})^{3/2}}dxdy,$$ [cite: 65]\nwhere the domain D is bounded by $x = 1$, $x = 2$, $y = 0$ and $y=\\sqrt{3}x$. [cite: 66]\n(i) Express the integral as repeated integrals using Cartesian coordinates. [cite: 67]\n(ii) Express the integral as repeated integrals using polar coordinates. [cite: 68]\n(iii) Calculate the double integral you have written using one of the two coordinate systems. [10] [cite: 69, 84]\n(b) Consider the following triple integral [cite: 70]\n$$J=\\iint_{S}e^{(x^{2}+y^{2}+z^{2})^{3/2}}dxdydz,$$ [cite: 71]\nwhere the domain S is bounded by the following two surfaces: $$z=\\sqrt{3(x^{2}+y^{2})},$$ $$z=\\sqrt{4-(x^{2}+y^{2})}.$$ [cite: 71, 72]\n(i) Express the integral as repeated integrals using cylindrical coordinates. [cite: 73]\n(ii) Express the integral as repeated integrals using spherical coordinates. [cite: 74]\n(iii) Calculate the triple integral you have written using one of the two coordinate systems. [cite: 75]\n(iv) Using the result of (iii), or otherwise, calculate the following integral: $$K=\\iint_{S}(e^{(x^{2}+y^{2}+z^{2})^{3/2}}+sin(x)cos(y))dxdydz.$$ [cite: 77, 78]\n(v) Using the result of (iii), or otherwise, calculate the following integral: $$L=\\iint_{T}e^{(x^{2}+y^{2}+z^{2})^{3/2}}dxdydz,$$ [cite: 78, 79]\nwhere the domain T is defined as $$T=\\{(x,y,z):(x,y,z)\\in S \\text{ and } y\\ge0\\}.$$ [15] [cite: 80, 81, 85]",
         "source_pdf": "MultivariableVecAnalysis_2MVA3.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Multiple Integrals"
     },
     {
         "id": "mva_2023_q4",
@@ -37,7 +40,8 @@
         "question_number": 4,
         "question_text": "(a) Consider points $P_{1}=(1,1)$, and $P_{2}=(2,6)$ in the (x, y)-plane. [cite: 89]\nLet $C_{1}$ be a straight line between the points $P_{1}$ and $P_{2}$ and $C_{2}$ be an arc of the parabola $y=2x^{2}-x$ between the points $P_{1}$ and $P_{2}$. [cite: 90]\nFind the difference $I_{2}-I_{1}$ between the following integrals: [cite: 91]\n$$I_{1}=\\int_{C_{1}}(x+y)^{2}dx-(x-y)^{2}dy,$$ and $$I_{2}=\\int_{C_{2}}(x+y)^{2}dx-(x-y)^{2}dy.$$ [12] [cite: 92, 93]\n(b) Demonstrate, showing all steps, that the vector field $\\overline{F}(x,y,z)=(2x+yz,xz,xy+2z)$ is a gradient field. [cite: 94]\nHence, find a potential function $f(x,y,z)$ for $\\vec{F}$ by evaluating line integrals. [13] [cite: 95]",
         "source_pdf": "MultivariableVecAnalysis_2MVA3.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Vector Fields"
     },
     {
         "id": "mva_2022_q1",
@@ -47,7 +51,8 @@
         "question_number": 1,
         "question_text": "(a) Suppose that the positive real-valued function $z=z(x,y)$ is defined implicitly by the following equation: [cite: 138, 139]\n$$cos(xy)+ln(z)=yz-1/2.$$ [cite: 140]\nFind the partial derivatives $z_{x}$ and $z_{y}$ in terms of x, y and z. [cite: 141]\nFurther, calculate their values at the point $(x,y,z)=(\\pi,1/2,1).$ [7] [cite: 142, 153]\n(b) Write the equation for the tangent line to the intersection of the following two surfaces: [cite: 143]\n$$xy+yz+zx=11$$ and $$xyz=x+y+z$$ [cite: 144]\nat the point $a=(1,2,3)$. [9] [cite: 145, 154]\n(c) Using the method of Lagrange multipliers, find the maximum and minimum values of the function: [cite: 146]\n$$f(x,y,z)=x+z,$$ [cite: 147]\nwhere $(x,y,z)$ lies on the surface determined by the equation [cite: 148]\n$$x^{2}+y^{2}+z^{2}=1$$. [9] [cite: 149, 155]",
         "source_pdf": "MultivariableVecAnalysis_2MVA3_Online.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Line & Surface Integrals"
     },
     {
         "id": "mva_2022_q2",
@@ -57,7 +62,8 @@
         "question_number": 2,
         "question_text": "(a) (i) Give the definition of the cross product of two vectors, $\\vec{a}=(a_{1},a_{2},a_{3})$ and $\\vec{b}=(b_{1},b_{2},b_{3})$. [cite: 157, 158]\n(ii) Prove that $\\vec{a}\\times\\vec{b}=-\\vec{b}\\times\\vec{a}.$ [5] [cite: 159, 161]\n(b) Prove that the integral $I=\\int_{C}y^{3}cos~3x~dx+y^{2}sin~3xdy$ is path-independent. [6] [cite: 160, 162]\n(c) Find the work of the vector field $\\vec{F}:\\mathbb{R}^{2}\\rightarrow\\mathbb{R}^{2}$, where $\\vec{F}(x,y)=(-\\frac{\\pi}{y},\\frac{2\\pi}{x})$ along the arc, given by the section of the unit circle that starts at the point (0, 1) and ends at the point $(-1,0)$. [8] [cite: 164, 165]\n(d) (i) Calculate the divergence of the following vector field: [cite: 166]\n$$\\vec{F}=(4xz,-y^{2},yz)$$. [cite: 167]\n(ii) Find the curl of the following vector field: [cite: 168]\n$$\\vec{F}=(x^{2}+yz,y^{2}+zx,z^{2}+xy)$$ at the point (1,2,3). [6] [cite: 169, 170, 174]",
         "source_pdf": "MultivariableVecAnalysis_2MVA3_Online.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Vector Fields"
     },
     {
         "id": "mva_2022_q3",
@@ -67,7 +73,8 @@
         "question_number": 3,
         "question_text": "Consider the triple integral [cite: 175]\n$$I=\\iint_{S}zdxdydz,$$ [cite: 177]\nwhere the domain S lies in the first octant of the real space, i.e. where $x,y$ and z are non-negative, and is bounded below by the surface $z=(x^{2}+y^{2})^{2}$ and bounded above by the surface $x^{2}+y^{2}+z^{2}=2$. [cite: 178, 179, 180]\n(a) Calculate the integral $I$ using cylindrical coordinates. [10] [cite: 181, 183]\n(b) Express the integral $I$ as repeated integrals using Cartesian coordinates. [3] [cite: 182, 184]\n(c) Express the integral $I$ as repeated integrals using spherical coordinates. [6] [cite: 185, 186]\n(d) Using the result of (3a), or otherwise, calculate the following integral: [cite: 188]\n$$J=\\iint_{T}(z+x~sin(y^{2}))dxdydz,$$ [cite: 189]\nwhere the domain T is enclosed by the two surfaces $z=(x^{2}+y^{2})^{2}$ and $x^{2}+y^{2}+z^{2}=2$. [6] [cite: 190, 191, 192]",
         "source_pdf": "MultivariableVecAnalysis_2MVA3_Online.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Multiple Integrals"
     },
     {
         "id": "mva_2022_q4",
@@ -77,7 +84,8 @@
         "question_number": 4,
         "question_text": "(a) Find the value of the integral $I=\\int_{C}(2x+\\frac{1}{y})dx+(2y-\\frac{x}{y^{2}})dy$ along an arbitrary smooth curve C, which starts at the point $A(1,1)$ and ends at the point $B(2,2)$ without crossing the x-axis. [15] [cite: 193, 198]\n(b) Compute the value of the line integral [cite: 194]\n$$\\oint_{C}(x^{2}+y)dx+2xdy$$ [cite: 195]\nusing Green's theorem, where C is the counterclockwise-oriented triangle with vertices (0,0), (1,0) and (0, 1). [cite: 196]\nIn your solution please include an explanation as to why Green's theorem can be applied here. [10] [cite: 197, 199]",
         "source_pdf": "MultivariableVecAnalysis_2MVA3_Online.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Line & Surface Integrals"
     },
     {
         "id": "mva_2024_q1",
@@ -87,7 +95,8 @@
         "question_number": 1,
         "question_text": "(a) Consider the function [cite: 228]\n$$f(x,y,z)=e^{xy^{2}z^{3}}$$. [cite: 229]\nCalculate: [cite: 230]\n(i) The direction and rate of steepest ascent for the function at the point (1, 1, 1). [cite: 232]\n(ii) The direction and rate of steepest descent for the function at the point (1, 1, 1). [cite: 233]\n(iii) The directional derivative of the function at the point (1, 1, 1) in the direction from the point (1, 1, 1) to the point (2, -1, -1). [7] [cite: 234, 244]\n(b) Find the tangent plane to the surface, described by the following equation: [cite: 235]\n$$x^{2}+y^{3}+z^{4}=3$$ at the point (1, 1, 1). [5] [cite: 236, 237, 245]\n(c) Find and classify all the critical points of the following function: [cite: 238]\n$$f(x,y)=xy^{2}-3x^{2}-y^{2}+2x+2$$. [7] [cite: 239, 246]\n(d) Find the volume of the solid that is enclosed by the surfaces: $z=0$, $z=y^{2},$ $y=x^{2}$ and $x=y^{2}$ [6] [cite: 240, 247]",
         "source_pdf": "MultivariableVecAnalysis_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Line & Surface Integrals"
     },
     {
         "id": "mva_2024_q2",
@@ -97,7 +106,8 @@
         "question_number": 2,
         "question_text": "(a) Give the definition of the triple scalar product (also known as the mixed product). [cite: 250]\nProve that for any $\\vec{a}$ $\\vec{b}$ and $\\vec{c},$ [cite: 251]\n$$\\vec{a}\\cdot(\\vec{b}\\times\\vec{c})=\\vec{c}\\cdot(\\vec{a}\\times\\vec{b})=\\vec{b}\\cdot(\\vec{c}\\times\\vec{a})$$. [6] [cite: 252, 253]\n(b) Consider the curve C given by the following parametrization: [cite: 254]\n$$x=sin^{2}(t),\\quad y=1-cos(t),\\quad z=2t$$. [cite: 255]\nFind the unit tangent vector $\\vec{T}$ to the curve C at point $M_{0}$ corresponding to $t=t_{0}=\\frac{\\pi}{2}$ [6] [cite: 256, 262]\n(c) Consider a vector field $\\vec{F}$ defined on the whole 3-dimensional space and let $\\vec{G}=c\\vec{F},$ where $c\\in\\mathbb{R}$ is a constant. [cite: 257]\nProve, showing all steps, the following statement: if $\\vec{F}$ is a conservative vector field, then the field $\\vec{G}$ is also conservative. [5] [cite: 258, 263]\n(d) Consider a counterclockwise-oriented closed contour C consisting of two parts $C_{1}$ and $C_{2}$ [cite: 259]\nThe curve $C_{1}$ is defined by its parametrization as $C_{1}:x(t)=R~cos(\\pi t),y(t)=R~sin(\\pi t)$ for $0\\le t\\le1$ and the curve $C_{2}$ is defined as $C_{2}:x(t)=Rt,y(t)=0$ for $-1\\le t\\le1,$ where $R\\in\\mathbb{R}$ and $R>0.$ [cite: 259]\nCompute the line integral $\\oint_{C}\\vec{F}\\cdot d\\vec{r}$ of the vector field $\\vec{F}=(cos~x-\\frac{y^{3}}{3},\\frac{x^{3}}{3}+sin~y)$ along the contour C. [8] [cite: 259, 260, 261, 264]",
         "source_pdf": "MultivariableVecAnalysis_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Vector Fields"
     },
     {
         "id": "mva_2024_q3",
@@ -107,7 +117,8 @@
         "question_number": 3,
         "question_text": "Consider the triple integral as follows: [cite: 269]\n$$J=\\iint_{T}xydxdydz,$$ [cite: 271]\nwhere the domain T is the tetrahedron with its vertices at (0, 0, 0), (2, 0, 0), (2, 2, 0) and (2, 0, 2). [cite: 272]\n(a) Express the integral as repeated integrals using: [cite: 273]\n(i) Cartesian coordinates, [cite: 274]\n(ii) Cylindrical coordinates, and [cite: 275]\n(iii) Spherical coordinates. [18] [cite: 276, 284]\n(b) Calculate the integral using any one of the three coordinates, using the result obtained in (a), or otherwise. [3] [cite: 277, 285]\n(c) Using the result of (b), or otherwise, calculate the following integral: [cite: 278]\n$$K=\\iint_{S}(xy+xy^{2}sinh(z))dxdydz,$$ [cite: 279]\nwhere the domain S is the union of the domain T and its image in the Oxy plane. [4] [cite: 280, 286]",
         "source_pdf": "MultivariableVecAnalysis_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Multiple Integrals"
     },
     {
         "id": "mva_2024_q4",
@@ -117,7 +128,8 @@
         "question_number": 4,
         "question_text": "(a) Consider a function $f(x,y,z):\\mathbb{R}^{3}\\rightarrow\\mathbb{R}$ where $f(x,y,z)$ is twice differentiable in a spatial domain $D\\subset\\mathbb{R}^{3}$ [cite: 289]\nThe Laplace equation written for the function $f(x,y,z)$ in the domain D is: [cite: 289]\n$$\\Delta f\\equiv\\frac{\\partial^{2}f}{\\partial x^{2}}+\\frac{\\partial^{2}f}{\\partial y^{2}}+\\frac{\\partial^{2}f}{\\partial z^{2}}=0.$$ [cite: 290]\n(i) Demonstrate, showing all steps, that $\\Delta f=div(grad(f))$ [cite: 291]\n(ii) Let $f(x,y,z)\\equiv f(r)=\\frac{1}{r},$ where $r=\\sqrt{x^{2}+y^{2}+z^{2}}$, and let the domain D be defined as $D:x>0,y>0,z>0$ [cite: 292, 293, 294]\nIs the function $f(r)$ a solution to the Laplace equation in the domain D? [cite: 294]\nExplain your answer, showing all steps. [12] [cite: 295, 303]\n(b) Consider the vector field [cite: 296]\n$$\\vec{F}=((\\frac{x^{3}}{5}+\\frac{z^{2}y^{4}}{10}+\\frac{z^{5}}{15}),(\\frac{x^{5}z}{25}+\\frac{y^{3}}{5}+\\frac{x^{3}z^{2}}{10}),(\\frac{yx^{5}}{10}+\\frac{x^{5}y^{3}}{15}+\\frac{z^{3}}{5}))$$ [cite: 297]\nand the spherical shell $\\Omega$ defined as : $a^{2}\\le x^{2}+y^{2}+z^{2}\\le b^{2},$ where $a,b\\in\\mathbb{R}$ and $0<a<b$. [cite: 298]\nFind the surface integral $\\int\\vec{F}\\cdot d\\vec{S}$ over the surface of the spherical shell $\\Omega$. [13] [cite: 299, 304]",
         "source_pdf": "MultivariableVecAnalysis_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Vector Fields"
     },
     {
         "id": "mva_2025_q1",
@@ -127,7 +139,8 @@
         "question_number": 1,
         "question_text": "(a) Find the direction of the tangent to the intersection of the two surfaces: [cite: 342]\n$$xy+yz+zx=5$$ and $$xyz=2$$ [cite: 343]\nat the point (1, 1, 2). [6] [cite: 344, 359]\n(b) Consider the function: [cite: 345]\n$$f(x,y,z)=x+y+z+e^{xyz}.$$ [cite: 346]\nCalculate: [cite: 348]\n(i) The gradient of the function at the point $(0,1,1)$. [cite: 349]\n(ii) The direction and rate of steepest descent for the function at the point (0, 1, 1). [cite: 350]\n(iii) The directional derivative of the function at the point (0, 1, 1) in the direction from the point (0, 1, 1) to the point (-2, -1, 2). [7] [cite: 351, 360]\n(c) Using Lagrange multipliers, find the maximum and minimum values of the function: [cite: 352]\n$$f(x,y,z)=x+2y+3z$$ [cite: 353]\nsubject to the constraint: [cite: 354]\n$$x^{2}+y^{2}+z^{2}=14$$ [12] [cite: 355, 361]",
         "source_pdf": "MultivariableVecAnalysis_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Line & Surface Integrals"
     },
     {
         "id": "mva_2025_q2",
@@ -137,7 +150,8 @@
         "question_number": 2,
         "question_text": "(a) Consider the following double integral [cite: 363]\n$$I=\\iint_{D}\\frac{x}{x^{2}+y^{2}}dxdy,$$ [cite: 365]\nwhere D is the triangular region with vertices at (0, 0), (1, 0) and (1, 1) in Cartesian coordinates. [cite: 366]\n(i) Express the double integral as repeated integrals in polar coordinates, integrating with respect to $r$ first. [cite: 367]\nThere is no need to evaluate the integral in this step. [cite: 368]\n(ii) Express the double integral as repeated integrals in polar coordinates, integrating with respect to $\\theta$ first. [cite: 369]\nAgain, there is no need to evaluate the integral in this step. [cite: 370]\n(iii) Calculate the integral using the results obtained in (i) or (ii) or otherwise. [10] [cite: 371, 376]\n(b) Consider the region S, which is inside the spherical surface $x^{2}+y^{2}+z^{2}=4$ but outside the cylindrical surface $x^{2}+y^{2}=1$. [cite: 372]\n(i) Express the volume V of the region as repeated integrals using cylindrical coordinates. [cite: 373]\n(ii) Express the volume V of the region as repeated integrals using spherical coordinates. [cite: 374]\n(iii) Calculate the volume V using either of the two coordinate systems, using the results obtained in (i) or (ii) or otherwise. [15] [cite: 375, 380]",
         "source_pdf": "MultivariableVecAnalysis_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Multiple Integrals"
     },
     {
         "id": "mva_2025_q3",
@@ -147,7 +161,8 @@
         "question_number": 3,
         "question_text": "(a) Consider the force $\\vec{F}=(sin(y)e^{x}-py)\\hat{i}+(cos(y)e^{x}-p)\\hat{j},$ $p\\in\\mathbb{R}$ and find the work W when a particle is moved by the force $\\vec{F}$ once around a closed contour C formed by the x-axis and the upper semi-circle $(x-a)^{2}+y^{2}=a^{2},$ $y\\ge0$, $a>0,$ where C is oriented counterclockwise. [8] [cite: 383, 389]\n(b) Consider $\\vec{r}=(x,y,z)$ and let $\\vec{r}_{0}$ be the position vector of a point $P_{0}=(x_{0},y_{0},z_{0})$ [cite: 384]\nCalculate, showing all steps in your solution, in the domain D, where $\\vec{q}=\\vec{r}-\\vec{r}_{0},$ $q=|\\vec{q}|$, and $\\mathbb{D}=\\mathbb{R}^{3}\\backslash\\{P_{0}\\}$: [cite: 384, 385, 387]\n$$\\nabla\\cdot(\\frac{\\vec{q}}{q})$$ [9] [cite: 386, 390]\n(c) Consider the vector field $\\vec{F}=2~sin(x)y\\hat{i}+x^{3}e^{z}\\hat{j}-cos(x)yz^{2}\\hat{k}$ and find, showing all steps, the flux of $\\vec{F}$ through the surface S of the cube $0\\le x\\le1$, $0\\le y\\le1$, $0\\le z\\le1$, where a normal vector to the surface S is pointing outwards. [8] [cite: 388, 391]",
         "source_pdf": "MultivariableVecAnalysis_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Vector Fields"
     },
     {
         "id": "mva_2025_q4",
@@ -157,6 +172,7 @@
         "question_number": 4,
         "question_text": "(a) Consider a circle of radius $R=1$ centred at the origin in the (x, y)-plane. [cite: 397]\nA particle moves along the circle at a constant speed. [cite: 398]\nProve that the acceleration vector and the position vector of the particle are collinear at any point of the circle. [5] [cite: 399, 401]\n(b) Evaluate, showing all steps in your solution, the integral: [cite: 400]\n$$\\int_{C}yds,$$ [cite: 402]\nwhere C is an arc of the curve $y=\\sqrt{2x}$ between the points (0,0) and $(1,\\sqrt{2})$ [7] [cite: 400, 405]\n(c) Demonstrate, showing all steps, that the vector field $\\vec{F}=(2x+y^{2}z)\\hat{i}+2xy\\hat{zj}+(xy^{2}-1)\\hat{k}$ is a gradient field. [cite: 403]\nHence, find the potential function f by computing line integrals. [13] [cite: 404, 406]",
         "source_pdf": "MultivariableVecAnalysis_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Vector Fields"
     }
 ]

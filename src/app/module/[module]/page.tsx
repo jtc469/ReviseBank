@@ -61,7 +61,7 @@ export default function ModulePage(props: { params: Promise<{ module: string }> 
   }, [decodedModule]);
 
   const years = useMemo(() => {
-    const y = new Set(allQuestions.map(q => q.year.toString()));
+    const y = new Set(allQuestions.map(q => q.year ? q.year.toString() : 'N/A'));
     return Array.from(y).sort().reverse();
   }, [allQuestions]);
 
@@ -72,7 +72,7 @@ export default function ModulePage(props: { params: Promise<{ module: string }> 
 
   const filteredQuestions = useMemo(() => {
     return allQuestions.filter(q => {
-      const matchYear = year === 'All' || q.year.toString() === year;
+      const matchYear = year === 'All' || (q.year ? q.year.toString() : 'N/A') === year;
       const matchTopic = topic === 'All' || (q.topic || 'Uncategorised') === topic;
       const matchStatus = status === 'All' || q.status === status;
       return matchYear && matchTopic && matchStatus;

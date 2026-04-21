@@ -7,7 +7,8 @@
         "question_number": 1,
         "question_text": "(a) (i) Determine whether $x=0$ is an ordinary point, a regular singular point or an irregular singular point of the ordinary differential equation for $y=y(x)$ given by\n\\[(x^{2}-1)y''(x)-6xy'(x)+12y(x)=0.\\]\nJustify your answer. [16]\n(ii) By seeking a power series solution to (1) about $x=0$, show that the coefficients $a_{n}$ of the power series satisfy a recurrence relation given by\n\\[a_{n+2}=\\frac{(n-3)(n-4)}{(n+1)(n+2)}a_{n}.\\]\n(iii) Use the recurrence relation (2) to determine the general solution to (1) as a power series, giving each of the linearly independent solutions up to and including the third term where possible. Write the solution in an appropriate form.\n(iv) Using (2), determine an open interval on which the solution to (1) is guaranteed to converge absolutely. You do not need to check the end points of this interval.\n(b) (i) Verify that $y_{1}(x)=x^{2}$ and $y_{2}(x)=x^{-1}$ are two solutions of the ordinary differential equation for $y=y(x)$ given by\n\\[x^{2}y''(x)-2y(x)=0, x>0.\\]\n(ii) Explain why (or show that) the linear combination $y_{3}(x)=c_{1}x^{2}+c_{2}x^{-1}$ is also a solution of (3) for any constants $c_{1},c_{2}$.\n(iii) Verify that $y_{4}(x)=1$ and $y_{5}(x)=x^{\\frac{1}{2}}$ are two solutions of the ordinary differential equation for $y=y(x)$ given by\n\\[yy''(x)+(y'(x))^{2}=0, x>0\\]\n(iv) What property of (4) means that the linear combination $y_{6}(x)=c_{1}+c_{2}x^{\\frac{1}{2}}$ is not guaranteed to be a solution of (4) for any constants $c_{1},c_{2}$. [9]",
         "source_pdf": "DiffEquations_2DE.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Series Solutions"
     },
     {
         "id": "2de_2023_q2",
@@ -17,7 +18,8 @@
         "question_number": 2,
         "question_text": "(a) Consider the dynamical system $\\dot{x}=x(x^{2}-4)$, $t\\ge0$.\n(i) Determine the number and location of the equilibrium points of the above system and determine graphically the stability of these equilibrium points.\n(ii) Sketch the direction field and add the solution curves for which $x(0)=-\\frac{5}{2},-\\frac{3}{2},\\frac{3}{2}$ and $x(0)=\\frac{5}{2}$. [7]\n(b) Consider the dynamical system $\\dot{x}=f(x,c)=(x^{2}-4)(x+c)$, $t\\ge0$, where $c\\in\\mathbb{R}$ is a control parameter of the system.\n(i) Sketch $f(x,c)$ for a number of values of c making sure all qualitative different cases are represented.\n(ii) Hence, determine the number and location of the equilibrium points of the above system for all values of the control parameter c.\n(iii) Using linear stability analysis, or otherwise, determine the stability of the equilibrium points found in part (ii).\n(iv) State the location of any bifurcations of the system and explain which kind of bifurcation they represent.\n(v) Sketch the bifurcation diagram of the system. [16]\n(c) Complete the following Theorem:\nPoincaré-Bendixson Theorem. Let M be a closed, bounded, positively invariant region of the system $\\dot{x}=P(x,y)$, $\\dot{y}=Q(x,y)$, containing a finite number of equilibrium points. Let $p\\in M$ and denote by $x(t;p)$ the trajectory which satisfies $x(0)=p$. Then one of the following possibilities holds as $t\\rightarrow\\infty$ [2]",
         "source_pdf": "DiffEquations_2DE.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Systems of ODEs"
     },
     {
         "id": "2de_2023_q3",
@@ -27,7 +29,8 @@
         "question_number": 3,
         "question_text": "The temperature $u=u(x,t)$ of a straight wire of uniform cross section can be described by the following differential equation, boundary conditions and initial condition:\n\\[\\alpha^{2}\\frac{\\partial^{2}u}{\\partial x^{2}}=\\frac{\\partial u}{\\partial t}, \\quad 0<x<1, t>0\\]\nBoundary conditions: $\\frac{\\partial u}{\\partial x}(0,t)=0$, $\\frac{\\partial u}{\\partial x}(1,t)=0$, $t>0$.\nInitial condition: $u(x,0)=\\begin{cases}0,&0<x\\le0.5,\\\\ 1,&0.5<x<1,\\end{cases}$\n(a) What is the physical interpretation of the boundary and initial conditions (6) and (7)? [2]\n(b) Use the Separation of Variables method to derive the following two ODEs that can be used to find solutions of (5):\n\\[X''(x)+\\sigma X(x)=0\\]\n\\[T'(t)+\\alpha^{2}\\sigma T(t)=0\\]\nwhere $\\sigma$ is an unknown constant. [3]\n(c) Convert the boundary conditions (6) into appropriate boundary conditions for (8), with justification. [2]\n(d) For nontrivial solutions to exist for (8) subject to the relevant boundary conditions, we must have $\\sigma\\ge0$. Show that a general solution to (5) subject to (6) is\n\\[u(x,t)=\\sum_{n=0}^{\\infty}k_{n}exp(-(\\alpha n\\pi)^{2}t)cos(n\\pi x)\\]\nwhere the $k_{n}$ are undetermined constants. State any principles used in your working. [7]\n(e) Impose (7) to find the separable solution of (5)-(7). [6]\n(f) What happens to the solution of (5)-(7) as $t\\rightarrow\\infty?$ Include the physical interpretation in your answer. [3]\n(g) What is the effect of decreasing $\\alpha$ on the long-term behaviour of the solution? Include the physical interpretation in your answer. [2]",
         "source_pdf": "DiffEquations_2DE.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Partial Differential Equations"
     },
     {
         "id": "2de_2023_q4",
@@ -37,7 +40,8 @@
         "question_number": 4,
         "question_text": "(a) Consider the following dynamical system on the plane:\n$\\dot{x}=(x+1)y$, $\\dot{y}=x(1+y^{3})$.\n(i) Determine the location and nature of the equilibrium points of the above system.\n(ii) Sketch the phase portrait of the system - this must include: equilibria, local behaviour at the equilibria, isoclines and global behaviour. [12]\n(iii) Add to the phase portrait an example of each qualitative different trajectory.\n(b) (i) Indicate on a $(x,y)$-plot those areas in which any trajectory will tend to $(-1,-1)$ for $t\\rightarrow\\infty$.\n(ii) Does this system exhibit any homoclinic or heteroclinic orbits? Explain your answer.\n(iii) Show, using Bendixson's Negative Criterion, that there can be no periodic orbits in the region $\\{(x,y)|x>0 \\text{ and } y>0\\}$.\n(iv) For what radius R does a circle with centre at $(-1,-1)$ enclose a positive invariant set?\n(v) Can you give an example of a negative invariant set for this system? Explain your answer.\n(vi) Is this system Hamiltonian? Explain your answer and if the system is Hamiltonian, derive the Hamiltonian function. [10]\n(c) Consider the following dynamical system on the plane: $\\dot{x}=\\frac{1}{2}(y+1)$, $\\dot{y}=-2(x+1)$.\n(i) Verify if this system is Hamiltonian or not.\n(ii) Show that the trajectories for this system are ellipses with centre at $(-1,-1)$. [3]",
         "source_pdf": "DiffEquations_2DE.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Systems of ODEs"
     },
     {
         "id": "2de3_2022_q1",
@@ -47,7 +51,8 @@
         "question_number": 1,
         "question_text": "(a) (i) By looking for a solution in the form $y(x)=x^{r}$, where r is a constant to be determined, obtain one nontrivial solution to the following ordinary differential equation in $y=y(x)$: $y''+5x^{-1}y'+4x^{-2}y=0$, where $x>0$. [3]\n(ii) Use the Reduction of Order method to obtain a second linearly independent solution: $y(x)=x^{-2}\\ln(x).$ [7]\n(iii) Use the Variation of Parameters method to obtain the general solution to $y''+5x^{-1}y+4x^{-2}y=x^{-2}.$ You may use the formulae associated with Variation of Parameters without deriving them if you wish. [10]\n(b) Consider the following partial differential equation in $u=u(x,t)$: $u_{tt}+2u_{t}-u_{xx}+\\gamma u=0$, where $\\gamma$ is an arbitrary constant. Convert this into two ordinary differential equations. You do not need to solve the resulting ordinary differential equations. Please explain your working. [5]",
         "source_pdf": "DiffEquations_2DE3.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Partial Differential Equations"
     },
     {
         "id": "2de3_2022_q2",
@@ -57,7 +62,8 @@
         "question_number": 2,
         "question_text": "Consider the following dynamical system on the plane:\n$\\dot{x}=(x-3)(y-2)$, $\\dot{y}=yx^{2}-x$.\n(a) Determine the location of the equilibrium points and use linear stability analysis to classify them. When the eigenvalues are real, compute the eigenvectors. [9]\n(b) Sketch the phase portrait of the system - this must include: equilibria, local behaviour at the equilibria, isoclines and global behaviour. [16]",
         "source_pdf": "DiffEquations_2DE3.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Systems of ODEs"
     },
     {
         "id": "2de3_2022_q3",
@@ -67,7 +73,8 @@
         "question_number": 3,
         "question_text": "Let $f(x)$ be a 2L-periodic function and assume that it has the following convergent Fourier series expansion: $f(x)=\\frac{a_{0}}{2}+\\sum_{n=1}^{\\infty}(a_{n}\\cos(\\frac{n\\pi x}{L})+b_{n}\\sin(\\frac{n\\pi x}{L}))$.\n(a) The 2-periodic function $g(x)$ is defined on $-\\pi<x\\le\\pi$ as $g(x)=\\begin{cases}2,&-\\pi<x\\le0\\\\ -2,&0<x\\le\\pi.\\end{cases}$. Sketch $g(x)$. [2]\n(b) Derive the Fourier series of $g(x)$. You may use the Euler-Fourier formulae without deriving them. [6]\n(c) We want a particular solution to $y''(x)-y(x)=g(x)$ where $g(x)$ is defined above. Derive this particular solution by looking for a solution in the form $y_{p}(x)=\\frac{A_{0}}{2}+\\sum_{n=1}^{\\infty}(A_{n}\\cos(nx)+B_{n}\\sin(nx))$ and matching coefficients appropriately. [10]\n(d) What is the general solution of (3)? [3]\n(e) To what value does the Fourier series for $g(x)$ converge at $x=\\pi/2?$ Use this value to show that $\\sum_{p=1}^{\\infty}\\frac{(-1)^{p-1}}{2p-1}=\\frac{\\pi}{4}.$ [4]",
         "source_pdf": "DiffEquations_2DE3.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Series Solutions"
     },
     {
         "id": "2de3_2022_q4",
@@ -77,7 +84,8 @@
         "question_number": 4,
         "question_text": "Consider the following dynamical system on the plane:\n$\\dot{x}=x(\\sqrt{x^{2}+y^{2}}+\\frac{2}{\\sqrt{x^{2}+y^{2}}}-4)+x-y,$\n$\\dot{y}=y(\\sqrt{x^{2}+y^{2}}+\\frac{2}{\\sqrt{x^{2}+y^{2}}}-4)+x+y,$\nwhere the positive square root is assumed.\n(a) Rewrite the dynamical system in the form $\\dot{r}=f(r,\\theta)$, $\\dot{\\theta}=g(r,\\theta)$, where f and g are appropriate functions and $(r,\\theta)$ are polar coordinates. [8]\n(b) Using the system in polar coordinates, show that it has two limit cycles and sketch the phase portrait. [9]\n(c) Is the system Hamiltonian? Explain your answer. [8]",
         "source_pdf": "DiffEquations_2DE3.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Systems of ODEs"
     },
     {
         "id": "2de_2024_q1",
@@ -87,7 +95,8 @@
         "question_number": 1,
         "question_text": "(a) Consider the following differential equation for $y=y(x)$: $xy''-(2x+1)y'+(x+1)y=0$ for $x>0$. Given that $y_{1}(x)=e^{x}$ is one solution of (1), find the general solution of (1). [8]\n(b) Hence, find the general solution of the following differential equation for $y=y(x)$: $xy''-(2x+1)y'+(x+1)y=x^{2}$, $x>0$. [8]\n(c) The Fourier series for $f(x)=x^{7}+2x^{3}$ on $[-1,1]$ is given by a function $g(x)$. State whether each of the following statements are true or false, justifying your answer in each case. You do not need to derive $g(x)$.\n(i) $g(0)=0$;\n(ii) $g(1)=3$;\n(iii) $g(-1)=g(1)$;\n(iv) $g(x)$ contains terms in $\\cos(n\\pi x)$, $n\\in\\mathbb{N}$. [9]",
         "source_pdf": "DiffEquations_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Series Solutions"
     },
     {
         "id": "2de_2024_q2",
@@ -97,7 +106,8 @@
         "question_number": 2,
         "question_text": "(a) Consider the one-dimensional dynamical system $\\frac{dx}{dt}=\\dot{x}=(x-2)(x^{2}+2x+c)$ where $c\\in\\mathbb{R}$ is a control parameter. First consider $c=1$.\n(i) Determine the number and location of the equilibrium points of dynamical system (3).\n(ii) Determine graphically the stability of these equilibrium points and draw the phase line.\n(iii) Sketch the direction field. Using the direction field, draw all solutions that are qualitatively different. [7]\nNow consider the system for an arbitrary c.\n(iv) Determine the number and location of the equilibrium points for all values of c.\n(v) Determine the stability of the equilibrium points found in part (iv), using linear stability analysis in at least one case.\n(vi) State the location of any bifurcations, giving an analytic justification, and explain which kind they represent.\n(vii) Sketch the bifurcation diagram. [12]\n(b) Consider the system $\\dot{x}=-y$, $\\dot{y}=x$. Prove that the solutions to this system are circles with centre at (0,0). [2]\n(c) Consider the system $\\dot{x}=\\cos(y)$, $\\dot{y}=-x$. (i) Check if this system is Hamiltonian or not. Justify your answer. (ii) If it is Hamiltonian, find the Hamiltonian function. [4]",
         "source_pdf": "DiffEquations_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Systems of ODEs"
     },
     {
         "id": "2de_2024_q3",
@@ -107,7 +117,8 @@
         "question_number": 3,
         "question_text": "Consider the following second order differential equation for $y=y(x)$: $3x^{2}y''+(x^{2}+5x)y'-(x+1)y=0$.\n(a) Determine whether $x=0$ is an ordinary point, a regular singular point or an irregular singular point. [3]\n(b) By seeking a power series solution about $x=0$, show that there are two linearly independent solutions $y_{1}(x)=\\sum_{n=0}^{\\infty}a_{n}x^{n+r_{1}}$ and $y_{2}(x)=\\sum_{n=0}^{\\infty}b_{n}x^{n+r_{2}}$ where $a_{n}=\\frac{(5-3n)a_{n-1}}{n(9n+12)}$ and $b_{n}=\\frac{(3-n)b_{n-1}}{n(3n-4)}.$ [15]\n(c) One of these series solutions will terminate at a finite value of n to yield an exact analytical solution. Identify if this is $y_{1}(x)$ or $y_{2}(x)$ and derive this solution. [4]\n(d) On what interval of x is the other linearly independent solution guaranteed to converge? [3]",
         "source_pdf": "DiffEquations_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Series Solutions"
     },
     {
         "id": "2de_2024_q4",
@@ -117,7 +128,8 @@
         "question_number": 4,
         "question_text": "(a) Consider the dynamical system $\\dot{x}=2(x^{2}-4)$, $\\dot{y}=3(y-1)$.\n(i) Determine the location and nature of the equilibrium points.\n(ii) Sketch the phase portrait including equilibria, local behaviour, isoclines and global behaviour.\n(iii) Add an example of each qualitatively different trajectory. [15]\n(b) (i) Specify the limit of the solution as $t\\rightarrow\\infty$ given $(x(t^{*}),y(t^{*}))=(0,0)$.\n(ii) Sketch all solutions that act as a separatrix.\n(iii) Does the system exhibit homoclinic or heteroclinic orbits? Justify.\n(iv) Show, using Bendixson's Negative Criterion, that there can be no periodic orbits in the region $\\{(x,y)|x>2 \\text{ and } y<1\\}$.\n(v) Specify whether the system has positive or negative invariant sets. [7]\n(c) For a 2D linear system $\\dot{x}=Ax$, state which type of equilibrium is found in region II of the classification diagram (Figure 2), justify analytically in terms of eigenvalues/eigenvectors, and sketch solutions close to this point. [3]",
         "source_pdf": "DiffEquations_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Systems of ODEs"
     },
     {
         "id": "2de_2025_q1",
@@ -127,7 +139,8 @@
         "question_number": 1,
         "question_text": "(a) Consider $x^{2}y''-2xy'-4y=0, x>0$. Given $y_{1}(x)=x^{-1}$ is a solution, find the general solution. [9]\n(b) Find the general solution for $x^{2}y''-2xy'-4y=x^{5}, x>0$. [8]\n(c) Match four ODEs (A-D) with given power series solutions (i-iv) without solving, justifying each case.\n(A) $y''-xy'+2y=\\cos(x)$;\n(B) $(x+1)y''-x^{2}y'+3y=0$;\n(C) $y'-e^{x}y=0$;\n(D) $3xy''+(2-x)y'-y=0$.\nSolutions: (i) $y(x)=\\alpha_{1}(1-\\frac{3}{2}x^{2}+...)+\\alpha_{2}(x-\\frac{x^{3}}{2}+...)$; (ii) $y(x)=\\alpha_{1}(x^{\\frac{1}{3}}+...)+\\alpha_{2}(1+...)$; (iii) $y(x)=\\alpha_{1}(1-x^{2})+\\alpha_{2}(x-\\frac{x^{3}}{6}-...)+(\\frac{x^{2}}{2}-...)$; (iv) $y(x)=\\alpha_{1}(1+x+x^{2}+...)$. [8]",
         "source_pdf": "DiffEquations_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Series Solutions"
     },
     {
         "id": "2de_2025_q2",
@@ -137,7 +150,8 @@
         "question_number": 2,
         "question_text": "The function $u=u(x,t)$ satisfies $\\frac{\\partial^{2}u}{\\partial x^{2}}=\\frac{\\partial^{2}u}{\\partial t^{2}}+\\frac{\\partial u}{\\partial t}+\\frac{1}{4}u$, $0<x<\\pi$, $t>0$ with $u(0,t)=u(\\pi,t)=0$, $u(x,\\pi)=0$, and $\\frac{\\partial u}{\\partial t}(x,0)=f(x)$.\n(a) Use Separation of Variables to convert the system into $X''(x)+\\sigma X(x)=0$ and $T''(t)+T'(t)+(\\frac{1}{4}+\\sigma)T(t)=0$ with appropriate boundary conditions. [5]\n(b) Derive non-trivial solutions for X(x) and give resulting values of $\\sigma$. [5]\n(c) Solve for T(t) and show the solution is $u(x,t)=\\sum_{n=1}^{\\infty}b_{n}e^{-\\frac{t}{2}}\\sin(nt)\\sin(nx)$. [10]\n(d) Derive a formula for $b_{n}$ using the final boundary condition. [5]",
         "source_pdf": "DiffEquations_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Systems of ODEs"
     },
     {
         "id": "2de_2025_q3",
@@ -147,7 +161,8 @@
         "question_number": 3,
         "question_text": "(a) Consider $\\dot{x}=x(c^{2}-x^{2}-1)$. For $c=\\sqrt{2}$, find equilibrium points, stability, and sketch direction field/trajectories. [5]\nThen for arbitrary c, find equilibrium points, stability (linear analysis), bifurcations, and sketch the bifurcation diagram. [12]\n(b) State the type of equilibrium found in region III of the linear system classification diagram (Figure 1), justifying in terms of eigenvalues. [3]\n(c) Find a 2D linear system whose solutions are ellipses $(x-1)^{2}+\\frac{(y-1)^{2}}{2}=\\alpha$ and check it has a centre at (1,1). [5]",
         "source_pdf": "DiffEquations_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Systems of ODEs"
     },
     {
         "id": "2de_2025_q4",
@@ -157,6 +172,7 @@
         "question_number": 4,
         "question_text": "(a) Consider $\\dot{x}=x(y+2)$, $\\dot{y}=y(x+1)$.\n(i) Identify if the system is linear/nonlinear and 1D/2D.\n(ii) Determine location, nature, and local properties of equilibria.\n(iii) Determine isoclines and sketch phase plane.\n(iv) Determine all straight-line trajectories. [11]\n(b) (i) Specify the limit of the solution as $t\\rightarrow\\infty$ given $(x(t^{*}),y(t^{*}))=(-1,-2)$.\n(ii) Sketch region where trajectories tend to $(-\\infty,0)$.\n(iii) Identify separatrix solutions.\n(iv) Discuss homoclinic/heteroclinic orbits.\n(v) Use Bendixson's Negative Criterion to show no periodic orbits in $\\{(x,y)|x>-1, y>-2\\}$.\n(vi) Discuss positive/negative invariant sets. [6]\n(c) For $\\dot{x}=x(3-\\sqrt{x^{2}+y^{2}}-\\frac{2}{\\sqrt{x^{2}+y^{2}}})+y, \\dot{y}=y(3-\\sqrt{x^{2}+y^{2}}-\\frac{2}{\\sqrt{x^{2}+y^{2}}})-x$, sketch the phase portrait and provide analytic underpinning. [8]",
         "source_pdf": "DiffEquations_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Systems of ODEs"
     }
 ]

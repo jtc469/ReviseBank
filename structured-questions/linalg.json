@@ -7,7 +7,8 @@
         "question_number": 1,
         "question_text": "(a) Explaining your working and quoting standard results where required, find the rank and nullity of the following matrices.\n$$X=\\begin{pmatrix}1&2&-3\\\\ 2&-1&2\\\\ 3&1&-1\\end{pmatrix}.$$\n$$Y=\\begin{pmatrix}1&1&-1\\\\ 1&2&0&3\\\\ 2&3&-1&4\\\\ 3&4&-2&5\\end{pmatrix}.$$ [5]\n(b) For each of the following matrices, say whether it is similar to a diagonal matrix over the reals. Justify your answers.\n$$A=\\begin{pmatrix}1&1\\\\ -1&3\\end{pmatrix}$$\n$$B=\\begin{pmatrix}-13&-28\\\\ 6&13\\end{pmatrix}$$\n$$C=\\begin{pmatrix}-7&-5\\\\ 10&7\\end{pmatrix}$$ [12]\n(c) Write the symmetric bilinear form\n$$F\\left(\\begin{pmatrix}x_{1}\\\\ x_{2}\\end{pmatrix},\\begin{pmatrix}y_{1}\\\\ y_{2}\\end{pmatrix}\\right)=x_{1}y_{1}+2x_{1}y_{2}+2x_{2}y_{1}-x_{2}y_{2}$$\non the space $V$ of $2\\times 1$ column vectors over $\\mathbb{R}$ in matrix form with respect to the usual basis $e_1, e_{2}$. Find a vector $e_{2}^{\\prime}$ such that $\\{e_{1},e_{2}^{\\prime}\\}$ is linearly independent and $F(e_{1},e_{2}^{\\prime})=0$. For your $e_{2}^{\\prime}$ find $F(e_{2}^{\\prime},e_{2}^{\\prime})$ and hence write down the matrix representing $F$ with respect to $e_{2}^{\\prime}$. Is $F$ an inner product? [8]",
         "source_pdf": "LinAlg_2021.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Inner Product Spaces"
     },
     {
         "id": "linalg_2021_q3",
@@ -17,7 +18,8 @@
         "question_number": 3,
         "question_text": "In the following, $V=\\mathbb{R}_{col}^{5}$ is the set of $5\\times 1$ (column) matrices over $\\mathbb{R}$, and the matrix $A$ is a $5\\times 5$ matrix over $\\mathbb{R}$ considered as a map $V\\rightarrow V$ defined by $v\\mapsto Av$.\n(a) Say what it means for $v\\in V$ to be an eigenvector of $A$ with corresponding eigenvalue $\\lambda$. [2]\n(b) If $v_{1},v_{2},v_{3},v_{4},v_{5}$ is a basis of $V$ where each $v_{i}$ is an eigenvector with eigenvalue $\\lambda_{i}$ for $i=1...5$, write down the matrix representation of $A$ with respect to this basis. [2]\n(c) Show that the minimum polynomial $m(x)$ of the matrix\n$$A=\\begin{pmatrix}2&0&0&3&0\\\\ 3&2&0&3&3\\\\ 0&0&2&0&0\\\\ 0&0&0&-1&0\\\\ -3&0&-3&-1\\end{pmatrix}$$\nhas degree 2 and say what $m(x)$ is. [8]\n(d) Find a basis of eigenvectors for the matrix $A$ above. Say what the eigenvalues corresponding to each of your eigenvectors are. [10]\n(e) Hence write down a matrix $P$ such that $P^{-1}AP=D$ where $D$ is diagonal, and say what your $D$ is. [3]",
         "source_pdf": "LinAlg_2021.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Eigenvalues & Eigenvectors"
     },
     {
         "id": "linalg_2022_q1",
@@ -27,7 +29,8 @@
         "question_number": 1,
         "question_text": "(a) (i) Give the definition of a linear map.\n(ii) Verify that the map $\\phi:P_{1}\\rightarrow P_{1}$ given by $f\\mapsto xf^{\\prime}+f(1)$ is a linear map. Here $P_{1}$ stands for the space of all polynomials of degree up to 1 and $f^{\\prime}$ is the derivative of the polynomial $f\\in P_{1}$. [5]\n(b) Verify that the matrix of $\\phi$ with respect to the standard basis of $P_{1}$ is\n$$T=\\begin{pmatrix}1&1\\\\ 0&1\\end{pmatrix}.$$ [4]\n(c) (i) Which linear maps are called linear isomorphisms?\n(ii) Using $T$ above, check whether the map from (a)(ii) is a linear isomorphism. [3]\n(d) (i) Define the kernel of an arbitrary linear map $\\psi:U\\rightarrow V$.\n(ii) Prove that $\\psi$ is injective if and only if $\\ker(\\psi)=0$.\n(iii) Based on your answer in (c)(ii), what can you say about $\\ker(\\phi)$? Explain. [8]\n(e) (i) Find the eigenvalues and eigenvectors of the matrix $T$ above.\n(ii) Is $T$ diagonalisable? Explain. [5]",
         "source_pdf": "LinAlg_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Eigenvalues & Eigenvectors"
     },
     {
         "id": "linalg_2022_q3",
@@ -37,7 +40,8 @@
         "question_number": 3,
         "question_text": "(a) (i) Give the definition of a bilinear form.\n(ii) Under which conditions is a bilinear form called an inner product? [5]\n(b) A symmetric bilinear form on a 2-dimensional vector space $U$ has the Gram matrix\n$$\\Phi = \\begin{pmatrix}a&b\\\\ c&1\\end{pmatrix}$$\nwith respect to a basis $\\{u,v\\}$. Find the entries $a$, $b$, and $c$ if it is given that $\\Phi(u,u)=1$ and $\\Phi(u+v,v)=0$. [4]\n(c) Let $V$ be an inner product space.\n(i) Which sets of vectors in $V$ are called orthogonal?\n(ii) Prove that every orthogonal set of non-zero vectors is linearly independent. [6]\n(d) Consider the space $P_{2}$ of all polynomials of degree up to 2 as an inner product space with respect to the inner product\n$$(f,g)=\\int_{-1}^{1}f(x)g(x)dx.$$\n(i) Verify that the polynomials 1 and $x$ are orthogonal.\n(ii) Find the orthogonal projection of $3x^{2}$ to the plane $W=\\langle 1,x\\rangle$. Clearly state which polynomial is the projection. [5]\n(e) Consider $\\mathbb{R}^{4}$ as an inner product space with respect to the dot product\n$$u\\cdot v=u_{1}v_{1}+u_{2}v_{2}+u_{3}v_{3}+u_{4}v_{4},$$\nwhere $u=(u_{1},u_{2},u_{3},u_{4})$ and $v=(v_{1},v_{2},v_{3},v_{4})$. Use the Gram-Schmidt process to construct an orthogonal basis in the subspace $E=\\langle (1,-1,0,0),(1,1,1,-1),(2,0,2,0)\\rangle$. [5]",
         "source_pdf": "LinAlg_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Inner Product Spaces"
     },
     {
         "id": "linalg_2023_q1",
@@ -47,7 +51,8 @@
         "question_number": 1,
         "question_text": "(a) (i) Give the definition of a linear map.\n(ii) Verify that $\\phi:P_{1}\\rightarrow P_{1}$ given by $f\\mapsto\\frac{d}{dx}[(x-1)f]$ is a linear map. Here $P_{1}$ stands for the space of all polynomials in the indeterminate $x$, of degree up to 1. [5]\n(b) Verify that the matrix of this with respect to the standard basis of $P_{1}$ is\n$$M=\\begin{pmatrix}1&-1\\\\ 0&2\\end{pmatrix}$$ [3]\n(c) (i) State the definition of the kernel of a linear map.\n(ii) Determine the kernel of the map $\\phi$ from part (a).\n(iii) Is $\\phi$ injective? Explain. [7]\n(d) Suppose that $\\alpha:U\\rightarrow V$ and $\\beta:U\\rightarrow V$ are linear maps, where $U$ and $V$ are vector spaces over the same field of scalars $\\mathbb{F}$. Show that $\\ker(\\alpha)\\subseteq \\ker(\\beta)$ if and only if, for $u,u^{\\prime}\\in U$, the equality $\\alpha(u)=\\alpha(u^{\\prime})$ implies $\\beta(u)=\\beta(u^{\\prime})$. [5]\n(e) (i) Find the eigenvalues and eigenvectors of the matrix $M$ above.\n(ii) Either find a matrix $T$ such that $D=T^{-1}MT$ is diagonal or explain why $M$ is not diagonalisable. [5]",
         "source_pdf": "LinAlg_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Eigenvalues & Eigenvectors"
     },
     {
         "id": "linalg_2023_q3",
@@ -57,7 +62,8 @@
         "question_number": 3,
         "question_text": "(a) What is an inner product space? Your answer should include the definition of an inner product, but you may assume that the general concept of a bilinear form is known. [4]\n(b) Let $V$ be an inner product space. For a subspace $W\\subseteq V$, define the perp of $W$ as\n$$W^{\\perp}=\\{v\\in V|(v,w)=0 \\text{ for all } w\\in W\\}.$$\nUsing the subspace criterion, show that $W^{\\perp}$ is a subspace of $V$. [5]\n(c) Let again $V$ be an inner product space.\n(i) Which bases in $V$ are called orthogonal? Which bases are called orthonormal?\n(ii) Suppose that $B=\\{v_{1},v_{2},...,v_{n}\\}$ is an orthogonal basis of $V$. Deduce the following formula for the $B$-coordinates $c_{1},c_{2},...,c_{n}$ of a vector $v\\in V$:\n$$c_{i}=\\frac{(v,v_{i})}{(v_{i},v_{i})},$$\nfor $i=1,2,...,n$.\n(iii) How does the formula simplify when the basis $B$ is known to be orthonormal? [6]\n(d) Consider the polynomial space $P_{2}$ as an inner product space with respect to the inner product\n$$(f,g)=\\int_{0}^{1}f(x)g(x)dx.$$\n(i) Verify that the polynomials 1 and $2x-1$ are orthogonal.\n(ii) Find the length of $2x-1$.\n(iii) Find the orthogonal projection of $x^{2}$ to the line $L=\\langle 1\\rangle$. Clearly state which polynomial is the projection. [5]\n(e) Consider $\\mathbb{R}^{4}$ as an inner product space with respect to the dot product\n$$u\\cdot v=u_{1}v_{1}+u_{2}v_{2}+u_{3}v_{3}+u_{4}v_{4}$$\nwhere $u=(u_{1},u_{2},u_{3},u_{4})$ and $v=(v_{1},v_{2},v_{3},v_{4})$. Use the Gram-Schmidt process to construct an orthogonal basis in the subspace $E=\\langle (1,-1,0,0),(1,-1,-1,1),(2,0,0,2)\\rangle$. [5]",
         "source_pdf": "LinAlg_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Inner Product Spaces"
     },
     {
         "id": "linalg_2024_q1",
@@ -67,7 +73,8 @@
         "question_number": 1,
         "question_text": "Let $(V,\\langle\\cdot,\\cdot\\rangle)$ denote an inner product space with $\\dim V=n$. Let $||\\cdot||$ denote the norm induced by the inner product $\\langle\\cdot,\\cdot\\rangle$.\n(a) Show that for all $u,v\\in V$ there holds\n$$||u+v||\\le||u||+||v||$$\nFor which non-zero vectors $u, v$ does equality hold? [4]\n(b) Let $S=\\{v_{1},v_{2},...,v_{k}\\}$ denote a set of non-zero vectors in $V$, orthogonal with respect to the inner product $\\langle\\cdot,\\cdot\\rangle$.\n(i) Show that $S$ is a linearly independent set if $k\\le n$.\n(ii) Show that $0\\in S$ if $k=n+1$. [6]\nIn the remainder of this question, we let $\\mathcal{P}_{m}(\\mathbb{R})$ denote the space of polynomials of degree $m$ with real coefficients. We define the inner product $\\langle\\cdot,\\cdot\\rangle:\\mathcal{P}_{4}(\\mathbb{R})\\times\\mathcal{P}_{4}(\\mathbb{R})$ via\n$$\\langle p,q\\rangle:=\\int_{-1}^{1}p^{\\prime}(x)q^{\\prime}(x)dx+p(0)q(0),$$\nwhere $p^{\\prime}(x),q^{\\prime}(x)$ denote the first derivatives of $p(x),q(x)$, respectively, with respect to $x$.\n(c) Let $V=\\mathcal{P}_{3}(\\mathbb{R})$. Find a basis $B=\\{q_{1},q_{2},q_{3},q_{4}\\}$ for $V$ which is orthogonal with respect to the inner product $\\langle\\cdot,\\cdot\\rangle$. [8]\n(d) Find a polynomial $q_{5}$ orthogonal to the polynomials $q_{i}(i=1,2,3,4)$ from part (c). Make sure you explain your working or justify your answer. [3]\n(e) Find the orthogonal projection of $p(x)=x^{4}$ onto $V$ with respect to $\\langle\\cdot,\\cdot\\rangle$. [4]",
         "source_pdf": "LinAlg_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Inner Product Spaces"
     },
     {
         "id": "linalg_2024_q2",
@@ -77,6 +84,7 @@
         "question_number": 2,
         "question_text": "Let $f:V\\rightarrow V$ be a linear map, where $V$ denotes a finite-dimensional vector space over some field $\\mathbb{F}$.\n(a) Let $a\\in\\mathbb{F}$ and define $E_{a}:=\\ker(a\\cdot id_{V}-f)$, where $id_{V}$ is the identity map on $V$.\n(i) Show that if a non-zero vector $v$ is in $E_{a}$ for some $a$, then $(a,v)$ is an eigenpair for $f$.\n(ii) Show that $E_{a}\\le V$.\n(iii) Can we have $E_{a}=V$? If so, give an example; if not, explain why. [8]\nLet now $V=\\mathcal{P}_{2}(\\mathbb{R})$ and let $f$ be given by\n$$f(p)=(x-1)p^{\\prime}(x),\\quad p\\in V.$$\n(b) Show that $f$ is a linear map. [2]\n(c) Write down the matrix representation $A$ for $f$ with respect to the power basis. [3]\n(d) Write down the characteristic polynomial of $A$. Hence, find the eigenpairs of $A$. [9]\n(e) Use the eigenvectors of $A$ to derive the eigenvectors of $f$. [3]",
         "source_pdf": "LinAlg_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Eigenvalues & Eigenvectors"
     }
 ]

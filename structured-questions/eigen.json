@@ -7,7 +7,8 @@
         "question_number": 1,
         "question_text": "The Hermite polynomials, H_n(x), are defined by the Rodrigues formula\n\\[\nH_n(x)=(-1)^n e^{x^2}\\frac{d^n}{dx^n}\\left[e^{-x^2}\\right].\n\\]\n(a) State the orthogonality condition for these polynomials, specifying the interval and the weight function. [3]\n(b) Use the Rodrigues formula to prove this condition for H_n(x) and H_m(x) with n \\ne m. [7]",
         "source_pdf": "Eigen_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2019_q2",
@@ -17,7 +18,8 @@
         "question_number": 2,
         "question_text": "The following sets of functions are all defined on the interval x \\in [0,1] and have the usual rules of addition and multiplication by a real scalar.\n(a) The set of all polynomials, p_n(x), which are of degree n \\le 3 and have p_n(0)=0.\n(b) The set of all positive functions.\n(c) The set of all functions f(x) with the property that f(x)=f(1-x).\nDetermine which of these sets form a vector space over the field $\\mathbb{R}$ of real numbers. [10]",
         "source_pdf": "Eigen_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2019_q3",
@@ -27,7 +29,8 @@
         "question_number": 3,
         "question_text": "Formulate the completeness condition for a set of three vectors, $\\{|e^{(1)}\\rangle, |e^{(2)}\\rangle, |e^{(3)}\\rangle\\}$, in $\\mathbb{C}^3$, and explain its meaning. Show that the set of orthonormal vectors, whose matrix representations are given below, is complete, i.e. satisfies this condition. [10]\n\\[\ne^{(1)} = \\frac{1}{\\sqrt{3}}\\begin{pmatrix}1\\\\1\\\\i\\end{pmatrix}, \\qquad\ne^{(2)} = \\frac{1}{\\sqrt{6}}\\begin{pmatrix}1\\\\1\\\\-2i\\end{pmatrix}, \\qquad\ne^{(3)} = \\frac{1}{\\sqrt{2}}\\begin{pmatrix}i\\\\-i\\\\0\\end{pmatrix}.\n\\]",
         "source_pdf": "Eigen_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Hilbert Spaces & Dirac Notation"
     },
     {
         "id": "eigen_2019_q4",
@@ -37,7 +40,8 @@
         "question_number": 4,
         "question_text": "Type I Chebyshev polynomials are defined by the expression\n\\[\nT_n(x)=\\cos\\bigl(n\\cos^{-1}x\\bigr), \\qquad |x|\\le 1.\n\\]\n(a) Find explicitly the polynomials T_n(x) with n \\le 3. [5]\nHint: You might find de Moivre's theorem, $\\cos nt = \\operatorname{Re}(\\cos t + i\\sin t)^n$, and the substitution $t=\\cos^{-1}x$, useful.\n(b) Show that T_n(x) satisfies the differential equation\n\\[\n(1-x^2)\\frac{d^2 y}{dx^2} - x\\frac{dy}{dx} + n^2 y = 0.\n\\]\n[5]",
         "source_pdf": "Eigen_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2019_q5",
@@ -47,7 +51,8 @@
         "question_number": 5,
         "question_text": "The vector space of polynomials of degree \\le 2 is spanned by the basis set $\\{1,x,x^2\\}$. Find in this basis the matrix representing the operator L defined by\n\\[\nL = x\\frac{d}{dx} + (x^2-1)\\frac{d^2}{dx^2}.\n\\]\n[10]",
         "source_pdf": "Eigen_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2019_q6",
@@ -57,7 +62,8 @@
         "question_number": 6,
         "question_text": "Rewrite the differential equation\n\\[\n(1-x^2)\\frac{d^2 y}{dx^2} - (2\\alpha+1)x\\frac{dy}{dx} + n(n+2\\alpha)y = 0\n\\]\n(where $\\alpha>0$ and n is integer) in Sturm-Liouville form,\n\\[\n\\frac{d}{dx}\\left[p(x)\\frac{dy}{dx}\\right] + \\lambda w(x)y = 0,\n\\]\ndeducing expressions for $p(x)$, $w(x)$, and $\\lambda$. [8]\nChoose a natural interval for x, and explain why this form is self-adjoint on this interval. [2]",
         "source_pdf": "Eigen_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Hilbert Spaces & Dirac Notation"
     },
     {
         "id": "eigen_2019_q7",
@@ -67,7 +73,8 @@
         "question_number": 7,
         "question_text": "(a) Chebyshev polynomials of Type II, U_n(x), are the solutions of the differential equation\n\\[\n(1-x^2)\\frac{d^2 y}{dx^2} - 3x\\frac{dy}{dx} + n(n+2)y = 0,\n\\]\nwhich are non-divergent on the interval x \\in [-1,1]. Solve this equation with a power series,\n\\[\ny = \\sum_{k=0}^{\\infty} a_k x^k,\n\\]\nand show that the recursion relation that makes the solution non-divergent for a given n is\n\\[\n\\frac{a_{k+2}}{a_k} = \\frac{(k-n)(k+n+2)}{(k+1)(k+2)}.\n\\]\n[10]\n(b) Use the recursion relations established in part (a) to find explicit expressions for U_n(x) for 0 \\le n \\le 4, given that $a_0 = (-1)^{n/2}$ for even n, and $a_1 = (-1)^{(n-1)/2}(n+1)$ for odd n. [10]\n(c) Alternatively, U_n(x) can be defined by the recursion relation\n\\[\nU_{n+1}(x)=2xU_n(x)-U_{n-1}(x),\n\\]\ngiven that $U_0(x)=1$ and $U_1(x)=2x$. Use this relation to find U_n(x) with 2 \\le n \\le 4, and compare with the results of part (b). [3]\n(d) Use the recursion relation of part (c) to prove the identity\n\\[\n\\sum_{n=0}^{\\infty} U_n(x)t^n = \\frac{1}{1-2tx+t^2} \\equiv g(t,x).\n\\]\n[5]\n(e) Give a formal definition of U_n(x) in terms of the appropriate partial derivative of the generating function $g(t,x)$. [2]",
         "source_pdf": "Eigen_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2019_q8",
@@ -77,7 +84,8 @@
         "question_number": 8,
         "question_text": "In this problem, we consider a space V of non-divergent functions defined on the interval x \\in [-1,1] with the weight function $w(x)=1$.\n(a) Formulate the orthogonality condition for two functions in V. [3]\n(b) Apply the Gram-Schmidt orthogonalisation procedure to the monomial basis in space V, $\\{e_n\\}\\equiv\\{x^n\\}=\\{1,x,x^2,\\dots\\}$, to build a set of normalised, mutually orthogonal polynomials, $\\{\\phi_n(x)\\}$, with n \\le 3. [12]\n(c) The Legendre polynomials, P_n(x), are defined in V with the generating function\n\\[\ng(t,x) \\equiv \\frac{1}{\\sqrt{1-2tx+t^2}} = \\sum_{n=0}^{\\infty} P_n(x)t^n.\n\\]\nUse this to derive expressions for P_n(x) with n \\le 3. Show that P_n(x) coincide, up to an overall factor, with the orthonormal functions $\\phi_n(x)$ found in part (b). [9]\n(d) Expand the function $f(x)=x^3-x-1$ in the basis $\\{P_n(x)\\}$. [6]\nHint: In part (d), you can use without derivation the norms $\\|P_n\\|=\\sqrt{\\frac{2}{2n+1}}$.",
         "source_pdf": "Eigen_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2019_q9",
@@ -87,7 +95,8 @@
         "question_number": 9,
         "question_text": "A Sturm-Liouville eigenvalue problem for a linear operator L, which is self-adjoint with suitable boundary conditions on an interval x \\in [a,b], is of the form\n\\[\nL(\\phi_n)=\\lambda_n w(x)\\phi_n,\n\\]\nwhere the weight function $w(x)$ is positive definite on $[a,b]$.\n(a) Show that the smallest eigenvalue, $\\lambda_0$, obeys the variational inequality\n\\[\n\\lambda_0 \\le \\frac{\\langle \\Psi|L(\\Psi)\\rangle}{\\langle \\Psi|\\Psi\\rangle_w},\n\\]\nwhere $\\Psi(x)$ is a function satisfying the same boundary conditions at x=a and x=b, and $\\langle \\Psi|\\Phi\\rangle_w$ is the inner product taken with the weight function w. [9]\nThe Schrödinger equation for the ground state of a particle of mass m in a potential $V(x)$ is\n\\[\n-\\frac{\\hbar^2}{2m}\\frac{d^2\\psi(x)}{dx^2}+V(x)\\psi(x)=E_0\\psi(x).\n\\]\nWe consider the potential\n\\[\nV(x)=V_0\\left|\\frac{x^3}{a^3}\\right|, \\qquad V_0>0, \\ a>0.\n\\]\n(b) Sketch this potential. [3]\n(c) Explain why the function $\\Psi(x)=e^{-x^2/(2b^2)}$, where b is a variational parameter, is a suitable trial function for estimating $E_0$. [4]\n(d) Use the function above to show that $E_0$ obeys the inequality\n\\[\nE_0 \\le \\frac{\\hbar^2}{4mb^2} + \\frac{V_0}{\\sqrt{\\pi}}\\left(\\frac{b}{a}\\right)^3.\n\\]\n[8]\n(e) Use the inequality to obtain the best estimate, for this form of trial function, of the ground state energy of this potential. [6]",
         "source_pdf": "Eigen_2019.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Hilbert Spaces & Dirac Notation"
     },
     {
         "id": "eigen_2022_q1",
@@ -97,7 +106,8 @@
         "question_number": 1,
         "question_text": "The Legendre polynomials are defined by the Rodrigues formula\n\\[\nP_n(x)=\\frac{1}{2^n n!}\\frac{d^n}{dx^n}(x^2-1)^n.\n\\]\n(a) Formulate the orthogonality condition for the Legendre polynomials and use the Rodrigues formula to prove it. [7]\n(b) Use this formula to evaluate P_n(x) for n \\le 2. [3]",
         "source_pdf": "Eigen_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2022_q2",
@@ -107,7 +117,8 @@
         "question_number": 2,
         "question_text": "Explain what is meant by saying that the vectors $\\{a,b,c,d\\}$ are linearly independent. [2]\nDemonstrate the linear dependence or independence of the four vectors in $\\mathbb{R}^4$, whose matrix representations are given below:\n\\[\na=\\begin{pmatrix}1\\\\1\\\\1\\\\-1\\end{pmatrix}, \\quad b=\\begin{pmatrix}1\\\\1\\\\-1\\\\1\\end{pmatrix}, \\quad c=\\begin{pmatrix}1\\\\-1\\\\1\\\\1\\end{pmatrix}, \\quad d=\\begin{pmatrix}-1\\\\1\\\\1\\\\1\\end{pmatrix}.\n\\]\n[8]",
         "source_pdf": "Eigen_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "General Eigenphysics"
     },
     {
         "id": "eigen_2022_q3",
@@ -117,7 +128,8 @@
         "question_number": 3,
         "question_text": "Formulate the completeness condition for a set of orthonormal vectors $\\{|e^{(i)}\\rangle\\}$ in a vector space and explain how to use it to represent any vector $a$ in this space using $\\{|e^{(i)}\\rangle\\}$ as a basis. [4]\nShow that the set of orthonormal vectors, whose matrix representations are given below, is complete in $\\mathbb{C}^3$. [6]\n\\[\ne^{(1)} = \\frac{1}{\\sqrt{3}}\\begin{pmatrix}1\\\\1\\\\i\\end{pmatrix}, \\qquad\ne^{(2)} = \\frac{1}{\\sqrt{6}}\\begin{pmatrix}1\\\\1\\\\-2i\\end{pmatrix}, \\qquad\ne^{(3)} = \\frac{1}{\\sqrt{2}}\\begin{pmatrix}i\\\\-i\\\\0\\end{pmatrix}.\n\\]",
         "source_pdf": "Eigen_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Hilbert Spaces & Dirac Notation"
     },
     {
         "id": "eigen_2022_q4",
@@ -127,7 +139,8 @@
         "question_number": 4,
         "question_text": "State whether each of the following sets is a vector space or not, checking the linearity axioms in the former case and producing a counter-example in the latter:\n(a) Antisymmetric real $n\\times n$ matrices, i.e. real $n\\times n$ matrices for which $A_{ji}=-A_{ij}$.\n(b) Real $n\\times n$ matrices with determinant 1.\n(c) Solutions of $f''+f=0$, with $f'(0)=0$.\n(d) Polynomials with $p(0)=p(1)$.\n(e) Solutions of $f''+ff'=0$. [10]",
         "source_pdf": "Eigen_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2022_q5",
@@ -137,7 +150,8 @@
         "question_number": 5,
         "question_text": "(a) The Chebyshev polynomials of type I are defined by\n\\[\nT_n(x)=\\cos\\bigl(n\\cos^{-1}x\\bigr), \\qquad |x|\\le 1.\n\\]\nShow that this expression can be rewritten as\n\\[\nT_n(x)=\\operatorname{Re}\\left(x+i\\sqrt{1-x^2}\\right)^n,\n\\]\nand use it to find explicitly the polynomials T_n(x) with n \\le 3. [6]\n(b) Use the expression for T_n(x) of part (a) to prove that\n\\[\ng(t,x)\\equiv -\\frac12\\ln(1-2tx+t^2)=\\sum_{n=1}^{\\infty}\\frac{T_n(x)t^n}{n}\n\\]\nis a generating function for T_n(x) with n \\ge 1, and apply it to reproduce the results of part (a) for T_n(x) with 1 \\le n \\le 3. [9]\n(c) Consider a space V of non-divergent functions defined on the interval x \\in [-1,1] with the weight function $w(x)=(1-x^2)^{-1/2}$. Prove that the polynomials T_n(x) are mutually orthogonal in this space. [6]\n(d) Apply the Gram-Schmidt orthogonalisation procedure to the monomial basis $\\{u_n\\}\\equiv\\{x^n\\}=\\{1,x,x^2,\\dots\\}$ in the space V to build a set of orthonormal polynomials, $\\phi_n(x)$, with n \\le 3. Show that these polynomials coincide, up to a numerical factor, with the Chebyshev polynomials T_n(x). [9]",
         "source_pdf": "Eigen_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2022_q6",
@@ -147,7 +161,8 @@
         "question_number": 6,
         "question_text": "Consider a space V of real functions on an interval x \\in [0,\\infty), where the inner product\n\\[\n\\langle f|g\\rangle = \\int_0^{\\infty} f(x)g(x)w(x)\\,dx,\n\\]\nis defined with the weight function w(x) generated by the differential operator\n\\[\nM = x\\frac{d^2}{dx^2} + (3-x)\\frac{d}{dx}.\n\\]\n(a) Write the eigenvalue problem $M(y)=\\lambda y$ in Sturm-Liouville form and hence determine the weight function w(x). [6]\n(b) Formulate conditions that must be satisfied by any function f(x) in the space V for the Sturm-Liouville operator $L=w(x)M$ to be self-adjoint in this space. [4]\n(c) Use the generalised Rodrigues formula for orthogonal polynomials generated by the operator M to find its first four eigenfunctions and all its eigenvalues. [7]\n(d) Find a matrix representation of M in the monomial basis $\\{u_n\\}\\equiv\\{x^n\\}$ for n \\le 3. [5]\n(e) Use the matrix representation found in part (d) to determine the eigenvalues and eigenfunctions of M for n \\le 3, and show that they coincide with those of part (c) up to an overall factor. [8]",
         "source_pdf": "Eigen_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2022_q7",
@@ -157,7 +172,8 @@
         "question_number": 7,
         "question_text": "A Sturm-Liouville eigenvalue problem for a linear operator L defined on x \\in [a,b] is of the form\n\\[\nL(\\phi_n)=\\lambda_n w(x)\\phi_n(x),\n\\]\nwhere the weight function $w(x)$ is positive definite on $[a,b]$, and all functions obey suitable boundary conditions at x=a and x=b.\n(a) Show that the lowest eigenvalue, $\\lambda_0$, obeys the variational inequality\n\\[\n\\lambda_0 \\le \\frac{\\langle \\psi|L(\\psi)\\rangle_{w=1}}{\\langle \\psi|\\psi\\rangle_w},\n\\]\nwhere $\\psi(x)$ is a function satisfying the same boundary conditions as $\\phi_n(x)$, and $\\langle \\psi|\\phi\\rangle_w$ is the inner product with weight w. [9]\nThe ground state radial wave function, $\\phi_0(\\rho)$, of a particle of mass m in a two-dimensional anharmonic potential obeys the Schrödinger equation\n\\[\n-\\frac{\\hbar^2}{2m\\rho}\\frac{d}{d\\rho}\\left[\\rho\\frac{d\\phi_0}{d\\rho}\\right] + F\\rho\\,\\phi_0 = E\\phi_0,\n\\]\nwhere F is a constant.\n(b) Show that it can be written in dimensionless self-adjoint Sturm-Liouville form as\n\\[\n-\\frac{d}{dr}\\left[r\\frac{d\\phi_0}{dr}\\right] + r^2\\phi_0 = \\varepsilon r\\phi_0,\n\\]\nwhere you should identify the weight function w, express r and $\\varepsilon$ in terms of the original parameters, and formulate boundary conditions for $\\phi_0(r)$ at $r\\to 0$ and $r\\to \\infty$. [6]\n(c) Explain why $\\psi=e^{-\\beta r}$ is a suitable trial function for a variational estimate of the dimensionless ground state energy $\\varepsilon$, and use this function to show that $\\varepsilon$ obeys the inequality\n\\[\n\\varepsilon \\le \\beta^2 + \\frac{1}{\\beta}.\n\\]\n[9]\n(d) Use the inequality to obtain the best estimate, for this form of trial function, of the ground state energy E of this potential. [6]",
         "source_pdf": "Eigen_2022.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Hilbert Spaces & Dirac Notation"
     },
     {
         "id": "eigen_2023_q1",
@@ -167,7 +183,8 @@
         "question_number": 1,
         "question_text": "The Laguerre polynomials are defined by the Rodrigues formula\n\\[\nL_n(x)=e^x\\frac{d^n}{dx^n}\\left[x^n e^{-x}\\right].\n\\]\n(a) Write down the orthogonality condition for the Laguerre polynomials and prove it using the Rodrigues formula. [7]\n(b) Use this formula to evaluate L_n(x) for n \\le 2. [3]",
         "source_pdf": "Eigen_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2023_q2",
@@ -177,7 +194,8 @@
         "question_number": 2,
         "question_text": "Consider the vector space of complex number sequences $\\{a_n\\}$, such that\n\\[\n\\sum_{n=1}^{\\infty}|a_n|^2 < \\infty.\n\\]\nWrite down the properties that must be satisfied by an inner product, and use these to show that\n\\[\n(a,b)=\\sum_{n=1}^{\\infty} a_n^* b_n\n\\]\nis an inner product for this vector space. [10]",
         "source_pdf": "Eigen_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "General Eigenphysics"
     },
     {
         "id": "eigen_2023_q3",
@@ -187,7 +205,8 @@
         "question_number": 3,
         "question_text": "The vector space of polynomials of degree $\\le 2$ is spanned by the basis set $e_0(x)=1$, $e_1(x)=x$, $e_2(x)=x^2$. Write down the matrix representing the linear operator L, which is defined by\n\\[\nLp(x) = (x^2+x+1)\\frac{d^2 p}{dx^2} + (x+1)\\frac{dp}{dx} + p,\n\\]\nin this basis. [10]",
         "source_pdf": "Eigen_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2023_q4",
@@ -197,7 +216,8 @@
         "question_number": 4,
         "question_text": "Rewrite the differential equation\n\\[\n(1-x^2)\\frac{d^2 y}{dx^2} + [\\beta-\\alpha-(\\alpha+\\beta+2)x]\\frac{dy}{dx} + n(n+\\alpha+\\beta+1)y = 0,\n\\]\nwhere $\\alpha>-1$, $\\beta>-1$ and n is a positive integer, in Sturm-Liouville form,\n\\[\n\\frac{d}{dx}\\left[p(x)\\frac{dy}{dx}\\right] + \\lambda w(x)y = 0,\n\\]\ndeducing expressions for $p(x)$, $w(x)$ and $\\lambda$. [8]\nChoose a natural interval for x, and explain why this form is self-adjoint on this interval. [2]",
         "source_pdf": "Eigen_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Hilbert Spaces & Dirac Notation"
     },
     {
         "id": "eigen_2023_q5",
@@ -207,7 +227,8 @@
         "question_number": 5,
         "question_text": "The generating function for the Hermite polynomials is\n\\[\ng(x,t)=e^{2tx-t^2}=\\sum_{n=0}^{\\infty} H_n(x)\\frac{t^n}{n!}.\n\\]\n(a) Use this generating function to find H_n(x) for n \\le 3. [7]\n(b) By differentiating $g(x,t)$ partially n times with respect to t, and then setting $t=0$, prove the Rodrigues formula\n\\[\nH_n(x)=(-1)^n e^{x^2}\\frac{d^n}{dx^n}\\left[e^{-x^2}\\right].\n\\]\n[8]\n(c) Prove that\n\\[\n\\int_{-\\infty}^{\\infty} g(x,s)g(x,t)e^{-x^2}\\,dx = \\sqrt{\\pi}e^{2st},\n\\]\nand use this result to derive the orthogonality relationship for Hermite polynomials. [7]\n(d) Apply the Gram-Schmidt orthogonalisation procedure to the monomial basis $\\{u_n\\}\\equiv\\{x^n\\}=\\{1,x,x^2,\\dots\\}$ to build a set of orthogonal polynomials, $v_n(x)$, with n \\le 3. Show that these polynomials coincide, up to a numerical factor, with the Hermite polynomials H_n(x). [8]",
         "source_pdf": "Eigen_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2023_q6",
@@ -217,7 +238,8 @@
         "question_number": 6,
         "question_text": "Consider a space V of real functions on an interval x \\in [-1,1], where the inner product\n\\[\n(f,g)=\\int_{-1}^{1} f(x)g(x)w(x)\\,dx,\n\\]\nis defined with the weight function w(x) generated by the differential operator\n\\[\nM=(1-x^2)\\frac{d^2}{dx^2} - 3x\\frac{d}{dx}.\n\\]\n(a) Write the eigenvalue problem $My=\\lambda y$ in Sturm-Liouville form and hence determine the weight function w(x). [6]\n(b) Formulate conditions that must be satisfied by any function f(x) in the space V for the Sturm-Liouville operator $L=w(x)M$ to be self-adjoint in this space. [4]\n(c) Use the generalised Rodrigues formula for orthogonal polynomials generated by the operator M to find its first three eigenfunctions and all its eigenvalues. [7]\n(d) Find a matrix representation of M in the monomial basis $\\{u_n\\}\\equiv\\{x^n\\}$ for n \\le 2. [5]\n(e) Use the matrix representation found in part (d) to determine the eigenvalues and eigenfunctions of M for n \\le 2, and show that they coincide with those of part (c) up to an overall factor. [8]",
         "source_pdf": "Eigen_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2023_q7",
@@ -227,7 +249,8 @@
         "question_number": 7,
         "question_text": "A Sturm-Liouville eigenvalue problem for a linear operator L defined on x \\in [a,b] is of the form\n\\[\nL\\phi_n = \\lambda_n w(x)\\phi_n(x),\n\\]\nwhere the weight function $w(x)$ is positive definite on $[a,b]$, and all functions obey suitable boundary conditions at x=a and x=b.\n(a) Show that the lowest eigenvalue, $\\lambda_0$, obeys the variational inequality\n\\[\n\\lambda_0 \\le \\frac{(\\psi,L\\psi)_{w=1}}{(\\psi,\\psi)_w},\n\\]\nwhere $\\psi(x)$ is a function satisfying the same boundary conditions as $\\phi_n(x)$, and $(\\psi,\\phi)_w$ is the inner product with weight $w(x)$. [9]\nThe ground state radial wave function, $\\phi_0(r)$, of a particle of mass m in a three-dimensional harmonic oscillator obeys the Schrödinger equation\n\\[\n-\\frac{\\hbar^2}{2mr^2}\\frac{d}{dr}\\left[r^2\\frac{d\\psi}{dr}\\right] + \\frac12 m\\omega^2 r^2\\psi = E\\psi,\n\\]\nwhere m, $\\omega$ and $\\hbar$ are constants.\n(b) Show that the above equation can be written in dimensionless self-adjoint Sturm-Liouville form as\n\\[\n-\\frac{d}{dx}\\left(x^2\\frac{d\\psi}{dx}\\right) + x^4\\psi = \\varepsilon w(x)\\psi,\n\\]\nwhere you should identify the weight function w(x), express x and $\\varepsilon$ in terms of the original parameters, and formulate boundary conditions for $\\phi_0(x)$ at $x\\to 0$ and $x\\to \\infty$. [6]\n(c) Explain why $\\psi=e^{-\\beta x}$ is a suitable trial function for a variational estimate of the dimensionless ground state energy $\\varepsilon$, and use this function to show that $\\varepsilon$ obeys the inequality\n\\[\n\\varepsilon \\le \\beta^2 + \\frac{3}{\\beta^2}.\n\\]\n[9]\n(d) Use the inequality to obtain the best estimate, for this form of trial function, of the ground state energy E of this potential. [6]",
         "source_pdf": "Eigen_2023.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Hilbert Spaces & Dirac Notation"
     },
     {
         "id": "eigen_2024_q1",
@@ -237,7 +260,8 @@
         "question_number": 1,
         "question_text": "Type II Chebyshev polynomials, U_n(x), are defined by\n\\[\n\\sin[(n+1)\\theta] = U_n(\\cos\\theta)\\sin\\theta,\n\\]\nor\n\\[\nU_n(x)=\\frac{\\sin[(n+1)\\cos^{-1}x]}{\\sqrt{1-x^2}}.\n\\]\nUse this definition to show that U_n(x) satisfies the differential equation\n\\[\n(1-x^2)\\frac{d^2 y}{dx^2} - 3x\\frac{dy}{dx} + n(n+2)y = 0.\n\\]\n[10]",
         "source_pdf": "Eigen_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2024_q2",
@@ -247,7 +271,8 @@
         "question_number": 2,
         "question_text": "Consider the first-order linear differential operators $L_1$ and $L_2$ defined by\n\\[\nL_1\\psi(x)=a_1(x)\\frac{d\\psi}{dx}+b_1(x)\\psi, \\qquad L_2\\psi(x)=a_2(x)\\frac{d\\psi}{dx}+b_2(x)\\psi.\n\\]\nShow that their commutator, $[L_1,L_2]=L_1L_2-L_2L_1$, is also a first-order linear differential operator, $L_3$, where\n\\[\nL_3\\psi(x)=a_3(x)\\frac{d\\psi}{dx}+b_3(x)\\psi,\n\\]\nand deduce expressions for $a_3(x)$ and $b_3(x)$. [10]",
         "source_pdf": "Eigen_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Hilbert Spaces & Dirac Notation"
     },
     {
         "id": "eigen_2024_q3",
@@ -257,7 +282,8 @@
         "question_number": 3,
         "question_text": "(a) Explain what is meant by saying that a given set of vectors $\\{x_1,x_2,\\dots,x_n\\}$ are linearly dependent or independent. [2]\n(b) Show that if a given set of vectors $\\{x_1,x_2,\\dots,x_n\\}$ are mutually orthogonal, then they are also linearly independent. [5]\n(c) Find the value of $\\mu$ such that vectors $x_1=(0,2,\\mu)$, $x_2=(3,-1,2)$ and $x_3=(4,-2,1)$ are linearly dependent. [3]",
         "source_pdf": "Eigen_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "General Eigenphysics"
     },
     {
         "id": "eigen_2024_q4",
@@ -267,7 +293,8 @@
         "question_number": 4,
         "question_text": "If f(x) and g(x) are real functions, and $w(x)>0$ is a positive definite real function, on the interval $[a,b]$, prove the Cauchy-Schwarz inequality\n\\[\n\\left[\\int_a^b f(x)g(x)w(x)\\,dx\\right]^2 \\le \\left[\\int_a^b f(x)^2 w(x)\\,dx\\right]\\left[\\int_a^b g(x)^2 w(x)\\,dx\\right].\n\\]\n[10]",
         "source_pdf": "Eigen_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "General Eigenphysics"
     },
     {
         "id": "eigen_2024_q5",
@@ -277,7 +304,8 @@
         "question_number": 5,
         "question_text": "The confluent hypergeometric equation is given by\n\\[\nx\\frac{d^2 y}{dx^2} + (c-x)\\frac{dy}{dx} - ay = 0,\n\\]\nwhere a and c are constants.\n(a) By substituting a power series of the form\n\\[\ny(x)=\\sum_{k=0}^{\\infty} u_k x^{k+\\rho},\n\\]\nshow that the two independent solutions of this equation are\n\\[\ny_1(x)=M(a,c;x), \\qquad y_2(x)=x^{1-c}M(a+1-c,2-c;x),\n\\]\nwhere the Kummer function $M(a,c;x)$ is given by\n\\[\nM(a,c;x)=\\sum_{k=0}^{\\infty} \\frac{(a)_k}{(c)_k}\\frac{x^k}{k!}\n\\]\n\\[\n\\equiv 1+\\frac{a}{c}x+\\frac{a(a+1)}{c(c+1)}\\frac{x^2}{2!}+\\frac{a(a+1)(a+2)}{c(c+1)(c+2)}\\frac{x^3}{3!}+\\cdots.\n\\]\n[15]\n(b) Laguerre polynomials are given by the Rodrigues formula\n\\[\nL_n(x)=e^x\\frac{d^n}{dx^n}(x^n e^{-x}).\n\\]\nUse Leibniz formula to show that\n\\[\nL_n(x)=\\sum_{k=0}^{n} \\frac{(n!)^2}{(k!)^2(n-k)!}(-x)^k \\equiv \\sum_{k=0}^{n} \\binom{n}{k}^2 (n-k)!(-x)^k,\n\\]\nand use this formula to write down the first four Laguerre polynomials. [10]\n(c) Prove that\n\\[\nL_n(x)=n!\\,M(-n,1;x).\n\\]\n[5]",
         "source_pdf": "Eigen_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2024_q6",
@@ -287,7 +315,8 @@
         "question_number": 6,
         "question_text": "Consider a space V of real functions on an interval x \\in (-\\infty,\\infty), where the inner product\n\\[\n(f,g)=\\int_{-\\infty}^{\\infty} f(x)g(x)w(x)\\,dx,\n\\]\nis defined with the weight function w(x) generated by the differential operator\n\\[\nM=-(1+x^2)\\frac{d^2}{dx^2}+4x\\frac{d}{dx}.\n\\]\n(a) Write the eigenvalue problem $My=\\lambda y$ in Sturm-Liouville form and hence show that the weight function w(x) may be written as\n\\[\nw(x)=\\frac{1}{(1+x^2)^3}.\n\\]\n[6]\n(b) Find a matrix representation of M in the monomial basis $\\{u_n\\}\\equiv\\{x^n\\}$ for n \\le 3. [8]\n(c) Use the matrix representation found in part (b) to determine the eigenvalues and eigenfunctions of M for n \\le 3. [8]\n(d) Use the generalised Rodrigues formula for orthogonal polynomials generated by the operator M to find its first four eigenfunctions. [8]",
         "source_pdf": "Eigen_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2024_q7",
@@ -297,7 +326,8 @@
         "question_number": 7,
         "question_text": "A Sturm-Liouville eigenvalue problem for a linear operator L defined on x \\in [a,b] is of the form\n\\[\nL\\phi_n = \\lambda_n w(x)\\phi_n(x),\n\\]\nwhere the weight function $w(x)$ is positive definite on $[a,b]$, and all functions obey suitable boundary conditions at x=a and x=b.\n(a) Show that the lowest eigenvalue, $\\lambda_0$, obeys the variational inequality\n\\[\n\\lambda_0 \\le \\frac{(\\psi,L\\psi)_{w=1}}{(\\psi,\\psi)_w},\n\\]\nwhere $\\psi(x)$ is a function satisfying the same boundary conditions as $\\phi_n(x)$, and $(\\psi,\\phi)_w$ is the inner product with weight w(x). [9]\nThe ground state wave function, $\\psi_0(x)$, of a particle of mass m in a quartic potential obeys the Schrödinger equation\n\\[\n-\\frac{\\hbar^2}{2m}\\frac{d^2\\psi}{dx^2} + V_0\\frac{x^4}{a^4}\\psi = E_0\\psi,\n\\]\nwhere m, $V_0$, a and $\\hbar$ are constants.\n(b) Explain why the function $\\psi(x)=e^{-x^2/(2b^2)}$, where b is a variational parameter, is a suitable trial function for estimating $E_0$. [3]\n(c) Use the above function to show that $E_0$ obeys the inequality\n\\[\nE_0 \\le \\frac{\\hbar^2}{4mb^2} + \\frac{3V_0 b^4}{4a^4}.\n\\]\n[12]\n(d) Use the inequality to obtain the best estimate, for this form of trial function, of the ground state energy $E_0$ of this potential. [6]",
         "source_pdf": "Eigen_2024.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Hilbert Spaces & Dirac Notation"
     },
     {
         "id": "eigen_2025_q1",
@@ -307,7 +337,8 @@
         "question_number": 1,
         "question_text": "The Hermite polynomials, H_n(x), are defined by the Rodrigues formula\n\\[\nH_n(x)=(-1)^n e^{x^2}\\frac{d^n}{dx^n}\\left[e^{-x^2}\\right].\n\\]\n(a) Use this formula to derive H_n(x) for $n=0,1,2,3$. [4]\n(b) Show explicitly that the identity\n\\[\nH_n'(x)=2nH_{n-1}(x)\n\\]\nis obeyed for $n=1,2,3$. [3]\n(c) Show explicitly that the identity\n\\[\nH_{n+1}(x)=2xH_n(x)-2nH_{n-1}(x)\n\\]\nis obeyed for $n=1,2,3$. [3]",
         "source_pdf": "Eigen_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2025_q2",
@@ -317,7 +348,8 @@
         "question_number": 2,
         "question_text": "The first three Legendre polynomials are $P_0(x)=1$, $P_1(x)=x$, $P_2(x)=\\tfrac12(3x^2-1)$. Using $\\{P_0(x),P_1(x),P_2(x)\\}$ as a basis, find the matrix which represents the operator\n\\[\nL = x\\frac{d^2}{dx^2} + (1-x)\\frac{d}{dx}.\n\\]\n[10]",
         "source_pdf": "Eigen_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2025_q3",
@@ -327,7 +359,8 @@
         "question_number": 3,
         "question_text": "Rewrite the differential equation\n\\[\nx\\frac{d^2 y}{dx^2} + (m+1-x)\\frac{dy}{dx} + (n-m)y(x)=0\n\\]\nin the form\n\\[\n\\frac{d}{dx}\\left[p(x)\\frac{dy}{dx}\\right] + \\lambda w(x)y(x) = 0,\n\\]\nand deduce expressions for $p(x)$, $w(x)$ and $\\lambda$. [10]",
         "source_pdf": "Eigen_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "General Eigenphysics"
     },
     {
         "id": "eigen_2025_q4",
@@ -337,7 +370,8 @@
         "question_number": 4,
         "question_text": "If f(x) and g(x) are real functions defined on the interval $0\\le x\\le 1$, a scalar product is defined by\n\\[\n(f,g)=\\int_0^1 f(x)g(x)x^a\\,dx,\n\\]\nwhere $a>-1$. If $f(x)=1$ and $g(x)=x$, show by direct evaluation that\n\\[\n(f,g)^2 < (f,f)(g,g).\n\\]\n[10]",
         "source_pdf": "Eigen_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "General Eigenphysics"
     },
     {
         "id": "eigen_2025_q5",
@@ -347,7 +381,8 @@
         "question_number": 5,
         "question_text": "Let $y_1(x)$ and $y_2(x)$ be two independent solutions of the second-order linear differential equation\n\\[\n\\frac{d}{dx}\\left[p(x)\\frac{dy}{dx}\\right] + q(x)y(x) = \\lambda w(x)y(x).\n\\]\n(a) Show that the Wronskian\n\\[\nW[y_1(x),y_2(x)] = y_1(x)y_2'(x)-y_1'(x)y_2(x)\n\\]\nis equal to a constant divided by $p(x)$,\n\\[\nW[y_1(x),y_2(x)] = \\frac{C}{p(x)}.\n\\]\n[8]\n(b) Use the result of part (a) to show that given one solution $y_1(x)$ we may generate a second solution\n\\[\ny_2(x)=y_1(x)\\int \\frac{dx}{p(x)y_1(x)^2}.\n\\]\n[8]\n(c) Consider now Legendre's differential equation\n\\[\n\\frac{d}{dx}\\left[(1-x^2)\\frac{dy}{dx}\\right] = \\lambda y(x).\n\\]\nShow that $P_0(x)=1$ and $P_1(x)=x$ are solutions of this equation, and deduce their eigenvalues $\\lambda_0$ and $\\lambda_1$. [4]\n(d) Use the result of part (b) to deduce second solutions $Q_0(x)$ and $Q_1(x)$ corresponding to $P_0(x)$ and $P_1(x)$. [10]",
         "source_pdf": "Eigen_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2025_q6",
@@ -357,7 +392,8 @@
         "question_number": 6,
         "question_text": "The generating function for the Laguerre polynomials $L_n(x)$ is given by\n\\[\nG(x,t)=\\sum_{n=0}^{\\infty} L_n(x)t^n = \\frac{1}{1-t}\\exp\\left[-\\frac{tx}{1-t}\\right].\n\\]\n(a) Expand $G(x,t)$ as a power series in t to order $t^2$ to find the first three Laguerre polynomials $L_0(x)$, $L_1(x)$ and $L_2(x)$. [10]\n(b) Deduce the orthogonality relation for Laguerre polynomials by evaluating the integral\n\\[\n\\int_0^{\\infty} G(x,s)G(x,t)e^{-x}\\,dx.\n\\]\n[10]\n(c) By direct differentiation, show that\n\\[\n\\frac{\\partial G(x,t)}{\\partial t} = \\frac{1}{1-t}G(x,t) - \\frac{x}{(1-t)^2}G(x,t),\n\\]\nand use this to derive the recursion relation\n\\[\n(n+1)L_{n+1}(x) = (2n+1-x)L_n(x) - nL_{n-1}(x).\n\\]\n[10]",
         "source_pdf": "Eigen_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Special Functions"
     },
     {
         "id": "eigen_2025_q7",
@@ -367,6 +403,7 @@
         "question_number": 7,
         "question_text": "A Sturm-Liouville eigenvalue problem for a linear operator L defined on x \\in [a,b] is of the form\n\\[\nL\\phi_n(x)=\\lambda_n w(x)\\phi_n(x),\n\\]\nwhere the weight function $w(x)$ is positive definite on $(a,b)$, and all functions obey suitable boundary conditions at x=a and x=b.\n(a) Show that the lowest eigenvalue, $\\lambda_0$, obeys the variational inequality\n\\[\n\\lambda_0 \\le \\frac{(\\psi,L\\psi)_{w=1}}{(\\psi,\\psi)_w},\n\\]\nwhere $\\psi(x)$ is a function satisfying the same boundary conditions as $\\phi_n(x)$, and $(\\psi,\\phi)_w$ is the inner product with weight w(x). [9]\nThe ground state wavefunction, $\\psi_0(x)$, of a particle of mass m obeys the Schrödinger equation\n\\[\n-\\frac{\\hbar^2}{2m}\\frac{d^2\\psi}{dx^2} + V_0\\cosh\\left(\\frac{x}{a}\\right)\\psi(x)=E_0\\psi(x)\n\\]\non the interval $-\\infty < x < \\infty$, where m, $V_0$, a and $\\hbar$ are constants.\n(b) Explain why the function $\\psi(x)=e^{-x^2/(2b^2)}$, where b is a variational parameter, is a suitable trial function for estimating $E_0$. [3]\n(c) Use the above trial function to obtain a variational bound on the ground state energy. [12]\n(d) Derive the corresponding variational bound for the potential\n\\[\nV(x)=\\frac12 m\\omega^2 x^2\n\\]\nfrom the result of part (c) by taking the limit of large a. [6]",
         "source_pdf": "Eigen_2025.pdf",
-        "needs_review": false
+        "needs_review": false,
+        "topic": "Hilbert Spaces & Dirac Notation"
     }
 ]
