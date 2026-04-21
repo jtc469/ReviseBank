@@ -56,8 +56,8 @@ export default function QuestionCard({ question, onStatusChange }: QuestionCardP
     <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
         <div>
-          <h3 className="card-title">Q{question.question_number} ({question.year})</h3>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '0.875rem' }}>Topic: {question.topic}</p>
+          <h3 className="card-title" style={{ marginBottom: '0.25rem' }}>Q{question.question_number} <span style={{ color: 'var(--text-secondary)', fontWeight: 500, fontSize: '1rem' }}>({question.year})</span></h3>
+          <p style={{ color: 'var(--text-primary)', fontSize: '0.95rem', fontWeight: 500 }}>{question.topic}</p>
         </div>
         <div>
           {question.status === 'Complete' && <span className="badge badge-success">Complete</span>}
@@ -66,7 +66,7 @@ export default function QuestionCard({ question, onStatusChange }: QuestionCardP
         </div>
       </div>
       
-      <div style={{ padding: '1rem', backgroundColor: 'var(--background)', borderRadius: '8px', border: '1px solid var(--border)' }}>
+      <div style={{ padding: '1.25rem', backgroundColor: 'var(--bg-main)', borderRadius: '6px', border: '1px solid var(--border-color)', fontSize: '1.05rem', lineHeight: '1.7', color: 'var(--text-primary)' }}>
         {renderContent(question.question_text)}
       </div>
 

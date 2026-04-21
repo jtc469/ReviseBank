@@ -56,3 +56,34 @@ export function getModules(): string[] {
   questions.forEach(q => modules.add(q.module));
   return Array.from(modules).sort();
 }
+
+export interface ModuleStats {
+  name: string;
+  totalQuestions: number;
+  uniqueTopics: number;
+}
+
+export function getModulesWithStats(): ModuleStats[] {
+  const questions = getAllQuestions();
+  const modulesMap = new Map<string, { totalQuestions: number; topics: Set<string> }>();
+
+  questions.forEach(q => {
+    if (!modulesMap.has(q.module)) {
+      modulesMap.set(q.module, { totalQuestions: 0, topics: new Set() });
+    }
+    const stat = modulesMap.get(q.module)!;
+    stat.totalQuestions += 1;
+    stat.topics.add(q.topic || 'Uncategorised');
+  });
+
+  const modules: ModuleStats[] = [];
+  modulesMap.forEach((stat, name) => {
+    modules.push({
+      name,
+      totalQuestions: stat.totalQuestions,
+      uniqueTopics: stat.topics.size
+    });
+  });
+
+  return modules.sort((a, b) => a.name.localeCompare(b.name));
+}

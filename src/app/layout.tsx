@@ -1,7 +1,10 @@
 import './globals.css';
 import 'katex/dist/katex.min.css';
-import Link from 'next/link';
-import { BookOpen } from 'lucide-react';
+import { Inter, Playfair_Display } from 'next/font/google';
+import Navbar from '@/components/Navbar';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
+const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
 
 export const metadata = {
   title: 'ReviseBank',
@@ -14,18 +17,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>
-        <nav className="navbar">
-          <Link href="/" className="navbar-brand" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <BookOpen size={24} />
-            ReviseBank
-          </Link>
-          <div className="navbar-links">
-            <Link href="/">Modules</Link>
-            <Link href="/history">History</Link>
-          </div>
-        </nav>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${inter.variable} ${playfair.variable}`}>
+        <Navbar />
         <main className="container">
           {children}
         </main>

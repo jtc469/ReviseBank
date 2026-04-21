@@ -2,10 +2,17 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { BookOpen, ChevronRight } from 'lucide-react';
+import { BookOpen, Layers, CheckCircle } from 'lucide-react';
+
+interface ModuleStats {
+  name: string;
+  totalQuestions: number;
+  uniqueTopics: number;
+  completedCount: number;
+}
 
 export default function Home() {
-  const [modules, setModules] = useState<string[]>([]);
+  const [modules, setModules] = useState<ModuleStats[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -19,26 +26,48 @@ export default function Home() {
 
   return (
     <div>
-      <h1 className="page-title">Modules</h1>
-      <p className="page-subtitle">Select a module to start revising.</p>
+      <div className="page-header">
+        <h1 className="page-title">Modules</h1>
+        <p className="page-subtitle">Select a module to review materials and practice questions.</p>
+      </div>
 
       {loading ? (
-        <p>Loading modules...</p>
+        <p style={{ color: 'var(--text-secondary)' }}>Loading modules...</p>
       ) : (
         <div className="grid grid-cols-2">
-          {modules.map(module => (
-            <Link key={module} href={`/module/${encodeURIComponent(module)}`}>
-              <div className="card card-interactive" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                  <div style={{ padding: '0.75rem', backgroundColor: 'rgba(99, 102, 241, 0.1)', borderRadius: '12px', color: 'var(--primary)' }}>
-                    <BookOpen size={24} />
+          {modules.map(module => {
+            const progressPct = module.totalQuestions > 0 ? (module.completedCount / module.totalQuestions) * 100 : 0;
+            return (
+              <Link key={module.name} href={`/module/${encodeURIComponent(module.name)}`}>
+                <div className="card card-interactive">
+                  <h2 className="card-title line-clamp-2" title={module.name}>{module.name}</h2>
+                  
+                  <div className="card-meta">
+                    <span className="card-meta-item">
+                      <BookOpen size={14} />
+                      {module.totalQuestions} Questions
+                    </span>
+                    <span className="card-meta-item">
+                      <Layers size={14} />
+                      {module.uniqueTopics} Topics
+                    </span>
+                    {module.completedCount > 0 && (
+                      <span className="card-meta-item" style={{ color: 'var(--success)' }}>
+                        <CheckCircle size={14} />
+                        {module.completedCount} Done
+                      </span>
+                    )}
                   </div>
-                  <span className="card-title" style={{ margin: 0 }}>{module}</span>
+                  
+                  {module.completedCount > 0 && (
+                    <div className="progress-track">
+                      <div className="progress-fill" style={{ width: `${progressPct}%` }}></div>
+                    </div>
+                  )}
                 </div>
-                <ChevronRight color="var(--text-secondary)" />
-              </div>
-            </Link>
-          ))}
+              </Link>
+            );
+          })}
         </div>
       )}
     </div>
