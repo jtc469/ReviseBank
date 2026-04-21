@@ -5,7 +5,7 @@
         "year": null,
         "paper": "Problem class questions: temperature and matter",
         "question_number": 1,
-        "question_text": "A sealed flask of a volume of 6 litres contains 5 grams of oxygen gas (O_2) at 10^\\circ\\mathrm{C}.\n(a) Calculate the pressure of the gas in Pa and atmospheres.\n(b) The temperature of the gas rises to 20^\\circ\\mathrm{C}, which is atmospheric temperature. What is the new pressure in the flask?\n(c) A leak develops in the flask, and the gas in the flask slowly comes to atmospheric pressure. Estimate the mass of oxygen in the flask after this process. The volume fraction of oxygen in the air is 21\\%.",
+        "question_text": "A sealed flask of a volume of 6 litres contains 5 grams of oxygen gas (O$_2$) at $10^\\circ\\mathrm{C}$.\n(a) Calculate the pressure of the gas in Pa and atmospheres.\n(b) The temperature of the gas rises to $20^\\circ\\mathrm{C}$, which is atmospheric temperature. What is the new pressure in the flask?\n(c) A leak develops in the flask, and the gas in the flask slowly comes to atmospheric pressure. Estimate the mass of oxygen in the flask after this process. The volume fraction of oxygen in the air is 21\\%.",
         "source_pdf": "skills-problems-combined.pdf",
         "needs_review": false
     },
@@ -25,7 +25,7 @@
         "year": null,
         "paper": "Problem class questions: temperature and matter",
         "question_number": 3,
-        "question_text": "Consider the Maxwell-Boltzmann probability density function of molecular speeds v in a gas of molecules of mass m at a temperature T:\n\\[\np(v) = A v^2 \\exp\\left(-\\frac{m v^2}{2kT}\\right),\n\\]\nwhere A is a normalisation constant.\n(a) Show that the function p(v) peaks at \\(mv^2/2 = kT\\).\n(b) Find the most probable speeds of a hydrogen atom and an oxygen atom at a temperature of 300\\,\\mathrm{K}. Compare them to the escape velocity from Earth.",
+        "question_text": "Consider the Maxwell-Boltzmann probability density function of molecular speeds v in a gas of molecules of mass m at a temperature T:\n\\[\np(v) = A v^2 \\exp\\left(-\\frac{m v^2}{2kT}\\right),\n\\]\nwhere A is a normalisation constant.\n(a) Show that the function p(v) peaks at $mv^2/2 = kT$.\n(b) Find the most probable speeds of a hydrogen atom and an oxygen atom at a temperature of 300\\,\\mathrm{K}. Compare them to the escape velocity from Earth.",
         "source_pdf": "skills-problems-combined.pdf",
         "needs_review": false
     },
@@ -35,7 +35,7 @@
         "year": null,
         "paper": "Problem class questions: temperature and matter",
         "question_number": 4,
-        "question_text": "Some gas at a temperature T, composed of atoms of mass m, and initially at a density of n atoms per unit volume, is contained in a cylinder closed with a tight-fitting piston. The piston is withdrawn with constant speed u in the x direction, and the gas expands without exchanging heat with the cylinder. Tackle the following questions using the kinetic theory of gases, using the following simplifying approximations:\n(i) All the atoms travel with the same speed v.\n(ii) The atoms all have their velocities directed along one of the Cartesian directions: 1/6 have v_x = +v, 1/6 have v_x = -v, and similarly for v_y and v_z.\n(a) Derive the kinetic theory expression for pressure,\n\\[\np = \\frac{1}{3} n m \\langle v^2 \\rangle,\n\\]\nwhere \\(\\langle v^2 \\rangle\\) is the mean square of velocity of an atom. Check that the expression is dimensionally correct.\n(b) What is the change in kinetic energy for an atom that hits the piston?\n(c) Does the temperature of the gas change? What happens in the limit \\(u \\to \\infty\\)?\n(d) Consider the case \\(u \\ll v\\). Show that the work \\(p\\,dV\\) done on the piston in a time \\(dt\\) is equal to the change in kinetic energy of the gas.",
+        "question_text": "Some gas at a temperature T, composed of atoms of mass m, and initially at a density of n atoms per unit volume, is contained in a cylinder closed with a tight-fitting piston. The piston is withdrawn with constant speed u in the x direction, and the gas expands without exchanging heat with the cylinder. Tackle the following questions using the kinetic theory of gases, using the following simplifying approximations:\n(i) All the atoms travel with the same speed v.\n(ii) The atoms all have their velocities directed along one of the Cartesian directions: 1/6 have v_x = +v, 1/6 have v_x = -v, and similarly for v_y and v_z.\n(a) Derive the kinetic theory expression for pressure,\n\\[\np = \\frac{1}{3} n m \\langle v^2 \\rangle,\n\\]\nwhere $\\langle v^2 \\rangle$ is the mean square of velocity of an atom. Check that the expression is dimensionally correct.\n(b) What is the change in kinetic energy for an atom that hits the piston?\n(c) Does the temperature of the gas change? What happens in the limit $u \\to \\infty$?\n(d) Consider the case $u \\ll v$. Show that the work $p\\,dV$ done on the piston in a time $dt$ is equal to the change in kinetic energy of the gas.",
         "source_pdf": "skills-problems-combined.pdf",
         "needs_review": false
     },
@@ -45,7 +45,7 @@
         "year": null,
         "paper": "Problem class questions: classical mechanics",
         "question_number": 1,
-        "question_text": "A ball is thrown over a horizontal surface with an initial speed v_0 at an angle \\(\\theta\\) to the horizontal. Find the horizontal range, ignoring air resistance. Sketch the dependence of the range on \\(\\theta\\) at a fixed value of \\(v_0\\). At which \\(\\theta\\) value is the range maximal?",
+        "question_text": "A ball is thrown over a horizontal surface with an initial speed v_0 at an angle $\\theta$ to the horizontal. Find the horizontal range, ignoring air resistance. Sketch the dependence of the range on $\\theta$ at a fixed value of $v_0$. At which $\\theta$ value is the range maximal?",
         "source_pdf": "skills-problems-combined.pdf",
         "needs_review": false
     },
@@ -55,7 +55,7 @@
         "year": null,
         "paper": "Problem class questions: classical mechanics",
         "question_number": 2,
-        "question_text": "Consider the previous problem using the following approximation to account for air resistance. As the vertical component of the drag force changes direction about half-way through the trajectory, ignore that component. Furthermore, assume the horizontal component of the drag force to be constant, which is valid if the ball does not slow down too much during its path:\n\\[\nF_{\\mathrm{drag}} = \\alpha \\cdot mg.\n\\]\n(a) Derive an expression for the range as a function of \\(\\theta\\) in the above approximation.\n(b) Show that the maximum range is given by \\(\\tan(2\\theta) = 1/\\alpha\\).\n(c) Calculate the maximum range and optimum angle \\(\\theta\\) for a ball thrown at \\(20\\,\\mathrm{m/s}\\) for the cases \\(\\alpha=0\\) and \\(\\alpha=0.4\\).\n(d) Discuss the effect of horizontal wind on the optimum angle \\(\\theta\\).",
+        "question_text": "Consider the previous problem using the following approximation to account for air resistance. As the vertical component of the drag force changes direction about half-way through the trajectory, ignore that component. Furthermore, assume the horizontal component of the drag force to be constant, which is valid if the ball does not slow down too much during its path:\n\\[\nF_{\\mathrm{drag}} = \\alpha \\cdot mg.\n\\]\n(a) Derive an expression for the range as a function of $\\theta$ in the above approximation.\n(b) Show that the maximum range is given by $\\tan(2\\theta) = 1/\\alpha$.\n(c) Calculate the maximum range and optimum angle $\\theta$ for a ball thrown at $20\\,\\mathrm{m/s}$ for the cases $\\alpha=0$ and $\\alpha=0.4$.\n(d) Discuss the effect of horizontal wind on the optimum angle $\\theta$.",
         "source_pdf": "skills-problems-combined.pdf",
         "needs_review": false
     },
@@ -65,7 +65,7 @@
         "year": null,
         "paper": "Problem class questions: classical mechanics",
         "question_number": 3,
-        "question_text": "A light spring of natural length L, with spring constant k and small friction, is hung from the ceiling. A ball of mass m is attached to its lower end without stretching it, and is then allowed to drop.\n(a) Draw a graph of the subsequent motion of the ball, \\(y = y(t)\\).\n(b) Find the length of the spring when the ball reaches the lowest possible point.\n(c) Find the length of the spring when the ball finally comes to rest due to friction.\n(d) Estimate the oscillation period for the case when the equilibrium position of the ball is 5 cm below its initial position.",
+        "question_text": "A light spring of natural length L, with spring constant k and small friction, is hung from the ceiling. A ball of mass m is attached to its lower end without stretching it, and is then allowed to drop.\n(a) Draw a graph of the subsequent motion of the ball, $y = y(t)$.\n(b) Find the length of the spring when the ball reaches the lowest possible point.\n(c) Find the length of the spring when the ball finally comes to rest due to friction.\n(d) Estimate the oscillation period for the case when the equilibrium position of the ball is 5 cm below its initial position.",
         "source_pdf": "skills-problems-combined.pdf",
         "needs_review": false
     },
@@ -75,7 +75,7 @@
         "year": null,
         "paper": "Problem class questions: classical mechanics",
         "question_number": 4,
-        "question_text": "Consider a 10p coin \\((m = 6.5\\,\\mathrm{g},\\ R = 12.25\\,\\mathrm{mm})\\) rotating about its axis of symmetry in two cases: (1) the axis is perpendicular to the plane of the coin; (2) the axis lies in the plane of the coin. The coin makes five revolutions per second.\n(a) Compute the moment of inertia of the coin in both cases.\n(b) Compute the kinetic energy of rotational motion in both cases.",
+        "question_text": "Consider a 10p coin $(m = 6.5\\,\\mathrm{g},\\ R = 12.25\\,\\mathrm{mm})$ rotating about its axis of symmetry in two cases: (1) the axis is perpendicular to the plane of the coin; (2) the axis lies in the plane of the coin. The coin makes five revolutions per second.\n(a) Compute the moment of inertia of the coin in both cases.\n(b) Compute the kinetic energy of rotational motion in both cases.",
         "source_pdf": "skills-problems-combined.pdf",
         "needs_review": false
     },
@@ -85,7 +85,7 @@
         "year": null,
         "paper": "Problem class questions: special relativity",
         "question_number": 1,
-        "question_text": "The Earth and the Sun are 8.3 light minutes apart. Consider the Sun-Earth reference frame, ignoring their relative motion. Event A occurs on the Earth at \\(t=0\\), and event B on the Sun at \\(t=2\\) minutes, where the times are given in the Sun-Earth reference frame. Find the time difference between these events according to:\n(a) an observer travelling at \\(v = 0.8c\\) from the Sun to the Earth;\n(b) an observer travelling at \\(v = 0.8c\\) in the opposite direction.",
+        "question_text": "The Earth and the Sun are 8.3 light minutes apart. Consider the Sun-Earth reference frame, ignoring their relative motion. Event A occurs on the Earth at $t=0$, and event B on the Sun at $t=2$ minutes, where the times are given in the Sun-Earth reference frame. Find the time difference between these events according to:\n(a) an observer travelling at $v = 0.8c$ from the Sun to the Earth;\n(b) an observer travelling at $v = 0.8c$ in the opposite direction.",
         "source_pdf": "skills-problems-combined.pdf",
         "needs_review": false
     },
@@ -95,7 +95,7 @@
         "year": null,
         "paper": "Problem class questions: special relativity",
         "question_number": 2,
-        "question_text": "Two rockets, each of length L when measured at rest, travel toward each other. Each rocket has a velocity \\(v = 0.8c\\), as measured by an observer in the Earth's reference frame.\n(a) Compute the length of each rocket in the Earth's reference frame.\n(b) Calculate the speed of each rocket in the reference frame of the other.\n(c) Calculate the length of each rocket measured by an observer on the other.",
+        "question_text": "Two rockets, each of length L when measured at rest, travel toward each other. Each rocket has a velocity $v = 0.8c$, as measured by an observer in the Earth's reference frame.\n(a) Compute the length of each rocket in the Earth's reference frame.\n(b) Calculate the speed of each rocket in the reference frame of the other.\n(c) Calculate the length of each rocket measured by an observer on the other.",
         "source_pdf": "skills-problems-combined.pdf",
         "needs_review": false
     },
@@ -105,7 +105,7 @@
         "year": null,
         "paper": "Problem class questions: special relativity",
         "question_number": 3,
-        "question_text": "Muon is an unstable particle with a mass of 106 MeV and a mean lifetime of 2.2\\,\\mu\\mathrm{s}. Calculate the mean path of the muon before its decay:\n(a) for a muon moving with a speed \\(\\beta = v/c = 0.1\\);\n(b) for a muon moving with a speed \\(\\beta = 0.995\\);\n(c) for a muon with an energy of 106 GeV.\nIn each case, identify the approximations to be made. With the correct handling of the expression for time dilation, you would not need a calculator to obtain the numerical answers.",
+        "question_text": "Muon is an unstable particle with a mass of 106 MeV and a mean lifetime of $2.2\\,\\mu\\mathrm{s}$. Calculate the mean path of the muon before its decay:\n(a) for a muon moving with a speed $\\beta = v/c = 0.1$;\n(b) for a muon moving with a speed $\\bet$a = 0$.995$;\n(c) for a muon with an energy of 106 GeV.\nIn each case, identify the approximations to be made. With the correct handling of the expression for time dilation, you would not need a calculator to obtain the numerical answers.",
         "source_pdf": "skills-problems-combined.pdf",
         "needs_review": false
     },
@@ -115,7 +115,7 @@
         "year": null,
         "paper": "Problem class questions: quantum mechanics",
         "question_number": 1,
-        "question_text": "A quantum particle of mass m is confined in a potential well of length a in the x-direction, extending from \\(-a/2\\) to \\(+a/2\\). The potential is \\(V=0\\) inside the well, and \\(V=\\infty\\) outside.\n(a) Sketch the graphs of \\(\\psi(x)\\) and \\(|\\psi(x)|^2\\) for the three lowest energy states of the particle in the well.\n(b) Derive expressions for the energies of these three states: (1) by writing down the functional form of \\(\\psi(x)\\) and substituting it into the Schrödinger equation; (2) by writing down the wavelength for each state and calculating the kinetic energy from the wavelength using the de Broglie relation.\n(c) The uncertainty in the position of the particle in the well is of the order of half-width of the well: \\(\\Delta x \\approx a/2\\). Write down an expression for the ground state wave function as a superposition of two plane waves, and estimate the uncertainty in the momentum of the particle, \\(\\Delta p\\). Check that the product \\(\\Delta x\\cdot \\Delta p\\) is consistent with the uncertainty principle.\n(d) Discuss what happens to the energies and extent of the wave functions if the potential outside the well is reduced to just above the energy of the third energy level.",
+        "question_text": "A quantum particle of mass m is confined in a potential well of length a in the x-direction, extending from $-a/2$ to $+a/2$. The potential is $V=0$ inside the well, and $V=\\infty$ outside.\n(a) Sketch the graphs of $\\psi(x)$ and $|\\psi(x)|^2$ for the three lowest energy states of the particle in the well.\n(b) Derive expressions for the energies of these three states: (1) by writing down the functional form of $\\psi(x)$ and substituting it into the Schrödinger equation; (2) by writing down the wavelength for each state and calculating the kinetic energy from the wavelength using the de Broglie relation.\n(c) The uncertainty in the position of the particle in the well is of the order of half-width of the well: $\\Delta x \\approx a/2$. Write down an expression for the ground state wave function as a superposition of two plane waves, and estimate the uncertainty in the momentum of the particle, $\\Delta p$. Check that the product $\\Delta x\\cdot \\Delta p$ is consistent with the uncertainty principle.\n(d) Discuss what happens to the energies and extent of the wave functions if the potential outside the well is reduced to just above the energy of the third energy level.",
         "source_pdf": "skills-problems-combined.pdf",
         "needs_review": false
     },
@@ -125,7 +125,7 @@
         "year": null,
         "paper": "Problem class questions: quantum mechanics",
         "question_number": 2,
-        "question_text": "Consider an electron in a state confined to a sphere of radius a around a proton, so that the uncertainty in the electron's x coordinate is of the order of a. The uncertainty principle applied to x components of position and momentum is\n\\[\n\\Delta x\\cdot \\Delta p_x \\ge \\frac{\\hbar}{2}.\n\\]\n(a) If the electron has the minimum possible momentum uncertainty allowed by the uncertainty principle, obtain an expression for its kinetic energy, including contributions from x, y and z components. This should be of the form \\(T=A/a^2\\), where A is a constant.\n(b) Write down the expression for the electrostatic potential energy of the electron. This should be of the form \\(U=-B/a\\), where B is a positive constant.\n(c) Find the value of a which minimises the total energy \\(T+U\\), i.e. the optimal distance \\(a_0\\) between electron and proton. Compute the corresponding minimum electron energy, \\(E_{\\min}\\), expressing the answer in electron-volts (eV).",
+        "question_text": "Consider an electron in a state confined to a sphere of radius a around a proton, so that the uncertainty in the electron's x coordinate is of the order of a. The uncertainty principle applied to x components of position and momentum is\n\\[\n\\Delta x\\cdot \\Delta p_x \\ge \\frac{\\hbar}{2}.\n\\]\n(a) If the electron has the minimum possible momentum uncertainty allowed by the uncertainty principle, obtain an expression for its kinetic energy, including contributions from x, y and z components. This should be of the form $T=A/a^2$, where A is a constant.\n(b) Write down the expression for the electrostatic potential energy of the electron. This should be of the form $U=-B/a$, where B is a positive constant.\n(c) Find the value of a which minimises the total energy $T+U$, i.e. the optimal distance $a_0$ between electron and proton. Compute the corresponding minimum electron energy, $E_{\\min}$, expressing the answer in electron-volts (eV).",
         "source_pdf": "skills-problems-combined.pdf",
         "needs_review": false
     },
@@ -135,7 +135,7 @@
         "year": null,
         "paper": "Problem class questions: electromagnetism",
         "question_number": 1,
-        "question_text": "A point mass m with an electric charge q is constrained to move vertically, along the z axis, inside a narrow, frictionless cylinder. The bottom of the cylinder is electrically charged with total charge Q, such that \\(q/Q > 0\\), which can be treated as a point charge.\n(a) Find the height \\(z_0\\) above the bottom of the cylinder at which the point mass reaches equilibrium.\n(b) Show that, if the point mass is displaced by a small distance \\((\\Delta z \\ll z_0)\\) from the equilibrium position and released, it will exhibit harmonic motion. Find the angular frequency of this harmonic motion.",
+        "question_text": "A point mass m with an electric charge q is constrained to move vertically, along the z axis, inside a narrow, frictionless cylinder. The bottom of the cylinder is electrically charged with total charge Q, such that $q/Q > 0$, which can be treated as a point charge.\n(a) Find the height $z_0$ above the bottom of the cylinder at which the point mass reaches equilibrium.\n(b) Show that, if the point mass is displaced by a small distance $(\\Delta z \\ll z_0)$ from the equilibrium position and released, it will exhibit harmonic motion. Find the angular frequency of this harmonic motion.",
         "source_pdf": "skills-problems-combined.pdf",
         "needs_review": false
     },
@@ -145,7 +145,7 @@
         "year": null,
         "paper": "Problem class questions: electromagnetism",
         "question_number": 2,
-        "question_text": "A thin ring of radius R, uniformly charged with a total charge \\(Q>0\\), lies in the x-y plane, with its centre at the origin of the coordinate system.\n(a) Find the electric field \\(E(z)\\) and the electrostatic potential \\(\\phi(z)\\) on the z axis.\n(b) A particle of mass m with a charge q is sent from infinity towards the ring along the z axis, with an initial velocity \\(v_0\\). Find the minimum value of \\(v_0\\) required for the particle to reach the centre of the ring for the two cases: \\(q>0\\) and \\(q<0\\).",
+        "question_text": "A thin ring of radius R, uniformly charged with a total charge $Q>0$, lies in the x-y plane, with its centre at the origin of the coordinate system.\n(a) Find the electric field $E(z)$ and the electrostatic potential $\\phi(z)$ on the z axis.\n(b) A particle of mass m with a charge q is sent from infinity towards the ring along the z axis, with an initial velocity $v_0$. Find the minimum value of $v_0$ required for the particle to reach the centre of the ring for the two cases: $q>0$ and $q<0$.",
         "source_pdf": "skills-problems-combined.pdf",
         "needs_review": false
     },
@@ -185,7 +185,7 @@
         "year": null,
         "paper": "Problem class questions: electric circuits",
         "question_number": 3,
-        "question_text": "Consider the circuit below: \\(\\mathcal{E}=12\\,\\mathrm{V}\\), \\(r=1\\,\\Omega\\), \\(R_1=3\\,\\Omega\\), \\(R_2=2\\,\\Omega\\), \\(C_1=2\\,\\mathrm{F}\\), \\(C_2=4\\,\\mathrm{F}\\).\n(a) Initially the switch is open. Find the current in the circuit and the charges on the capacitors after a steady state is reached.\n(b) Find the current and the charges on the capacitors after the switch is closed and a new steady state is reached.",
+        "question_text": "Consider the circuit below: $\\mathcal{E}=12\\,\\mathrm{V}$, $r=1\\,\\Omega$, $R_1=3\\,\\Omega$, $R_2=2\\,\\Omega$, $C_1=2\\,\\mathrm{F}$, $C_2=4\\,\\mathrm{F}$.\n(a) Initially the switch is open. Find the current in the circuit and the charges on the capacitors after a steady state is reached.\n(b) Find the current and the charges on the capacitors after the switch is closed and a new steady state is reached.",
         "source_pdf": "skills-problems-combined.pdf",
         "needs_review": false
     }

@@ -16,7 +16,7 @@ export interface Question {
 let cachedQuestions: Question[] | null = null;
 
 export function getAllQuestions(): Question[] {
-  if (cachedQuestions) {
+  if (cachedQuestions && process.env.NODE_ENV === 'production') {
     return cachedQuestions;
   }
 
